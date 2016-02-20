@@ -1,0 +1,1634 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARCHITECTURE_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	326;"	d	file:
+ARCHITECTURE_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	329;"	d	file:
+ARCHITECTURE_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	332;"	d	file:
+ARCHITECTURE_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	335;"	d	file:
+ARCHITECTURE_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	338;"	d	file:
+ARCHITECTURE_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	341;"	d	file:
+ARCHITECTURE_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	344;"	d	file:
+ARCHITECTURE_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	348;"	d	file:
+ARCHITECTURE_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	319;"	d	file:
+ARCHITECTURE_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	322;"	d	file:
+ARCHITECTURE_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	325;"	d	file:
+ARCHITECTURE_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	328;"	d	file:
+ARCHITECTURE_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	331;"	d	file:
+ARCHITECTURE_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	334;"	d	file:
+ARCHITECTURE_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	337;"	d	file:
+ARCHITECTURE_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	341;"	d	file:
+Arm	../bin/simulation_loop_model_multiple_shapes/ik.py	/^class Arm:$/;"	c	inherits:
+Arm	../scripts/ik.py	/^class Arm:$/;"	c	inherits:
+Arm	../scripts/ik_4.py	/^class Arm:$/;"	c	inherits:
+Arm	../src/roessler.cpp	/^class Arm:$/;"	c	file:	inherits:def__init__,self,n,q,None,q0,None,L,None,:,qisNone:q,zeros,n,self,q,q,q0isNone:q0,ones,n,pi,self,q0,q0,LisNone:L,ones,n,self,L,Lself,n,nself,max_angles,ones,n,piself,min_angles,ones,n,pi,defget_xy,self,q,None,:,qisNone:q,self,qx,sum,self,L,j,cos,q,:,j,sum,jinrange,q,size,y,sum,self,L,j,sin,q,:,j,sum,jinrange,q,size,x,y,defget_joint_positions,self,q,:,x,array,sum,self,L,j,cos,q,:,k,sum,kinrange,j,jinrange,self,n,x,hstack,x,y,array,sum,self,L,j,sin,q,:,k,sum,kinrange,j,jinrange,self,n,y,hstack,y,array,x,y,definv_kin,self,xy,:defdistance_to_default,q,args,:weight,ones,self,n,weight,array,sqrt,sum,qi,q0i,wi,qi,q0i,wiinzip,q,self,q0,weight,defx_constraint,q,xy,:x,sum,self,L,j,cos,q,:,j,sum,jinrange,q,size,xy,xdefy_constraint,q,xy,:y,sum,self,L,j,sin,q,:,j,sum,jinrange,q,size,xy,y,scipy,optimize,fmin_slsqp,func,distance_to_default,x0,self,q,eqcons,x_constraint,y_constraint,args,xy,bounds,array,self,min_angles,self,max_angles,T,iprint,iprint,suppressesoutput,__name__,:,MOON,SQUARE,INF,CIRCLE,TRIANGLE,SPYRAL,NAME,PLOT_H,Trueion,n,T,TN,params,array,TEACH_1,TEACH_2,TEACH_3,TEACH_4params,array,TEACH_1,TEACH_2,TEACH_3,TEACH_4shapes
+BASAL_GANGLIA_H	../include/basalganglia.h	21;"	d
+BZF_MD5_H	../include/md5.h	34;"	d
+BasalGanglia	../include/basalganglia.h	/^        BasalGanglia() = delete;$/;"	p	class:BasalGanglia	access:public	signature:()
+BasalGanglia	../include/basalganglia.h	/^        BasalGanglia(const BasalGanglia &) = delete;$/;"	p	class:BasalGanglia	access:public	signature:(const BasalGanglia &)
+BasalGanglia	../include/basalganglia.h	/^        BasalGanglia(std::string name); $/;"	p	class:BasalGanglia	access:public	signature:(std::string name)
+BasalGanglia	../include/basalganglia.h	/^class BasalGanglia : public Parametrizable$/;"	c	inherits:Parametrizable
+BasalGanglia	../src/basalganglia.cpp	/^BasalGanglia::BasalGanglia(std::string name) :       $/;"	f	class:BasalGanglia	signature:(std::string name)
+BasalGanglia::BasalGanglia	../include/basalganglia.h	/^        BasalGanglia() = delete;$/;"	p	class:BasalGanglia	access:public	signature:()
+BasalGanglia::BasalGanglia	../include/basalganglia.h	/^        BasalGanglia(const BasalGanglia &) = delete;$/;"	p	class:BasalGanglia	access:public	signature:(const BasalGanglia &)
+BasalGanglia::BasalGanglia	../include/basalganglia.h	/^        BasalGanglia(std::string name); $/;"	p	class:BasalGanglia	access:public	signature:(std::string name)
+BasalGanglia::BasalGanglia	../src/basalganglia.cpp	/^BasalGanglia::BasalGanglia(std::string name) :       $/;"	f	class:BasalGanglia	signature:(std::string name)
+BasalGanglia::m_AMP	../include/basalganglia.h	/^        double m_AMP;    \/*!< Leaky output amplitude *\/$/;"	m	class:BasalGanglia	access:public
+BasalGanglia::m_CRX2SD1_W	../include/basalganglia.h	/^        double m_CRX2SD1_W;    \/*!< Cortex -> striatum D1 *\/$/;"	m	class:BasalGanglia	access:public
+BasalGanglia::m_CRX2SD2_W	../include/basalganglia.h	/^        double m_CRX2SD2_W;    \/*!< Cortex -> striatum D2*\/$/;"	m	class:BasalGanglia	access:public
+BasalGanglia::m_CRX2STN_W	../include/basalganglia.h	/^        double m_CRX2STN_W;    \/*!< Cortex -> STN *\/$/;"	m	class:BasalGanglia	access:public
+BasalGanglia::m_DT	../include/basalganglia.h	/^        double m_DT;    \/*!< Integration step *\/$/;"	m	class:BasalGanglia	access:public
+BasalGanglia::m_GPE2GPI_W	../include/basalganglia.h	/^        double m_GPE2GPI_W;    \/*!< GPe -> GPi *\/$/;"	m	class:BasalGanglia	access:public
+BasalGanglia::m_GPE2STN_W	../include/basalganglia.h	/^        double m_GPE2STN_W;    \/*!< GPe -> STN *\/$/;"	m	class:BasalGanglia	access:public
+BasalGanglia::m_GPE_BL	../include/basalganglia.h	/^        double m_GPE_BL;    \/*!< Baseline activation of striatum of GPe *\/$/;"	m	class:BasalGanglia	access:public
+BasalGanglia::m_GPI_BL	../include/basalganglia.h	/^        double m_GPI_BL;    \/*!< Baseline activation of GPi *\/$/;"	m	class:BasalGanglia	access:public
+BasalGanglia::m_INP2SD1_W	../include/basalganglia.h	/^        double m_INP2SD1_W;    \/*!< Input -> striatum D1 *\/ $/;"	m	class:BasalGanglia	access:public
+BasalGanglia::m_INP2SD2_W	../include/basalganglia.h	/^        double m_INP2SD2_W;    \/*!< Input -> striatum D2 *\/$/;"	m	class:BasalGanglia	access:public
+BasalGanglia::m_INP2STN_W	../include/basalganglia.h	/^        double m_INP2STN_W;    \/*!< Input -> STN *\/$/;"	m	class:BasalGanglia	access:public
+BasalGanglia::m_N	../include/basalganglia.h	/^        int m_N;    \/*!< Number of channels *\/$/;"	m	class:BasalGanglia	access:public
+BasalGanglia::m_NUMCOMP	../include/basalganglia.h	/^        static const int m_NUMCOMP = 5;     \/*!< Number of layers *\/ $/;"	m	class:BasalGanglia	access:public
+BasalGanglia::m_SD12GPI_W	../include/basalganglia.h	/^        double m_SD12GPI_W;    \/*!< Striatum D1 -> GPi *\/$/;"	m	class:BasalGanglia	access:public
+BasalGanglia::m_SD1_BL	../include/basalganglia.h	/^        double m_SD1_BL;    \/*!< Baseline activation of striatum D1 *\/$/;"	m	class:BasalGanglia	access:public
+BasalGanglia::m_SD1_DA	../include/basalganglia.h	/^        double m_SD1_DA;    \/*!< DA multiplying factor of striatum D1 *\/$/;"	m	class:BasalGanglia	access:public
+BasalGanglia::m_SD22GPE_W	../include/basalganglia.h	/^        double m_SD22GPE_W;    \/*!< Striatum D2 -> GPe *\/$/;"	m	class:BasalGanglia	access:public
+BasalGanglia::m_SD2_BL	../include/basalganglia.h	/^        double m_SD2_BL;    \/*!< Baseline activation of striatum D2 *\/$/;"	m	class:BasalGanglia	access:public
+BasalGanglia::m_SD2_DA	../include/basalganglia.h	/^        double m_SD2_DA;    \/*!< DA multiplying factor of striatum D2 *\/$/;"	m	class:BasalGanglia	access:public
+BasalGanglia::m_STIME	../include/basalganglia.h	/^        int m_STIME;    \/*!< Simulation timesteps *\/$/;"	m	class:BasalGanglia	access:public
+BasalGanglia::m_STN2GPE_W	../include/basalganglia.h	/^        double m_STN2GPE_W;    \/*!< STN -> GPe *\/$/;"	m	class:BasalGanglia	access:public
+BasalGanglia::m_STN2GPI_W	../include/basalganglia.h	/^        double m_STN2GPI_W;    \/*!< STN -> GPi *\/$/;"	m	class:BasalGanglia	access:public
+BasalGanglia::m_TAU	../include/basalganglia.h	/^        double m_TAU;    \/*!< Leaky decay *\/$/;"	m	class:BasalGanglia	access:public
+BasalGanglia::m_TH	../include/basalganglia.h	/^        double m_TH;    \/*!< Leaky output threshold *\/$/;"	m	class:BasalGanglia	access:public
+BasalGanglia::m_data	../include/basalganglia.h	/^        mat m_data;    \/*!< Storage of the timeline of activations *\/$/;"	m	class:BasalGanglia	access:public
+BasalGanglia::m_gpe	../include/basalganglia.h	/^        vec m_gpe;    \/*!< External globus pallidus - activation  *\/$/;"	m	class:BasalGanglia	access:public
+BasalGanglia::m_gpep	../include/basalganglia.h	/^        vec m_gpep;    \/*!< External globus pallidus - potential  *\/$/;"	m	class:BasalGanglia	access:public
+BasalGanglia::m_gpi	../include/basalganglia.h	/^        vec m_gpi;    \/*!< Internal globus pallidus - activation  *\/$/;"	m	class:BasalGanglia	access:public
+BasalGanglia::m_gpip	../include/basalganglia.h	/^        vec m_gpip;    \/*!< Internal globus pallidus - potential  *\/$/;"	m	class:BasalGanglia	access:public
+BasalGanglia::m_sd1	../include/basalganglia.h	/^        vec m_sd1;    \/*!< Striatum D1 - activation *\/ $/;"	m	class:BasalGanglia	access:public
+BasalGanglia::m_sd1p	../include/basalganglia.h	/^        vec m_sd1p;    \/*!< Striatum D1 - potential *\/ $/;"	m	class:BasalGanglia	access:public
+BasalGanglia::m_sd2	../include/basalganglia.h	/^        vec m_sd2;    \/*!< Striatum D2 - activation  *\/$/;"	m	class:BasalGanglia	access:public
+BasalGanglia::m_sd2p	../include/basalganglia.h	/^        vec m_sd2p;    \/*!< Striatum D2 - potential  *\/$/;"	m	class:BasalGanglia	access:public
+BasalGanglia::m_stn	../include/basalganglia.h	/^        vec m_stn;    \/*!< Subthalamic nucleus - activation  *\/$/;"	m	class:BasalGanglia	access:public
+BasalGanglia::m_stnp	../include/basalganglia.h	/^        vec m_stnp;    \/*!< Subthalamic nucleus - potential  *\/$/;"	m	class:BasalGanglia	access:public
+BasalGanglia::operator =	../include/basalganglia.h	/^        BasalGanglia &operator=(const BasalGanglia &) = delete;$/;"	p	class:BasalGanglia	access:public	signature:(const BasalGanglia &)
+BasalGanglia::reset	../include/basalganglia.h	/^        virtual void reset();          $/;"	p	class:BasalGanglia	access:public	implementation:virtual	signature:()
+BasalGanglia::reset	../src/basalganglia.cpp	/^void BasalGanglia::reset()$/;"	f	class:BasalGanglia	signature:()
+BasalGanglia::save	../include/basalganglia.h	/^        virtual void save();    $/;"	p	class:BasalGanglia	access:public	implementation:virtual	signature:()
+BasalGanglia::save	../src/basalganglia.cpp	/^void BasalGanglia::save()$/;"	f	class:BasalGanglia	signature:()
+BasalGanglia::step	../include/basalganglia.h	/^        virtual void step( vec inp, vec crx, vec da);      $/;"	p	class:BasalGanglia	access:public	implementation:virtual	signature:( vec inp, vec crx, vec da)
+BasalGanglia::step	../src/basalganglia.cpp	/^void BasalGanglia::step(vec inp, vec crx, vec da)$/;"	f	class:BasalGanglia	signature:(vec inp, vec crx, vec da)
+BasalGanglia::store	../include/basalganglia.h	/^        virtual void store(int t);$/;"	p	class:BasalGanglia	access:public	implementation:virtual	signature:(int t)
+BasalGanglia::store	../src/basalganglia.cpp	/^void BasalGanglia::store(int t)$/;"	f	class:BasalGanglia	signature:(int t)
+BasalGanglia::~BasalGanglia	../include/basalganglia.h	/^        virtual ~BasalGanglia(){};$/;"	f	class:BasalGanglia	access:public	implementation:virtual	signature:()
+BaseParameter	../include/parametrizable.h	/^class BaseParameter $/;"	c
+BaseParameter::save	../include/parametrizable.h	/^        virtual void save(std::ostream &out) = 0;$/;"	p	class:BaseParameter	access:public	implementation:pure virtual	signature:(std::ostream &out)
+BaseParameter::update	../include/parametrizable.h	/^        virtual void update(const std::vector<std::string> lines ) = 0;$/;"	p	class:BaseParameter	access:public	implementation:pure virtual	signature:(const std::vector<std::string> lines )
+CENSSerializedEngine::step	../src/hand_engine.cpp	/^    CENSSerializedEngine::step(timestep);$/;"	p	class:CENSSerializedEngine	file:	signature:(timestep)
+CIRCLE	../bin/simulation_loop_model_multiple_shapes/ik.py	/^CIRCLE = 3$/;"	v
+CIRCLE	../scripts/ik.py	/^CIRCLE = 3$/;"	v
+CIRCLE	../scripts/ik_4.py	/^    CIRCLE = 3$/;"	v	class:Arm
+CMAKE_BINARY_DIR	../build/Makefile	/^CMAKE_BINARY_DIR = \/home\/fra\/Dropbox\/Projects\/distributed_selection\/src\/cpp\/final_code\/build$/;"	m
+CMAKE_BINARY_DIR	../build/src/Makefile	/^CMAKE_BINARY_DIR = \/home\/fra\/Dropbox\/Projects\/distributed_selection\/src\/cpp\/final_code\/build$/;"	m
+CMAKE_COMMAND	../build/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
+CMAKE_COMMAND	../build/src/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
+CMAKE_SOURCE_DIR	../build/Makefile	/^CMAKE_SOURCE_DIR = \/home\/fra\/Dropbox\/Projects\/distributed_selection\/src\/cpp\/final_code$/;"	m
+CMAKE_SOURCE_DIR	../build/src/Makefile	/^CMAKE_SOURCE_DIR = \/home\/fra\/Dropbox\/Projects\/distributed_selection\/src\/cpp\/final_code$/;"	m
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	106;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	109;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	111;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	120;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	128;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	133;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	13;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	140;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	143;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	146;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	154;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	173;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	181;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	186;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	191;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	198;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	215;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	218;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	221;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	34;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	43;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	46;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	59;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	65;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	71;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	77;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	91;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	98;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	103;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	111;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	114;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	116;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	125;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	12;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	133;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	138;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	145;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	148;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	156;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	175;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	183;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	188;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	18;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	191;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	208;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	211;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	214;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	39;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	48;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	51;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	64;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	70;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	76;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	82;"	d	file:
+COMPILER_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	96;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	100;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	114;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	121;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	129;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	135;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	147;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	156;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	15;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	175;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	193;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	201;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	206;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	35;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	48;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	60;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	67;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	73;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	80;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	85;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	93;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	105;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	119;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	126;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	134;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	140;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	149;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	14;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	158;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	177;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	194;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	199;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	20;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	40;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	53;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	65;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	72;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	78;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	85;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	90;"	d	file:
+COMPILER_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	98;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	101;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	115;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	122;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	130;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	136;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	148;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	157;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	16;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	176;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	194;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	202;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	207;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	36;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	49;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	61;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	68;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	74;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	81;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	86;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	94;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	106;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	120;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	127;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	135;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	141;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	150;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	159;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	15;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	178;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	195;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	200;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	21;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	41;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	54;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	66;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	73;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	79;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	86;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	91;"	d	file:
+COMPILER_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	99;"	d	file:
+COMPILER_VERSION_PATCH	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	102;"	d	file:
+COMPILER_VERSION_PATCH	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	116;"	d	file:
+COMPILER_VERSION_PATCH	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	124;"	d	file:
+COMPILER_VERSION_PATCH	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	137;"	d	file:
+COMPILER_VERSION_PATCH	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	150;"	d	file:
+COMPILER_VERSION_PATCH	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	161;"	d	file:
+COMPILER_VERSION_PATCH	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	164;"	d	file:
+COMPILER_VERSION_PATCH	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	177;"	d	file:
+COMPILER_VERSION_PATCH	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	18;"	d	file:
+COMPILER_VERSION_PATCH	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	195;"	d	file:
+COMPILER_VERSION_PATCH	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	203;"	d	file:
+COMPILER_VERSION_PATCH	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	208;"	d	file:
+COMPILER_VERSION_PATCH	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	20;"	d	file:
+COMPILER_VERSION_PATCH	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	38;"	d	file:
+COMPILER_VERSION_PATCH	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	50;"	d	file:
+COMPILER_VERSION_PATCH	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	62;"	d	file:
+COMPILER_VERSION_PATCH	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	82;"	d	file:
+COMPILER_VERSION_PATCH	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	87;"	d	file:
+COMPILER_VERSION_PATCH	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	95;"	d	file:
+COMPILER_VERSION_PATCH	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	100;"	d	file:
+COMPILER_VERSION_PATCH	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	107;"	d	file:
+COMPILER_VERSION_PATCH	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	121;"	d	file:
+COMPILER_VERSION_PATCH	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	129;"	d	file:
+COMPILER_VERSION_PATCH	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	142;"	d	file:
+COMPILER_VERSION_PATCH	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	152;"	d	file:
+COMPILER_VERSION_PATCH	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	163;"	d	file:
+COMPILER_VERSION_PATCH	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	166;"	d	file:
+COMPILER_VERSION_PATCH	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	179;"	d	file:
+COMPILER_VERSION_PATCH	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	196;"	d	file:
+COMPILER_VERSION_PATCH	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	201;"	d	file:
+COMPILER_VERSION_PATCH	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	23;"	d	file:
+COMPILER_VERSION_PATCH	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	25;"	d	file:
+COMPILER_VERSION_PATCH	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	43;"	d	file:
+COMPILER_VERSION_PATCH	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	55;"	d	file:
+COMPILER_VERSION_PATCH	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	67;"	d	file:
+COMPILER_VERSION_PATCH	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	87;"	d	file:
+COMPILER_VERSION_PATCH	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	92;"	d	file:
+COMPILER_VERSION_TWEAK	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	168;"	d	file:
+COMPILER_VERSION_TWEAK	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	24;"	d	file:
+COMPILER_VERSION_TWEAK	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	44;"	d	file:
+COMPILER_VERSION_TWEAK	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	170;"	d	file:
+COMPILER_VERSION_TWEAK	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	29;"	d	file:
+COMPILER_VERSION_TWEAK	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	49;"	d	file:
+COMPLEX	../bin/simulation_loop_model_multiple_shapes/plot_arm.py	/^COMPLEX = True$/;"	v
+COMPLEX	../scripts/plot_arm.py	/^COMPLEX = True$/;"	v
+CONTROLLER_CSC_H	../include/hand_controller.h	2;"	d
+CRX2THA_W	../src/basalganglia_test.cpp	/^        double CRX2THA_W = .8;$/;"	l
+CRX_BLERR	../src/basalganglia_test.cpp	/^        double CRX_BLERR = .01;$/;"	l
+CRX_STDERR	../src/basalganglia_test.cpp	/^        double CRX_STDERR = .4;$/;"	l
+CSNTC	../include/csntc.h	/^        CSNTC() = delete;$/;"	p	class:CSNTC	access:public	signature:()
+CSNTC	../include/csntc.h	/^        CSNTC(const CSNTC &) = delete;$/;"	p	class:CSNTC	access:public	signature:(const CSNTC &)
+CSNTC	../include/csntc.h	/^        CSNTC(std::string name, int seed = 1); $/;"	p	class:CSNTC	access:public	signature:(std::string name, int seed = 1)
+CSNTC	../include/csntc.h	/^class CSNTC : public Parametrizable$/;"	c	inherits:Parametrizable
+CSNTC	../src/csntc.cpp	/^CSNTC::CSNTC(std::string name, int seed) :       $/;"	f	class:CSNTC	signature:(std::string name, int seed)
+CSNTC::CSNTC	../include/csntc.h	/^        CSNTC() = delete;$/;"	p	class:CSNTC	access:public	signature:()
+CSNTC::CSNTC	../include/csntc.h	/^        CSNTC(const CSNTC &) = delete;$/;"	p	class:CSNTC	access:public	signature:(const CSNTC &)
+CSNTC::CSNTC	../include/csntc.h	/^        CSNTC(std::string name, int seed = 1); $/;"	p	class:CSNTC	access:public	signature:(std::string name, int seed = 1)
+CSNTC::CSNTC	../src/csntc.cpp	/^CSNTC::CSNTC(std::string name, int seed) :       $/;"	f	class:CSNTC	signature:(std::string name, int seed)
+CSNTC::m_CRX2STR	../include/csntc.h	/^        double m_CRX2STR;    \/*!< Cortex -> Striatum weight parameter *\/$/;"	m	class:CSNTC	access:public
+CSNTC::m_CRX2STR_W	../include/csntc.h	/^        mat m_CRX2STR_W;    \/*!< Cortex -> Striatum *\/$/;"	m	class:CSNTC	access:public
+CSNTC::m_CRX2THA	../include/csntc.h	/^        double m_CRX2THA;    \/*!< Cortex -> Thalamus weight parameter *\/$/;"	m	class:CSNTC	access:public
+CSNTC::m_CRX2THA_W	../include/csntc.h	/^        mat m_CRX2THA_W;    \/*!< Cortex -> Thalamus *\/$/;"	m	class:CSNTC	access:public
+CSNTC::m_GPI2THA	../include/csntc.h	/^        double m_GPI2THA;    \/*!< GPi -> Thalamus weight parameter *\/$/;"	m	class:CSNTC	access:public
+CSNTC::m_GPI2THA_w	../include/csntc.h	/^        vec m_GPI2THA_w;    \/*!< GPi -> Thalamus *\/$/;"	m	class:CSNTC	access:public
+CSNTC::m_N_CHA	../include/csntc.h	/^        double m_N_CHA;    \/*!< Number of basal ganglia channels *\/$/;"	m	class:CSNTC	access:public
+CSNTC::m_N_CRX	../include/csntc.h	/^        double m_N_CRX;    \/*!< Number of cortical units *\/$/;"	m	class:CSNTC	access:public
+CSNTC::m_N_THA	../include/csntc.h	/^        double m_N_THA;    \/*!< Number of thalamic units *\/ $/;"	m	class:CSNTC	access:public
+CSNTC::m_STIME	../include/csntc.h	/^        int m_STIME;    \/*!< Simulation timesteps *\/$/;"	m	class:CSNTC	access:public
+CSNTC::m_THA2CRX	../include/csntc.h	/^        double m_THA2CRX;    \/*!< Thalamus -> Cortex weight parameter *\/$/;"	m	class:CSNTC	access:public
+CSNTC::m_THA2CRX_SPREAD	../include/csntc.h	/^        double m_THA2CRX_SPREAD;    \/*!< Spread of thalamic input $/;"	m	class:CSNTC	access:public
+CSNTC::m_THA2CRX_W	../include/csntc.h	/^        mat m_THA2CRX_W;    \/*!< Thalamus -> Cortex *\/$/;"	m	class:CSNTC	access:public
+CSNTC::m_cortex	../include/csntc.h	/^        Reservoir m_cortex;    \/*!< Cortical module *\/$/;"	m	class:CSNTC	access:public
+CSNTC::m_data	../include/csntc.h	/^        mat m_data;    \/*!< Store of activation hystory *\/$/;"	m	class:CSNTC	access:public
+CSNTC::m_ganglia	../include/csntc.h	/^        BasalGanglia m_ganglia;    \/*!< Basal ganglia module *\/$/;"	m	class:CSNTC	access:public
+CSNTC::m_thalamus	../include/csntc.h	/^        Layer m_thalamus;    \/*!< Thalamic module *\/$/;"	m	class:CSNTC	access:public
+CSNTC::operator =	../include/csntc.h	/^        CSNTC &operator=(const CSNTC &) = delete;$/;"	p	class:CSNTC	access:public	signature:(const CSNTC &)
+CSNTC::reset	../include/csntc.h	/^        virtual void reset();                $/;"	p	class:CSNTC	access:public	implementation:virtual	signature:()
+CSNTC::reset	../src/csntc.cpp	/^void CSNTC::reset()$/;"	f	class:CSNTC	signature:()
+CSNTC::step	../include/csntc.h	/^        virtual void step( vec crx, vec str, vec da); $/;"	p	class:CSNTC	access:public	implementation:virtual	signature:( vec crx, vec str, vec da)
+CSNTC::step	../src/csntc.cpp	/^void CSNTC::step(vec crx, vec str, vec da)$/;"	f	class:CSNTC	signature:(vec crx, vec str, vec da)
+CSNTC::store	../include/csntc.h	/^        virtual void store(int t);$/;"	p	class:CSNTC	access:public	implementation:virtual	signature:(int t)
+CSNTC::store	../src/csntc.cpp	/^void CSNTC::store(int t)$/;"	f	class:CSNTC	signature:(int t)
+CSNTC::~CSNTC	../include/csntc.h	/^        virtual ~CSNTC(){};$/;"	f	class:CSNTC	access:public	implementation:virtual	signature:()
+CSNTC_H	../include/csntc.h	21;"	d
+Controller	../include/hand_controller.h	/^        Controller(){};$/;"	f	class:Controller	access:private	signature:()
+Controller	../include/hand_controller.h	/^        Controller(int s, int n); $/;"	p	class:Controller	access:public	signature:(int s, int n)
+Controller	../include/hand_controller.h	/^class Controller $/;"	c
+Controller	../src/hand_controller.cpp	/^Controller::Controller(int s, int n)$/;"	f	class:Controller	signature:(int s, int n)
+Controller::Controller	../include/hand_controller.h	/^        Controller(){};$/;"	f	class:Controller	access:private	signature:()
+Controller::Controller	../include/hand_controller.h	/^        Controller(int s, int n); $/;"	p	class:Controller	access:public	signature:(int s, int n)
+Controller::Controller	../src/hand_controller.cpp	/^Controller::Controller(int s, int n)$/;"	f	class:Controller	signature:(int s, int n)
+Controller::W_env2CRX	../include/hand_controller.h	/^        vec W_env2CRX;$/;"	m	class:Controller	access:public
+Controller::W_readout	../include/hand_controller.h	/^        mat W_readout;$/;"	m	class:Controller	access:public
+Controller::activity	../include/hand_controller.h	/^        vec activity;$/;"	m	class:Controller	access:public
+Controller::activity_prev	../include/hand_controller.h	/^        vec activity_prev;$/;"	m	class:Controller	access:public
+Controller::csntc	../include/hand_controller.h	/^        shared_ptr<CSNTC> csntc;$/;"	m	class:Controller	access:public
+Controller::err	../include/hand_controller.h	/^        vec err;$/;"	m	class:Controller	access:public
+Controller::err_prev	../include/hand_controller.h	/^        vec err_prev;$/;"	m	class:Controller	access:public
+Controller::inp	../include/hand_controller.h	/^        vec inp;$/;"	m	class:Controller	access:public
+Controller::inp_prev	../include/hand_controller.h	/^        vec inp_prev;$/;"	m	class:Controller	access:public
+Controller::n_readout	../include/hand_controller.h	/^        int n_readout;$/;"	m	class:Controller	access:public
+Controller::readout	../include/hand_controller.h	/^        vec readout;$/;"	m	class:Controller	access:public
+Controller::readout_pot	../include/hand_controller.h	/^        vec readout_pot;$/;"	m	class:Controller	access:public
+Controller::step	../include/hand_controller.h	/^        const vec &step(int t, int tc, int ti, double d, bool learn);$/;"	p	class:Controller	access:public	signature:(int t, int tc, int ti, double d, bool learn)
+Controller::step	../src/hand_controller.cpp	/^const vec &Controller::step(int t, int tc, int ti, double d, bool learn)$/;"	f	class:Controller	signature:(int t, int tc, int ti, double d, bool learn)
+Controller::trials	../include/hand_controller.h	/^        const int trials = 3;$/;"	m	class:Controller	access:public
+Controller::trialstream	../include/hand_controller.h	/^        ofstream trialstream;$/;"	m	class:Controller	access:public
+Controller::~Controller	../include/hand_controller.h	/^        ~Controller(){}; $/;"	f	class:Controller	access:public	signature:()
+DA_MAX	../src/basalganglia_test.cpp	/^        double DA_MAX = 1;$/;"	l
+DA_MIN	../src/basalganglia_test.cpp	/^        double DA_MIN = .5;$/;"	l
+DDATA	../scripts/plot_arm_video_full.py	/^DDATA = [FSPYRAL,FSPYRAL,FSPYRAL]$/;"	v
+DEC	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	352;"	d	file:
+DEC	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	345;"	d	file:
+DRVTV	../src/simulator.cpp	/^                    int DRVTV = 0;     \/\/ Switch off computing the derivative of error instead $/;"	l
+ENGINE_H	../include/hand_engine.h	2;"	d
+EQUALS	../build/Makefile	/^EQUALS = =$/;"	m
+EQUALS	../build/src/Makefile	/^EQUALS = =$/;"	m
+Engine	../include/hand_engine.h	/^        Engine( unsigned int _seed):$/;"	f	class:Engine	access:public	signature:( unsigned int _seed)
+Engine	../include/hand_engine.h	/^class Engine : public CENSSerializedEngine {   $/;"	c	inherits:CENSSerializedEngine
+Engine::Engine	../include/hand_engine.h	/^        Engine( unsigned int _seed):$/;"	f	class:Engine	access:public	signature:( unsigned int _seed)
+Engine::controller	../include/hand_engine.h	/^        shared_ptr<Controller> controller;$/;"	m	class:Engine	access:public
+Engine::initObjects	../include/hand_engine.h	/^        void initObjects();$/;"	p	class:Engine	access:public	signature:()
+Engine::initObjects	../src/hand_engine.cpp	/^void Engine::initObjects() {$/;"	f	class:Engine	signature:()
+Engine::savestream	../include/hand_engine.h	/^        ofstream savestream;$/;"	m	class:Engine	access:public
+Engine::seed	../include/hand_engine.h	/^        unsigned int seed;$/;"	m	class:Engine	access:public
+Engine::step	../include/hand_engine.h	/^        void step( int timestep);$/;"	p	class:Engine	access:public	signature:( int timestep)
+Engine::step	../src/hand_engine.cpp	/^void Engine::step( int timestep ) $/;"	f	class:Engine	signature:( int timestep )
+F	../include/md5.h	/^        static inline uint4 F(uint4 x, uint4 y, uint4 z);$/;"	p	class:MD5	access:private	signature:(uint4 x, uint4 y, uint4 z)
+F	../src/md5.cpp	/^inline MD5::uint4 MD5::F(uint4 x, uint4 y, uint4 z) {$/;"	f	class:MD5	signature:(uint4 x, uint4 y, uint4 z)
+FF	../include/md5.h	/^        static inline void FF(uint4 &a, uint4 b, uint4 c, uint4 d, uint4 x, uint4 s, uint4 ac);$/;"	p	class:MD5	access:private	signature:(uint4 &a, uint4 b, uint4 c, uint4 d, uint4 x, uint4 s, uint4 ac)
+FF	../src/md5.cpp	/^inline void MD5::FF(uint4 &a, uint4 b, uint4 c, uint4 d, uint4 x, uint4 s, uint4 ac) {$/;"	f	class:MD5	signature:(uint4 &a, uint4 b, uint4 c, uint4 d, uint4 x, uint4 s, uint4 ac)
+FSPYRAL	../scripts/plot_arm_video_full.py	/^FSPYRAL = loadtxt("parameters\/SPYRAL")$/;"	v
+G	../include/md5.h	/^        static inline uint4 G(uint4 x, uint4 y, uint4 z);$/;"	p	class:MD5	access:private	signature:(uint4 x, uint4 y, uint4 z)
+G	../src/md5.cpp	/^inline MD5::uint4 MD5::G(uint4 x, uint4 y, uint4 z) {$/;"	f	class:MD5	signature:(uint4 x, uint4 y, uint4 z)
+GG	../include/md5.h	/^        static inline void GG(uint4 &a, uint4 b, uint4 c, uint4 d, uint4 x, uint4 s, uint4 ac);$/;"	p	class:MD5	access:private	signature:(uint4 &a, uint4 b, uint4 c, uint4 d, uint4 x, uint4 s, uint4 ac)
+GG	../src/md5.cpp	/^inline void MD5::GG(uint4 &a, uint4 b, uint4 c, uint4 d, uint4 x, uint4 s, uint4 ac) {$/;"	f	class:MD5	signature:(uint4 &a, uint4 b, uint4 c, uint4 d, uint4 x, uint4 s, uint4 ac)
+GPI2THA_W	../src/basalganglia_test.cpp	/^        double GPI2THA_W = 3;$/;"	l
+H	../include/md5.h	/^        static inline uint4 H(uint4 x, uint4 y, uint4 z);$/;"	p	class:MD5	access:private	signature:(uint4 x, uint4 y, uint4 z)
+H	../src/md5.cpp	/^inline MD5::uint4 MD5::H(uint4 x, uint4 y, uint4 z) {$/;"	f	class:MD5	signature:(uint4 x, uint4 y, uint4 z)
+HEX	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	363;"	d	file:
+HEX	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	356;"	d	file:
+HH	../include/md5.h	/^        static inline void HH(uint4 &a, uint4 b, uint4 c, uint4 d, uint4 x, uint4 s, uint4 ac);$/;"	p	class:MD5	access:private	signature:(uint4 &a, uint4 b, uint4 c, uint4 d, uint4 x, uint4 s, uint4 ac)
+HH	../src/md5.cpp	/^inline void MD5::HH(uint4 &a, uint4 b, uint4 c, uint4 d, uint4 x, uint4 s, uint4 ac) {$/;"	f	class:MD5	signature:(uint4 &a, uint4 b, uint4 c, uint4 d, uint4 x, uint4 s, uint4 ac)
+I	../include/md5.h	/^        static inline uint4 I(uint4 x, uint4 y, uint4 z);$/;"	p	class:MD5	access:private	signature:(uint4 x, uint4 y, uint4 z)
+I	../src/md5.cpp	/^inline MD5::uint4 MD5::I(uint4 x, uint4 y, uint4 z) {$/;"	f	class:MD5	signature:(uint4 x, uint4 y, uint4 z)
+I	../src/reservoir.cpp	/^    mat I = eye(m_N,m_N);    \/\/ convenience identity matrix$/;"	l
+ID_VOID_MAIN	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	9;"	d	file:
+II	../include/md5.h	/^        static inline void II(uint4 &a, uint4 b, uint4 c, uint4 d, uint4 x, uint4 s, uint4 ac);$/;"	p	class:MD5	access:private	signature:(uint4 &a, uint4 b, uint4 c, uint4 d, uint4 x, uint4 s, uint4 ac)
+II	../src/md5.cpp	/^inline void MD5::II(uint4 &a, uint4 b, uint4 c, uint4 d, uint4 x, uint4 s, uint4 ac) {$/;"	f	class:MD5	signature:(uint4 &a, uint4 b, uint4 c, uint4 d, uint4 x, uint4 s, uint4 ac)
+INF	../bin/simulation_loop_model_multiple_shapes/ik.py	/^INF = 0$/;"	v
+INF	../scripts/ik.py	/^INF = 0$/;"	v
+INF	../scripts/ik_4.py	/^    INF = 0$/;"	v	class:Arm
+INF	../scripts/plot_arm_video_full.py	/^INF = 2$/;"	v
+INP_BLERR	../src/basalganglia_test.cpp	/^        double INP_BLERR = .2;$/;"	l
+INP_GAP	../src/basalganglia_test.cpp	/^        double INP_GAP = .8;$/;"	l
+INP_STDERR	../src/basalganglia_test.cpp	/^        double INP_STDERR = .1;$/;"	l
+K	../scripts/fun.py	/^K= 30$/;"	v
+K	../scripts/fun_4.py	/^K= 10$/;"	v
+KeyThread	../scripts/online_render.py	/^class KeyThread(threading.Thread):$/;"	c	inherits:threading.Thread
+LAYER_H	../include/layer.h	21;"	d
+LEARN_WINDOW	../bin/simulation_loop_model_multiple_shapes/plot_arm.py	/^LEARN_WINDOW = 144$/;"	v
+LEARN_WINDOW	../scripts/plot_arm.py	/^LEARN_WINDOW = 144$/;"	v
+Layer	../include/layer.h	/^        Layer() = delete;$/;"	p	class:Layer	access:public	signature:()
+Layer	../include/layer.h	/^        Layer(const Layer &) = delete;$/;"	p	class:Layer	access:public	signature:(const Layer &)
+Layer	../include/layer.h	/^        Layer(std::string name); $/;"	p	class:Layer	access:public	signature:(std::string name)
+Layer	../include/layer.h	/^class Layer : public Parametrizable$/;"	c	inherits:Parametrizable
+Layer	../src/layer.cpp	/^Layer::Layer(std::string name) :       $/;"	f	class:Layer	signature:(std::string name)
+Layer::Layer	../include/layer.h	/^        Layer() = delete;$/;"	p	class:Layer	access:public	signature:()
+Layer::Layer	../include/layer.h	/^        Layer(const Layer &) = delete;$/;"	p	class:Layer	access:public	signature:(const Layer &)
+Layer::Layer	../include/layer.h	/^        Layer(std::string name); $/;"	p	class:Layer	access:public	signature:(std::string name)
+Layer::Layer	../src/layer.cpp	/^Layer::Layer(std::string name) :       $/;"	f	class:Layer	signature:(std::string name)
+Layer::m_AMP	../include/layer.h	/^        double m_AMP; \/*!< leaky output amplitude *\/$/;"	m	class:Layer	access:public
+Layer::m_BL	../include/layer.h	/^        double m_BL; \/*!< activation baseline *\/$/;"	m	class:Layer	access:public
+Layer::m_DT	../include/layer.h	/^        double m_DT; \/*!< integration step *\/$/;"	m	class:Layer	access:public
+Layer::m_N	../include/layer.h	/^        int m_N; \/*!< number of channels *\/$/;"	m	class:Layer	access:public
+Layer::m_STIME	../include/layer.h	/^        int m_STIME; \/*!< simulation timesteps *\/$/;"	m	class:Layer	access:public
+Layer::m_TAU	../include/layer.h	/^        double m_TAU; \/*!< leaky dacay *\/$/;"	m	class:Layer	access:public
+Layer::m_TH	../include/layer.h	/^        double m_TH; \/*!< leaky output threshold *\/$/;"	m	class:Layer	access:public
+Layer::m_data	../include/layer.h	/^        mat m_data; \/*!< activation storage *\/$/;"	m	class:Layer	access:public
+Layer::m_output	../include/layer.h	/^        vec m_output; \/*!< activation vector *\/$/;"	m	class:Layer	access:public
+Layer::m_u	../include/layer.h	/^        vec m_u;$/;"	m	class:Layer	access:private
+Layer::m_v	../include/layer.h	/^        vec m_v;$/;"	m	class:Layer	access:private
+Layer::operator =	../include/layer.h	/^        Layer &operator=(const Layer &) = delete;$/;"	p	class:Layer	access:public	signature:(const Layer &)
+Layer::reset	../include/layer.h	/^        virtual void reset();$/;"	p	class:Layer	access:public	implementation:virtual	signature:()
+Layer::reset	../src/layer.cpp	/^void Layer::reset()$/;"	f	class:Layer	signature:()
+Layer::step	../include/layer.h	/^        virtual void step(vec inp);  $/;"	p	class:Layer	access:public	implementation:virtual	signature:(vec inp)
+Layer::step	../src/layer.cpp	/^void Layer::step(vec inp)$/;"	f	class:Layer	signature:(vec inp)
+Layer::store	../include/layer.h	/^        virtual void store(int t);$/;"	p	class:Layer	access:public	implementation:virtual	signature:(int t)
+Layer::store	../src/layer.cpp	/^void Layer::store(int t)$/;"	f	class:Layer	signature:(int t)
+Layer::~Layer	../include/layer.h	/^        virtual ~Layer(){};$/;"	f	class:Layer	access:public	implementation:virtual	signature:()
+MD5	../include/md5.h	/^        MD5();$/;"	p	class:MD5	access:public	signature:()
+MD5	../include/md5.h	/^        MD5(const std::string& text);$/;"	p	class:MD5	access:public	signature:(const std::string& text)
+MD5	../include/md5.h	/^class MD5$/;"	c
+MD5	../src/md5.cpp	/^MD5::MD5()$/;"	f	class:MD5	signature:()
+MD5	../src/md5.cpp	/^MD5::MD5(const std::string &text)$/;"	f	class:MD5	signature:(const std::string &text)
+MD5::F	../include/md5.h	/^        static inline uint4 F(uint4 x, uint4 y, uint4 z);$/;"	p	class:MD5	access:private	signature:(uint4 x, uint4 y, uint4 z)
+MD5::F	../src/md5.cpp	/^inline MD5::uint4 MD5::F(uint4 x, uint4 y, uint4 z) {$/;"	f	class:MD5	signature:(uint4 x, uint4 y, uint4 z)
+MD5::FF	../include/md5.h	/^        static inline void FF(uint4 &a, uint4 b, uint4 c, uint4 d, uint4 x, uint4 s, uint4 ac);$/;"	p	class:MD5	access:private	signature:(uint4 &a, uint4 b, uint4 c, uint4 d, uint4 x, uint4 s, uint4 ac)
+MD5::FF	../src/md5.cpp	/^inline void MD5::FF(uint4 &a, uint4 b, uint4 c, uint4 d, uint4 x, uint4 s, uint4 ac) {$/;"	f	class:MD5	signature:(uint4 &a, uint4 b, uint4 c, uint4 d, uint4 x, uint4 s, uint4 ac)
+MD5::G	../include/md5.h	/^        static inline uint4 G(uint4 x, uint4 y, uint4 z);$/;"	p	class:MD5	access:private	signature:(uint4 x, uint4 y, uint4 z)
+MD5::G	../src/md5.cpp	/^inline MD5::uint4 MD5::G(uint4 x, uint4 y, uint4 z) {$/;"	f	class:MD5	signature:(uint4 x, uint4 y, uint4 z)
+MD5::GG	../include/md5.h	/^        static inline void GG(uint4 &a, uint4 b, uint4 c, uint4 d, uint4 x, uint4 s, uint4 ac);$/;"	p	class:MD5	access:private	signature:(uint4 &a, uint4 b, uint4 c, uint4 d, uint4 x, uint4 s, uint4 ac)
+MD5::GG	../src/md5.cpp	/^inline void MD5::GG(uint4 &a, uint4 b, uint4 c, uint4 d, uint4 x, uint4 s, uint4 ac) {$/;"	f	class:MD5	signature:(uint4 &a, uint4 b, uint4 c, uint4 d, uint4 x, uint4 s, uint4 ac)
+MD5::H	../include/md5.h	/^        static inline uint4 H(uint4 x, uint4 y, uint4 z);$/;"	p	class:MD5	access:private	signature:(uint4 x, uint4 y, uint4 z)
+MD5::H	../src/md5.cpp	/^inline MD5::uint4 MD5::H(uint4 x, uint4 y, uint4 z) {$/;"	f	class:MD5	signature:(uint4 x, uint4 y, uint4 z)
+MD5::HH	../include/md5.h	/^        static inline void HH(uint4 &a, uint4 b, uint4 c, uint4 d, uint4 x, uint4 s, uint4 ac);$/;"	p	class:MD5	access:private	signature:(uint4 &a, uint4 b, uint4 c, uint4 d, uint4 x, uint4 s, uint4 ac)
+MD5::HH	../src/md5.cpp	/^inline void MD5::HH(uint4 &a, uint4 b, uint4 c, uint4 d, uint4 x, uint4 s, uint4 ac) {$/;"	f	class:MD5	signature:(uint4 &a, uint4 b, uint4 c, uint4 d, uint4 x, uint4 s, uint4 ac)
+MD5::I	../include/md5.h	/^        static inline uint4 I(uint4 x, uint4 y, uint4 z);$/;"	p	class:MD5	access:private	signature:(uint4 x, uint4 y, uint4 z)
+MD5::I	../src/md5.cpp	/^inline MD5::uint4 MD5::I(uint4 x, uint4 y, uint4 z) {$/;"	f	class:MD5	signature:(uint4 x, uint4 y, uint4 z)
+MD5::II	../include/md5.h	/^        static inline void II(uint4 &a, uint4 b, uint4 c, uint4 d, uint4 x, uint4 s, uint4 ac);$/;"	p	class:MD5	access:private	signature:(uint4 &a, uint4 b, uint4 c, uint4 d, uint4 x, uint4 s, uint4 ac)
+MD5::II	../src/md5.cpp	/^inline void MD5::II(uint4 &a, uint4 b, uint4 c, uint4 d, uint4 x, uint4 s, uint4 ac) {$/;"	f	class:MD5	signature:(uint4 &a, uint4 b, uint4 c, uint4 d, uint4 x, uint4 s, uint4 ac)
+MD5::MD5	../include/md5.h	/^        MD5();$/;"	p	class:MD5	access:public	signature:()
+MD5::MD5	../include/md5.h	/^        MD5(const std::string& text);$/;"	p	class:MD5	access:public	signature:(const std::string& text)
+MD5::MD5	../src/md5.cpp	/^MD5::MD5()$/;"	f	class:MD5	signature:()
+MD5::MD5	../src/md5.cpp	/^MD5::MD5(const std::string &text)$/;"	f	class:MD5	signature:(const std::string &text)
+MD5::blocksize	../include/md5.h	/^        enum {blocksize = 64}; \/\/ VC6 won't eat a const static int here$/;"	e	enum:MD5::__anon1
+MD5::buffer	../include/md5.h	/^        uint1 buffer[blocksize]; \/\/ bytes that didn't fit in last 64 byte chunk$/;"	m	class:MD5	access:private
+MD5::count	../include/md5.h	/^        uint4 count[2];   \/\/ 64bit counter for number of bits (lo, hi)$/;"	m	class:MD5	access:private
+MD5::decode	../include/md5.h	/^        static void decode(uint4 output[], const uint1 input[], size_type len);$/;"	p	class:MD5	access:private	signature:(uint4 output[], const uint1 input[], size_type len)
+MD5::decode	../src/md5.cpp	/^void MD5::decode(uint4 output[], const uint1 input[], size_type len)$/;"	f	class:MD5	signature:(uint4 output[], const uint1 input[], size_type len)
+MD5::digest	../include/md5.h	/^        uint1 digest[16]; \/\/ the result$/;"	m	class:MD5	access:private
+MD5::encode	../include/md5.h	/^        static void encode(uint1 output[], const uint4 input[], size_type len);$/;"	p	class:MD5	access:private	signature:(uint1 output[], const uint4 input[], size_type len)
+MD5::encode	../src/md5.cpp	/^void MD5::encode(uint1 output[], const uint4 input[], size_type len)$/;"	f	class:MD5	signature:(uint1 output[], const uint4 input[], size_type len)
+MD5::finalize	../include/md5.h	/^        MD5& finalize();$/;"	p	class:MD5	access:public	signature:()
+MD5::finalize	../src/md5.cpp	/^MD5& MD5::finalize()$/;"	f	class:MD5	signature:()
+MD5::finalized	../include/md5.h	/^        bool finalized;$/;"	m	class:MD5	access:private
+MD5::hexdigest	../include/md5.h	/^        std::string hexdigest() const;$/;"	p	class:MD5	access:public	signature:() const
+MD5::hexdigest	../src/md5.cpp	/^std::string MD5::hexdigest() const$/;"	f	class:MD5	signature:() const
+MD5::init	../include/md5.h	/^        void init();$/;"	p	class:MD5	access:private	signature:()
+MD5::init	../src/md5.cpp	/^void MD5::init()$/;"	f	class:MD5	signature:()
+MD5::operator <<	../include/md5.h	/^        friend std::ostream& operator<<(std::ostream&, MD5 md5);$/;"	p	class:MD5	access:friend	signature:(std::ostream&, MD5 md5)
+MD5::rotate_left	../include/md5.h	/^        static inline uint4 rotate_left(uint4 x, int n);$/;"	p	class:MD5	access:private	signature:(uint4 x, int n)
+MD5::rotate_left	../src/md5.cpp	/^inline MD5::uint4 MD5::rotate_left(uint4 x, int n) {$/;"	f	class:MD5	signature:(uint4 x, int n)
+MD5::size_type	../include/md5.h	/^        typedef unsigned int size_type; \/\/ must be 32bit$/;"	t	class:MD5	access:public
+MD5::state	../include/md5.h	/^        uint4 state[4];   \/\/ digest so far$/;"	m	class:MD5	access:private
+MD5::transform	../include/md5.h	/^        void transform(const uint1 block[blocksize]);$/;"	p	class:MD5	access:private	signature:(const uint1 block[blocksize])
+MD5::transform	../src/md5.cpp	/^void MD5::transform(const uint1 block[blocksize])$/;"	f	class:MD5	signature:(const uint1 block[blocksize])
+MD5::uint1	../include/md5.h	/^        typedef unsigned char uint1; \/\/  8bit$/;"	t	class:MD5	access:private
+MD5::uint4	../include/md5.h	/^        typedef unsigned int uint4;  \/\/ 32bit$/;"	t	class:MD5	access:private
+MD5::update	../include/md5.h	/^        void update(const char *buf, size_type length);$/;"	p	class:MD5	access:public	signature:(const char *buf, size_type length)
+MD5::update	../include/md5.h	/^        void update(const unsigned char *buf, size_type length);$/;"	p	class:MD5	access:public	signature:(const unsigned char *buf, size_type length)
+MD5::update	../src/md5.cpp	/^void MD5::update(const char input[], size_type length)$/;"	f	class:MD5	signature:(const char input[], size_type length)
+MD5::update	../src/md5.cpp	/^void MD5::update(const unsigned char input[], size_type length)$/;"	f	class:MD5	signature:(const unsigned char input[], size_type length)
+MOON	../bin/simulation_loop_model_multiple_shapes/ik.py	/^MOON = 2$/;"	v
+MOON	../scripts/ik.py	/^MOON = 2$/;"	v
+MOON	../scripts/ik_4.py	/^    MOON = 2$/;"	v	class:Arm
+MOON	../scripts/plot_arm_video_full.py	/^MOON = 0$/;"	v
+N	../scripts/fun.py	/^N=480$/;"	v
+N	../scripts/fun_4.py	/^N=480$/;"	v
+N	../src/basalganglia_test.cpp	/^        int N = bg.m_N;$/;"	l
+N	../src/reservoir_test.cpp	/^    int N = r.m_N;$/;"	l
+N	../src/simulator.cpp	/^            int N = m_csntc->m_cortex.m_N;$/;"	l
+N	../src/simulator.cpp	/^        int N = m_csntc->m_N_CRX\/fn.n_rows;$/;"	l
+N	../src/simulator.cpp	/^        int N = m_csntc->m_cortex.m_N;$/;"	l
+NAME	../scripts/ik_4.py	/^    NAME = ""$/;"	v	class:Arm
+NN	../scripts/fun.py	/^NN =  1$/;"	v
+NN	../scripts/fun_4.py	/^NN =  1$/;"	v
+NN1	../scripts/fun.py	/^NN1 = 1$/;"	v
+NN1	../scripts/fun_4.py	/^NN1 = 1$/;"	v
+N_CHANNELS	../bin/simulation_loop_model_multiple_shapes/plot_arm.py	/^N_CHANNELS = 3$/;"	v
+N_CHANNELS	../scripts/plot_arm.py	/^N_CHANNELS = 3$/;"	v
+N_CORTICAL	../bin/simulation_loop_model_multiple_shapes/plot_arm.py	/^N_CORTICAL = 300$/;"	v
+N_CORTICAL	../scripts/plot_arm.py	/^N_CORTICAL = 300$/;"	v
+N_JOINTS	../bin/simulation_loop_model_multiple_shapes/plot_arm.py	/^N_JOINTS = 3$/;"	v
+N_JOINTS	../scripts/plot_arm.py	/^N_JOINTS = 3$/;"	v
+N_SHAPES	../bin/simulation_loop_model_multiple_shapes/plot_arm.py	/^N_SHAPES =3$/;"	v
+N_SHAPES	../scripts/plot_arm.py	/^N_SHAPES =3$/;"	v
+Nshapes	../scripts/ik_4.py	/^    Nshapes =4 $/;"	v	class:Arm
+ONLINE	../src/simulation1.cpp	/^    bool ONLINE = false;   \/\/ Flag for online learning $/;"	l
+ONLINE	../src/simulation2.cpp	/^    bool ONLINE = false;   \/\/ Flag for online learning $/;"	l
+OPTIONS	../src/simulation1.cpp	/^    enum OPTIONS { O_HELP=500, O_ONLINE, O_SEED };    \/\/ Indices of command line options$/;"	g	file:
+OPTIONS	../src/simulation2.cpp	/^    enum OPTIONS { O_HELP=500, O_ONLINE, O_SEED };    \/\/ Indices of command line options$/;"	g	file:
+O_HELP	../src/simulation1.cpp	/^    enum OPTIONS { O_HELP=500, O_ONLINE, O_SEED };    \/\/ Indices of command line options$/;"	e	enum:OPTIONS	file:
+O_HELP	../src/simulation2.cpp	/^    enum OPTIONS { O_HELP=500, O_ONLINE, O_SEED };    \/\/ Indices of command line options$/;"	e	enum:OPTIONS	file:
+O_ONLINE	../src/simulation1.cpp	/^    enum OPTIONS { O_HELP=500, O_ONLINE, O_SEED };    \/\/ Indices of command line options$/;"	e	enum:OPTIONS	file:
+O_ONLINE	../src/simulation2.cpp	/^    enum OPTIONS { O_HELP=500, O_ONLINE, O_SEED };    \/\/ Indices of command line options$/;"	e	enum:OPTIONS	file:
+O_SEED	../src/simulation1.cpp	/^    enum OPTIONS { O_HELP=500, O_ONLINE, O_SEED };    \/\/ Indices of command line options$/;"	e	enum:OPTIONS	file:
+O_SEED	../src/simulation2.cpp	/^    enum OPTIONS { O_HELP=500, O_ONLINE, O_SEED };    \/\/ Indices of command line options$/;"	e	enum:OPTIONS	file:
+PARAMETRIZABLE_H	../include/parametrizable.h	21;"	d
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	240;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	243;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	246;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	249;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	252;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	255;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	258;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	261;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	264;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	267;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	270;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	273;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	276;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	279;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	282;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	285;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	288;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	291;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	294;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	297;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	300;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	303;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	306;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	309;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	312;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	315;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	233;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	236;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	239;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	242;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	245;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	248;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	251;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	254;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	257;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	260;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	263;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	266;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	269;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	272;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	275;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	278;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	281;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	284;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	287;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	290;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	293;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	296;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	299;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	302;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	305;"	d	file:
+PLATFORM_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	308;"	d	file:
+PLOT_H	../scripts/ik_4.py	/^    PLOT_H = True$/;"	v	class:Arm
+Parameter	../include/parametrizable.h	/^        Parameter<T>() = delete;$/;"	p	class:Parameter	access:public	signature:()
+Parameter	../include/parametrizable.h	/^        Parameter<T>(const Parameter<T>& ) = delete;$/;"	p	class:Parameter	access:public	signature:(const Parameter<T>& )
+Parameter	../include/parametrizable.h	/^        Parameter<T>(const std::string &_n,  T &_v, $/;"	f	class:Parameter	access:public	signature:(const std::string &_n, T &_v, const std::string &sep =Ó)
+Parameter	../include/parametrizable.h	/^template <typename T> class Parameter : public BaseParameter $/;"	c	inherits:BaseParameter
+Parameter::Parameter	../include/parametrizable.h	/^        Parameter<T>() = delete;$/;"	p	class:Parameter	access:public	signature:()
+Parameter::Parameter	../include/parametrizable.h	/^        Parameter<T>(const Parameter<T>& ) = delete;$/;"	p	class:Parameter	access:public	signature:(const Parameter<T>& )
+Parameter::Parameter	../include/parametrizable.h	/^        Parameter<T>(const std::string &_n,  T &_v, $/;"	f	class:Parameter	access:public	signature:(const std::string &_n, T &_v, const std::string &sep =Ó)
+Parameter::name	../include/parametrizable.h	/^        const std::string name;    \/*!< Name of the parameter *\/$/;"	m	class:Parameter	access:private
+Parameter::operator =	../include/parametrizable.h	/^        Parameter<T>& operator=(const Parameter<T>& ) = delete; $/;"	p	class:Parameter	access:public	signature:(const Parameter<T>& )
+Parameter::save	../include/parametrizable.h	/^        virtual void save(std::ostream &out);$/;"	p	class:Parameter	access:public	implementation:virtual	signature:(std::ostream &out)
+Parameter::save	../include/parametrizable.h	/^template <typename T> void inline Parameter<T>::save(std::ostream &out) $/;"	f	class:Parameter	signature:(std::ostream &out)
+Parameter::separator	../include/parametrizable.h	/^        const std::string separator;  \/*!< Name of the parameter *\/$/;"	m	class:Parameter	access:private
+Parameter::update	../include/parametrizable.h	/^        virtual void update( const std::vector<std::string> lines );$/;"	p	class:Parameter	access:public	implementation:virtual	signature:( const std::vector<std::string> lines )
+Parameter::update	../include/parametrizable.h	/^template <typename T> void inline Parameter<T>::update( $/;"	f	class:Parameter	signature:( const std::vector<std::string> lines )
+Parameter::value	../include/parametrizable.h	/^        T &value;$/;"	m	class:Parameter	access:private
+Parametrizable	../include/parametrizable.h	/^        Parametrizable() = delete;$/;"	p	class:Parametrizable	access:public	signature:()
+Parametrizable	../include/parametrizable.h	/^        Parametrizable(const Parametrizable& ) = delete;$/;"	p	class:Parametrizable	access:public	signature:(const Parametrizable& )
+Parametrizable	../include/parametrizable.h	/^        Parametrizable(const std::string &_pfn, $/;"	f	class:Parametrizable	access:public	signature:(const std::string &_pfn, const std::string &_pfd = Ó )
+Parametrizable	../include/parametrizable.h	/^class Parametrizable$/;"	c
+Parametrizable::Parametrizable	../include/parametrizable.h	/^        Parametrizable() = delete;$/;"	p	class:Parametrizable	access:public	signature:()
+Parametrizable::Parametrizable	../include/parametrizable.h	/^        Parametrizable(const Parametrizable& ) = delete;$/;"	p	class:Parametrizable	access:public	signature:(const Parametrizable& )
+Parametrizable::Parametrizable	../include/parametrizable.h	/^        Parametrizable(const std::string &_pfn, $/;"	f	class:Parametrizable	access:public	signature:(const std::string &_pfn, const std::string &_pfd = Ó )
+Parametrizable::addParameter	../include/parametrizable.h	/^        template <typename T> void addParameter($/;"	p	class:Parametrizable	access:public	signature:( const std::string &name, T &value)
+Parametrizable::addParameter	../include/parametrizable.h	/^template <typename T> void inline Parametrizable::addParameter($/;"	f	class:Parametrizable	signature:( const std::string &name, T &value)
+Parametrizable::loadParameters	../include/parametrizable.h	/^        void loadParameters();$/;"	p	class:Parametrizable	access:public	signature:()
+Parametrizable::loadParameters	../include/parametrizable.h	/^void inline Parametrizable::loadParameters( )$/;"	f	class:Parametrizable	signature:( )
+Parametrizable::operator =	../include/parametrizable.h	/^        Parametrizable& operator=(const Parametrizable& ) = delete;   $/;"	p	class:Parametrizable	access:public	signature:(const Parametrizable& )
+Parametrizable::par_filedir	../include/parametrizable.h	/^        const std::string par_filedir;    \/*!< Directory of the $/;"	m	class:Parametrizable	access:public
+Parametrizable::par_filename	../include/parametrizable.h	/^        const std::string par_filename;   \/*!< Name of the $/;"	m	class:Parametrizable	access:public
+Parametrizable::parameters	../include/parametrizable.h	/^        std::vector<std::unique_ptr<BaseParameter>> parameters;$/;"	m	class:Parametrizable	access:private
+Parametrizable::saveParameters	../include/parametrizable.h	/^        void saveParameters();$/;"	p	class:Parametrizable	access:public	signature:()
+Parametrizable::saveParameters	../include/parametrizable.h	/^void inline Parametrizable::saveParameters()$/;"	f	class:Parametrizable	signature:()
+RESERVOIR_H	../include/reservoir.h	21;"	d
+RM	../build/Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m
+RM	../build/src/Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m
+Reservoir	../include/reservoir.h	/^        Reservoir() = delete;$/;"	p	class:Reservoir	access:public	signature:()
+Reservoir	../include/reservoir.h	/^        Reservoir(const Reservoir &) = delete;$/;"	p	class:Reservoir	access:public	signature:(const Reservoir &)
+Reservoir	../include/reservoir.h	/^        Reservoir(string file,int seed=1);$/;"	p	class:Reservoir	access:public	signature:(string file,int seed=1)
+Reservoir	../include/reservoir.h	/^class Reservoir : public Parametrizable $/;"	c	inherits:Parametrizable
+Reservoir	../src/reservoir.cpp	/^Reservoir::Reservoir(string file,int seed) : Parametrizable(file) $/;"	f	class:Reservoir	signature:(string file,int seed)
+Reservoir::Reservoir	../include/reservoir.h	/^        Reservoir() = delete;$/;"	p	class:Reservoir	access:public	signature:()
+Reservoir::Reservoir	../include/reservoir.h	/^        Reservoir(const Reservoir &) = delete;$/;"	p	class:Reservoir	access:public	signature:(const Reservoir &)
+Reservoir::Reservoir	../include/reservoir.h	/^        Reservoir(string file,int seed=1);$/;"	p	class:Reservoir	access:public	signature:(string file,int seed=1)
+Reservoir::Reservoir	../src/reservoir.cpp	/^Reservoir::Reservoir(string file,int seed) : Parametrizable(file) $/;"	f	class:Reservoir	signature:(string file,int seed)
+Reservoir::init	../include/reservoir.h	/^        void init();     $/;"	p	class:Reservoir	access:public	signature:()
+Reservoir::init	../src/reservoir.cpp	/^void Reservoir::init()$/;"	f	class:Reservoir	signature:()
+Reservoir::m_ALPHA	../include/reservoir.h	/^        double m_ALPHA;    \/*!< traslation eigenvalues proportion *\/$/;"	m	class:Reservoir	access:public
+Reservoir::m_AMP	../include/reservoir.h	/^        double m_AMP;    \/*!< Leaky output amplitude *\/$/;"	m	class:Reservoir	access:public
+Reservoir::m_BETA	../include/reservoir.h	/^        double m_BETA;    \/*!< rotation eigenvalues proportion *\/$/;"	m	class:Reservoir	access:public
+Reservoir::m_DT	../include/reservoir.h	/^        double m_DT;    \/*!< Integration step *\/$/;"	m	class:Reservoir	access:public
+Reservoir::m_EPSILON	../include/reservoir.h	/^        double m_EPSILON;    \/*!<  distance from the spectral radius limit for chaotic behaviour *\/$/;"	m	class:Reservoir	access:public
+Reservoir::m_G	../include/reservoir.h	/^        double m_G; \/*!<  spectral amplification *\/$/;"	m	class:Reservoir	access:public
+Reservoir::m_GAMMA	../include/reservoir.h	/^        double m_GAMMA;    \/*!<  mean point of eigenvalues *\/$/;"	m	class:Reservoir	access:public
+Reservoir::m_LOAD	../include/reservoir.h	/^        string m_LOAD;    \/*!< switch on\/off loading weights from file *\/$/;"	m	class:Reservoir	access:public
+Reservoir::m_N	../include/reservoir.h	/^        double m_N;    \/*!< Number of channels *\/$/;"	m	class:Reservoir	access:public
+Reservoir::m_NAME	../include/reservoir.h	/^        string m_NAME;    \/*!< name of the object *\/$/;"	m	class:Reservoir	access:public
+Reservoir::m_NOISE	../include/reservoir.h	/^        bool m_NOISE;    \/*!< switch on\/off internal noise *\/$/;"	m	class:Reservoir	access:public
+Reservoir::m_NOISE_STD	../include/reservoir.h	/^        double m_NOISE_STD;    \/*!<internal noise standard deviation *\/$/;"	m	class:Reservoir	access:public
+Reservoir::m_SEED	../include/reservoir.h	/^        int m_SEED;   \/*!< seed of the random generation (for file sync) *\/$/;"	m	class:Reservoir	access:public
+Reservoir::m_SPARSENESS	../include/reservoir.h	/^        double m_SPARSENESS;    \/*!< sparseness proportion of internal connections *\/$/;"	m	class:Reservoir	access:public
+Reservoir::m_STIME	../include/reservoir.h	/^        double m_STIME;    \/*!< Simulation timesteps *\/$/;"	m	class:Reservoir	access:public
+Reservoir::m_TAU	../include/reservoir.h	/^        double m_TAU;    \/*!< Leaky decay *\/$/;"	m	class:Reservoir	access:public
+Reservoir::m_TH	../include/reservoir.h	/^        double m_TH;    \/*!< Leaky output threshold *\/$/;"	m	class:Reservoir	access:public
+Reservoir::m_TRUNK	../include/reservoir.h	/^        bool m_TRUNK;   \/*!< if tanh output function is trunked *\/$/;"	m	class:Reservoir	access:public
+Reservoir::m_WEIGHT_MEAN	../include/reservoir.h	/^        double m_WEIGHT_MEAN;    \/*!< mean value of weights *\/$/;"	m	class:Reservoir	access:public
+Reservoir::m_data	../include/reservoir.h	/^        mat m_data;    \/*!< activaion storage *\/$/;"	m	class:Reservoir	access:public
+Reservoir::m_output	../include/reservoir.h	/^        vec m_output;    \/*!< activaion output *\/$/;"	m	class:Reservoir	access:public
+Reservoir::m_sNOISE	../include/reservoir.h	/^        string m_sNOISE;    \/*|< string version of m_NOISE for file sync*\/ $/;"	m	class:Reservoir	access:public
+Reservoir::m_sTRUNK	../include/reservoir.h	/^        string m_sTRUNK;    \/*!< string version of m_TRUNK for file sync *\/$/;"	m	class:Reservoir	access:public
+Reservoir::m_u	../include/reservoir.h	/^        vec m_u;$/;"	m	class:Reservoir	access:protected
+Reservoir::m_v	../include/reservoir.h	/^        vec m_v;$/;"	m	class:Reservoir	access:protected
+Reservoir::m_w	../include/reservoir.h	/^        mat m_w;    \/*! internal weights *\/$/;"	m	class:Reservoir	access:public
+Reservoir::normalize	../include/reservoir.h	/^        mat normalize(mat w, double rho);   $/;"	p	class:Reservoir	access:public	signature:(mat w, double rho)
+Reservoir::normalize	../src/reservoir.cpp	/^mat Reservoir::normalize(mat w, double rho)$/;"	f	class:Reservoir	signature:(mat w, double rho)
+Reservoir::normalize_to_echo	../include/reservoir.h	/^        void normalize_to_echo();     $/;"	p	class:Reservoir	access:public	signature:()
+Reservoir::normalize_to_echo	../src/reservoir.cpp	/^void Reservoir::normalize_to_echo() $/;"	f	class:Reservoir	signature:()
+Reservoir::operator =	../include/reservoir.h	/^        Reservoir &operator=(const Reservoir &) = delete;$/;"	p	class:Reservoir	access:public	signature:(const Reservoir &)
+Reservoir::randomize	../include/reservoir.h	/^        mat randomize();    $/;"	p	class:Reservoir	access:public	signature:()
+Reservoir::randomize	../src/reservoir.cpp	/^mat Reservoir::randomize()$/;"	f	class:Reservoir	signature:()
+Reservoir::reset	../include/reservoir.h	/^        void reset();    \/*!< reset activations *\/$/;"	p	class:Reservoir	access:public	signature:()
+Reservoir::reset	../src/reservoir.cpp	/^void Reservoir::reset()$/;"	f	class:Reservoir	signature:()
+Reservoir::step	../include/reservoir.h	/^        void step(vec inp);    \/*!< single step *\/$/;"	p	class:Reservoir	access:public	signature:(vec inp)
+Reservoir::step	../src/reservoir.cpp	/^void Reservoir::step(vec inp)$/;"	f	class:Reservoir	signature:(vec inp)
+Reservoir::store	../include/reservoir.h	/^        void store(int t);    \/*!< store *\/$/;"	p	class:Reservoir	access:public	signature:(int t)
+Reservoir::store	../src/reservoir.cpp	/^void Reservoir::store(int t)$/;"	f	class:Reservoir	signature:(int t)
+Reservoir::~Reservoir	../include/reservoir.h	/^       ~Reservoir(){}$/;"	f	class:Reservoir	access:public	signature:()
+S11	../src/md5.cpp	41;"	d	file:
+S12	../src/md5.cpp	42;"	d	file:
+S13	../src/md5.cpp	43;"	d	file:
+S14	../src/md5.cpp	44;"	d	file:
+S21	../src/md5.cpp	45;"	d	file:
+S22	../src/md5.cpp	46;"	d	file:
+S23	../src/md5.cpp	47;"	d	file:
+S24	../src/md5.cpp	48;"	d	file:
+S31	../src/md5.cpp	49;"	d	file:
+S32	../src/md5.cpp	50;"	d	file:
+S33	../src/md5.cpp	51;"	d	file:
+S34	../src/md5.cpp	52;"	d	file:
+S41	../src/md5.cpp	53;"	d	file:
+S42	../src/md5.cpp	54;"	d	file:
+S43	../src/md5.cpp	55;"	d	file:
+S44	../src/md5.cpp	56;"	d	file:
+SCALE	../bin/simulation_loop_model_multiple_shapes/plot_arm.py	/^SCALE = True$/;"	v
+SCALE	../scripts/plot_arm.py	/^SCALE = True$/;"	v
+SEED	../src/simulation1.cpp	/^    int SEED = 1;   \/\/ Seed - 1 if not updated by command-line arg$/;"	l
+SEED	../src/simulation2.cpp	/^    int SEED = 1;   \/\/ Seed - 1 if not updated by command-line arg$/;"	l
+SHELL	../build/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	../build/src/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SIMULATE_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	27;"	d	file:
+SIMULATE_ID	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	52;"	d	file:
+SIMULATE_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	32;"	d	file:
+SIMULATE_ID	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	57;"	d	file:
+SIMULATE_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	29;"	d	file:
+SIMULATE_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	54;"	d	file:
+SIMULATE_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	34;"	d	file:
+SIMULATE_VERSION_MAJOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	59;"	d	file:
+SIMULATE_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	30;"	d	file:
+SIMULATE_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	55;"	d	file:
+SIMULATE_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	35;"	d	file:
+SIMULATE_VERSION_MINOR	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	60;"	d	file:
+SIMULATOR_H	../include/simulator.h	21;"	d
+SPYRAL	../bin/simulation_loop_model_multiple_shapes/ik.py	/^SPYRAL = 5$/;"	v
+SPYRAL	../scripts/ik.py	/^SPYRAL = 5$/;"	v
+SPYRAL	../scripts/ik_4.py	/^    SPYRAL = 5$/;"	v	class:Arm
+SQUARE	../bin/simulation_loop_model_multiple_shapes/ik.py	/^SQUARE = 1$/;"	v
+SQUARE	../scripts/ik.py	/^SQUARE = 1$/;"	v
+SQUARE	../scripts/ik_4.py	/^    SQUARE = 1$/;"	v	class:Arm
+SQUARE	../scripts/plot_arm_video_full.py	/^SQUARE = 1$/;"	v
+STIME	../bin/simulation_loop_model_multiple_shapes/offline_render.py	/^STIME=data.shape[1]$/;"	v
+STIME	../bin/simulation_loop_model_single_shape/offline_render.py	/^STIME=data.shape[1]$/;"	v
+STIME	../scripts/offline_render.py	/^STIME=data.shape[1]$/;"	v
+STIME	../src/basalganglia_test.cpp	/^        int STIME = bg.m_STIME;$/;"	l
+STIME	../src/reservoir_test.cpp	/^    int STIME = r.m_STIME;$/;"	l
+SUFFIXES	../build/Makefile	/^SUFFIXES =$/;"	m
+SUFFIXES	../build/src/Makefile	/^SUFFIXES =$/;"	m
+Simulator	../include/simulator.h	/^    Simulator() = delete;$/;"	p	struct:Simulator	access:public	signature:()
+Simulator	../include/simulator.h	/^    Simulator(string name, int SEED = 1);$/;"	p	struct:Simulator	access:public	signature:(string name, int SEED = 1)
+Simulator	../include/simulator.h	/^struct Simulator : public Parametrizable$/;"	s	inherits:Parametrizable
+Simulator	../src/simulator.cpp	/^Simulator::Simulator(string name, int SEED): Parametrizable(name)$/;"	f	class:Simulator	signature:(string name, int SEED)
+Simulator::Simulator	../include/simulator.h	/^    Simulator() = delete;$/;"	p	struct:Simulator	access:public	signature:()
+Simulator::Simulator	../include/simulator.h	/^    Simulator(string name, int SEED = 1);$/;"	p	struct:Simulator	access:public	signature:(string name, int SEED = 1)
+Simulator::Simulator	../src/simulator.cpp	/^Simulator::Simulator(string name, int SEED): Parametrizable(name)$/;"	f	class:Simulator	signature:(string name, int SEED)
+Simulator::build_funcs	../include/simulator.h	/^    void build_funcs(const string &teach_sec_file, $/;"	p	struct:Simulator	access:public	signature:(const string &teach_sec_file, const string &fun_sec_file = Ó, bool reset_all=false)
+Simulator::build_funcs	../src/simulator.cpp	/^void Simulator::build_funcs( const string &teach_sec_file, const string &fun_sec_file, bool reset_all )$/;"	f	class:Simulator	signature:( const string &teach_sec_file, const string &fun_sec_file, bool reset_all )
+Simulator::copy	../include/simulator.h	/^    Simulator& operator=(const Simulator& copy) = delete;$/;"	m	struct:Simulator	access:public
+Simulator::copy	../include/simulator.h	/^    Simulator(const Simulator& copy) = delete;$/;"	m	struct:Simulator	access:public
+Simulator::m_BETA	../include/simulator.h	/^    double m_BETA;    \/\/\/< BPDC regularization parameter - ONLINE$/;"	m	struct:Simulator	access:public
+Simulator::m_BG_BIAS_AMP	../include/simulator.h	/^    double m_BG_BIAS_AMP;    \/\/\/< Bias amplitude of the input to the to-be-selected striatal channel$/;"	m	struct:Simulator	access:public
+Simulator::m_BG_NOISE	../include/simulator.h	/^    double m_BG_NOISE;    \/\/\/< Noise to the striatum $/;"	m	struct:Simulator	access:public
+Simulator::m_DA_GAP	../include/simulator.h	/^    double m_DA_GAP;    \/\/\/< Time gap of dopaminergic switch-off at start and end of trial$/;"	m	struct:Simulator	access:public
+Simulator::m_DELTA	../include/simulator.h	/^    double m_DELTA;    \/\/\/< DT\/TAU$/;"	m	struct:Simulator	access:public
+Simulator::m_DT	../include/simulator.h	/^    double m_DT;    \/\/\/< Integration timestep$/;"	m	struct:Simulator	access:public
+Simulator::m_ETA	../include/simulator.h	/^    double m_ETA;    \/\/\/< Learning rate - ONLINE$/;"	m	struct:Simulator	access:public
+Simulator::m_FUN_AMP	../include/simulator.h	/^    double m_FUN_AMP;    \/\/\/< Amplitude of the cortical input wave function$/;"	m	struct:Simulator	access:public
+Simulator::m_FUN_CENTER	../include/simulator.h	/^    double m_FUN_CENTER;    \/\/\/< Equilibrium center of the cortical input wave function$/;"	m	struct:Simulator	access:public
+Simulator::m_FUN_FILE_1	../include/simulator.h	/^    static const string m_FUN_FILE_1;    \/\/\/< Filename for data about input $/;"	m	struct:Simulator	access:public
+Simulator::m_FUN_FILE_1	../src/simulator.cpp	/^const string Simulator::m_FUN_FILE_1 = "parameters\/FUN_1";$/;"	m	class:Simulator	file:
+Simulator::m_FUN_FILE_2	../include/simulator.h	/^    static const string m_FUN_FILE_2;    \/\/\/< Filename for data about input $/;"	m	struct:Simulator	access:public
+Simulator::m_FUN_FILE_2	../src/simulator.cpp	/^const string Simulator::m_FUN_FILE_2 = "parameters\/FUN_2";$/;"	m	class:Simulator	file:
+Simulator::m_FUN_FILE_3	../include/simulator.h	/^    static const string m_FUN_FILE_3;    \/\/\/< Filename for data about input $/;"	m	struct:Simulator	access:public
+Simulator::m_FUN_FILE_3	../src/simulator.cpp	/^const string Simulator::m_FUN_FILE_3 = "parameters\/FUN_3";$/;"	m	class:Simulator	file:
+Simulator::m_FUN_FILE_4	../include/simulator.h	/^    static const string m_FUN_FILE_4;    \/\/\/< Filename for data about input $/;"	m	struct:Simulator	access:public
+Simulator::m_FUN_FILE_4	../src/simulator.cpp	/^const string Simulator::m_FUN_FILE_4 = "parameters\/FUN_4";$/;"	m	class:Simulator	file:
+Simulator::m_FUN_PERIOD	../include/simulator.h	/^    double m_FUN_PERIOD;    \/\/\/< Period of the cortical input wave function $/;"	m	struct:Simulator	access:public
+Simulator::m_FUN_PHASE	../include/simulator.h	/^    double m_FUN_PHASE;    \/\/\/< Phase of the cortical input wave function$/;"	m	struct:Simulator	access:public
+Simulator::m_INP2BG	../include/simulator.h	/^    double m_INP2BG;     \/\/\/< Maximum amplitude of weights from input to striatum$/;"	m	struct:Simulator	access:public
+Simulator::m_INP2M	../include/simulator.h	/^    double m_INP2M;     \/\/\/< Maximum amplitude of weights from input to motor cortex$/;"	m	struct:Simulator	access:public
+Simulator::m_LAMBDA	../include/simulator.h	/^    double m_LAMBDA;    \/\/\/< Ridge regression regularization parameter - OFFLINE$/;"	m	struct:Simulator	access:public
+Simulator::m_LEARN_WINDOW	../include/simulator.h	/^    double m_LEARN_WINDOW;    \/\/\/< Length of the learning window in timesteps$/;"	m	struct:Simulator	access:public
+Simulator::m_PRINT	../include/simulator.h	/^    string m_PRINT;    \/\/\/< "TRUE" full storage of data of the model - "FALSE" otherwise$/;"	m	struct:Simulator	access:public
+Simulator::m_SELECTIONS	../include/simulator.h	/^    int m_SELECTIONS;    \/\/\/< Number of possible selections (bg channels)$/;"	m	struct:Simulator	access:public
+Simulator::m_SESSIONS	../include/simulator.h	/^    int m_SESSIONS;    \/\/\/< Number of sessions - ONLINE$/;"	m	struct:Simulator	access:public
+Simulator::m_STIME	../include/simulator.h	/^    int m_STIME;    \/\/\/< Number of total timesteps per session$/;"	m	struct:Simulator	access:public
+Simulator::m_TAU	../include/simulator.h	/^    double m_TAU;    \/\/\/< Leaky decay$/;"	m	struct:Simulator	access:public
+Simulator::m_TEACH_FILE_1	../include/simulator.h	/^    static const string m_TEACH_FILE_1;    \/\/\/< Filename for data about target activities$/;"	m	struct:Simulator	access:public
+Simulator::m_TEACH_FILE_1	../src/simulator.cpp	/^const string Simulator::m_TEACH_FILE_1 = "parameters\/TEACH_1";$/;"	m	class:Simulator	file:
+Simulator::m_TEACH_FILE_2	../include/simulator.h	/^    static const string m_TEACH_FILE_2;    \/\/\/< Filename for data about target activities$/;"	m	struct:Simulator	access:public
+Simulator::m_TEACH_FILE_2	../src/simulator.cpp	/^const string Simulator::m_TEACH_FILE_2 = "parameters\/TEACH_2";$/;"	m	class:Simulator	file:
+Simulator::m_TEACH_FILE_3	../include/simulator.h	/^    static const string m_TEACH_FILE_3;    \/\/\/< Filename for data about target activities$/;"	m	struct:Simulator	access:public
+Simulator::m_TEACH_FILE_3	../src/simulator.cpp	/^const string Simulator::m_TEACH_FILE_3 = "parameters\/TEACH_3";$/;"	m	class:Simulator	file:
+Simulator::m_TEACH_FILE_4	../include/simulator.h	/^    static const string m_TEACH_FILE_4;    \/\/\/< Filename for data about target activities$/;"	m	struct:Simulator	access:public
+Simulator::m_TEACH_FILE_4	../src/simulator.cpp	/^const string Simulator::m_TEACH_FILE_4 = "parameters\/TEACH_4";$/;"	m	class:Simulator	file:
+Simulator::m_TTIME	../include/simulator.h	/^    int m_TTIME;    \/\/\/< Number of timesteps per trial$/;"	m	struct:Simulator	access:public
+Simulator::m_W_inp2bg	../include/simulator.h	/^    double m_W_inp2bg;    \/\/\/< Read-out  weights$/;"	m	struct:Simulator	access:public
+Simulator::m_W_inp2m	../include/simulator.h	/^    mat m_W_inp2m;    \/\/\/< Read-out  weights$/;"	m	struct:Simulator	access:public
+Simulator::m_Wout	../include/simulator.h	/^    mat m_Wout;    \/\/\/< Read-out weights $/;"	m	struct:Simulator	access:public
+Simulator::m_bg_inp	../include/simulator.h	/^    mat m_bg_inp; \/\/\/< Vector of input to the striatum$/;"	m	struct:Simulator	access:public
+Simulator::m_crx_idx	../include/simulator.h	/^    uvec m_crx_idx;    \/\/\/< Indices of the vector of cortical units$/;"	m	struct:Simulator	access:public
+Simulator::m_crx_inp	../include/simulator.h	/^    mat m_crx_inp;    \/\/\/< Vector of input to cortical units $/;"	m	struct:Simulator	access:public
+Simulator::m_csntc	../include/simulator.h	/^    unique_ptr<CSNTC> m_csntc;    \/\/\/< A CSNTC object containing all data and methods for a CSNTC module$/;"	m	struct:Simulator	access:public
+Simulator::m_curr_teach	../include/simulator.h	/^    mat m_curr_teach;    \/\/\/< Same as m_teach except that the sequence of trials is shuffled on every session$/;"	m	struct:Simulator	access:public
+Simulator::m_da	../include/simulator.h	/^    vec m_da;    \/\/\/< A vector of length m_STIME containing the dopaminergic modulation    $/;"	m	struct:Simulator	access:public
+Simulator::m_fun	../include/simulator.h	/^    mat m_fun;    \/\/\/< The cortical wave input during a session (length = m_STIME) $/;"	m	struct:Simulator	access:public
+Simulator::m_n_readout	../include/simulator.h	/^    int m_n_readout;    \/\/\/< Number of readouts$/;"	m	struct:Simulator	access:public
+Simulator::m_rng	../include/simulator.h	/^    uvec m_rng;    \/\/\/< [ m_rng1' m_rng2' m_rng3' ] - matlab syntax$/;"	m	struct:Simulator	access:public
+Simulator::m_rngs	../include/simulator.h	/^    umat m_rngs;    \/\/\/< [ m_rng1 m_rng2 m_rng3 ]' - matlab syntax  $/;"	m	struct:Simulator	access:public
+Simulator::m_rout	../include/simulator.h	/^    mat m_rout;    \/\/\/< Read-out story $/;"	m	struct:Simulator	access:public
+Simulator::m_teach	../include/simulator.h	/^    mat m_teach;    \/\/\/< Each row contains a s_STIME vector with the target function of a readout unit for each trial $/;"	m	struct:Simulator	access:public
+Simulator::m_trial_idx	../include/simulator.h	/^    uvec m_trial_idx;   \/\/\/< Trial sequence$/;"	m	struct:Simulator	access:public
+Simulator::modify_trial_sequence	../include/simulator.h	/^    void modify_trial_sequence(bool reset=false);    \/\/\/< Shuffle per-trial timeseries of input an teaching of the single session $/;"	p	struct:Simulator	access:public	signature:(bool reset=false)
+Simulator::modify_trial_sequence	../src/simulator.cpp	/^void Simulator::modify_trial_sequence(bool reset)$/;"	f	class:Simulator	signature:(bool reset)
+Simulator::run_offline	../include/simulator.h	/^    void run_offline();    \/\/\/< Run a life-cicle for offline learning simulation $/;"	p	struct:Simulator	access:public	signature:()
+Simulator::run_offline	../src/simulator.cpp	/^void Simulator::run_offline()$/;"	f	class:Simulator	signature:()
+Simulator::run_offline_double_teach	../include/simulator.h	/^    void run_offline_double_teach();    \/\/\/< Run a life-cicle for offline learning simulation $/;"	p	struct:Simulator	access:public	signature:()
+Simulator::run_offline_double_teach	../src/simulator.cpp	/^void Simulator::run_offline_double_teach()$/;"	f	class:Simulator	signature:()
+Simulator::run_online	../include/simulator.h	/^    void run_online();    \/\/\/< Run a life-cicle for offline learning simulation $/;"	p	struct:Simulator	access:public	signature:()
+Simulator::run_online	../src/simulator.cpp	/^void Simulator::run_online()$/;"	f	class:Simulator	signature:()
+Simulator::step	../include/simulator.h	/^    void step(int t);    \/\/\/< Spreading step $/;"	p	struct:Simulator	access:public	signature:(int t)
+Simulator::step	../src/simulator.cpp	/^void Simulator::step(int t)$/;"	f	class:Simulator	signature:(int t)
+Simulator::step_noise	../include/simulator.h	/^    void step_noise(int t);    \/\/\/< Spreading step with further noise in the striatal input (for striato-cortical learning) $/;"	p	struct:Simulator	access:public	signature:(int t)
+Simulator::~Simulator	../include/simulator.h	/^    ~Simulator(){};$/;"	f	struct:Simulator	access:public	signature:()
+T	../scripts/ik_4.py	/^    T = 48$/;"	v	class:Arm
+T	../scripts/moon.py	/^T=48$/;"	v
+T2CP	../src/csntc.cpp	/^    int T2CP = ceil(m_N_CRX*m_THA2CRX_SPREAD);  $/;"	l
+TCH	../scripts/plot_arm_video_full.py	/^TCH = hstack(DDATA)$/;"	v
+TEACH	../scripts/plot_arm_video_full.py	/^TEACH = vstack([TEACH_1,TEACH_2,TEACH_3,TEACH_4])$/;"	v
+TEACH_1	../scripts/plot_arm_video_full.py	/^TEACH_1 = loadtxt("parameters\/TEACH_1").T$/;"	v
+TEACH_2	../scripts/plot_arm_video_full.py	/^TEACH_2 = loadtxt("parameters\/TEACH_2").T$/;"	v
+TEACH_3	../scripts/plot_arm_video_full.py	/^TEACH_3 = loadtxt("parameters\/TEACH_3").T$/;"	v
+TEACH_4	../scripts/plot_arm_video_full.py	/^TEACH_4 = loadtxt("parameters\/TEACH_4").T$/;"	v
+THA2CRX_W	../src/basalganglia_test.cpp	/^        double THA2CRX_W = 4;$/;"	l
+TN	../scripts/ik_4.py	/^    TN = 10$/;"	v	class:Arm
+TRIANGLE	../bin/simulation_loop_model_multiple_shapes/ik.py	/^TRIANGLE = 4$/;"	v
+TRIANGLE	../scripts/ik.py	/^TRIANGLE = 4$/;"	v
+TRIANGLE	../scripts/ik_4.py	/^    TRIANGLE = 4$/;"	v	class:Arm
+TT	../scripts/fun.py	/^TT = 298$/;"	v
+TT	../scripts/fun_4.py	/^TT = 298$/;"	v
+UTILS_H	../include/utils.h	21;"	d
+Vector3f	../src/hand_engine.cpp	/^                m_eShapes[ (*it).second ] ->setColor(Vector3f(.5,.5,.5));$/;"	p	file:	signature:(.5,.5,.5)
+Vector3f	../src/hand_engine.cpp	/^            m_eShapes[ (*it).second ] ->setColor(Vector3f(.2,.2,.2));$/;"	p	file:	signature:(.2,.2,.2)
+Vector3f	../src/hand_engine.cpp	/^        m_eShapes[ (*it).second ] ->setColor(Vector3f(.2,.2,.2));$/;"	p	file:	signature:(.2,.2,.2)
+W	../scripts/moon.py	/^W = eye(2)*0.5$/;"	v
+W	../src/csntc.cpp	/^        mat &W = m_CRX2STR_W;$/;"	l
+W	../src/csntc.cpp	/^        mat &W = m_CRX2THA_W;$/;"	l
+W	../src/csntc.cpp	/^        mat &W = m_THA2CRX_W;$/;"	l
+W	../src/simulator.cpp	/^                    mat &W = m_Wout;$/;"	l
+W	../src/simulator.cpp	/^                mat &W = m_Wout;  $/;"	l
+W	../src/simulator.cpp	/^                mat &W = m_Wout;$/;"	l
+W	../src/simulator.cpp	/^            mat &W = m_Wout;$/;"	l
+W_env2CRX	../include/hand_controller.h	/^        vec W_env2CRX;$/;"	m	class:Controller	access:public
+W_readout	../include/hand_controller.h	/^        mat W_readout;$/;"	m	class:Controller	access:public
+X	../scripts/moon.py	/^X  = array([])$/;"	v
+X	../scripts/moon.py	/^X = hstack([XX0,XX1])$/;"	v
+X	../src/simulator.cpp	/^            mat X = join_rows( $/;"	l
+X	../src/simulator.cpp	/^        mat X = m_csntc->m_cortex.m_data.cols(m_rng);$/;"	l
+XX0	../scripts/moon.py	/^XX0 = b + r*cos(linspace(-pi*2\/3.,pi*2\/3.,T\/2))$/;"	v
+XX1	../scripts/moon.py	/^XX1 = b1 + r1*cos(linspace(pi\/2.,-pi\/2.,T\/2))$/;"	v
+Y	../scripts/moon.py	/^Y  = array([])$/;"	v
+Y	../scripts/moon.py	/^Y = hstack([YY0,YY1])$/;"	v
+Y	../src/simulator.cpp	/^                vec Y = join_rows($/;"	l
+Y	../src/simulator.cpp	/^            vec Y = m_curr_teach(uout, m_rng).t();$/;"	l
+YY0	../scripts/moon.py	/^YY0 = c + r*sin(linspace(-pi*2\/3.,pi*2\/3.,T\/2))$/;"	v
+YY1	../scripts/moon.py	/^YY1 = c + r1*sin(linspace(pi\/2.,-pi\/2.,T\/2))$/;"	v
+__init__	../bin/simulation_loop_model_multiple_shapes/ik.py	/^    def __init__(self, n=3,q=None, q0=None, L=None):$/;"	m	class:Arm	access:public
+__init__	../scripts/ik.py	/^    def __init__(self, n=3,q=None, q0=None, L=None):$/;"	m	class:Arm	access:public
+__init__	../scripts/ik_4.py	/^    def __init__(self, n=3,q=None, q0=None, L=None):$/;"	m	class:Arm	access:public
+a	../src/md5.cpp	/^    uint4 a = state[0], b = state[1], c = state[2], d = state[3], x[16];$/;"	l
+activity	../include/hand_controller.h	/^        vec activity;$/;"	m	class:Controller	access:public
+activity_prev	../include/hand_controller.h	/^        vec activity_prev;$/;"	m	class:Controller	access:public
+addParameter	../include/parametrizable.h	/^        template <typename T> void addParameter($/;"	p	class:Parametrizable	access:public	signature:( const std::string &name, T &value)
+addParameter	../include/parametrizable.h	/^template <typename T> void inline Parametrizable::addParameter($/;"	f	class:Parametrizable	signature:( const std::string &name, T &value)
+all	../src/simulator.cpp	/^    m_W_inp2m( span(0, m_csntc->m_N_CRX*(1-m_csntc->m_THA2CRX_SPREAD) ), span::all) *= 0;$/;"	m	class:span	file:
+args	../bin/simulation_loop_model_multiple_shapes/plot_arm.py	/^args = parser.parse_args()$/;"	v
+args	../scripts/plot_arm.py	/^args = parser.parse_args()$/;"	v
+args	../scripts/plot_arm_video_full.py	/^args = parser.parse_args()$/;"	v
+args	../scripts/plot_mse.py	/^args = parser.parse_args()$/;"	v
+arm	../bin/simulation_loop_model_multiple_shapes/ik.py	/^arm = Arm(n=n, L=ones(n)*(1\/float(n-n\/2.)))$/;"	v
+arm	../scripts/ik.py	/^arm = Arm(n=n, L=ones(n)*(1\/float(n-n\/2.)))$/;"	v
+arm	../scripts/ik_4.py	/^    arm = Arm(n=n, L=ones(n)*(1\/float(n-n\/2.)))$/;"	v	class:Arm
+arm	../scripts/plot_arm_video_full.py	/^arm = ik.Arm(n=n, L=ones(n)*(1\/float(n-n\/2.)))$/;"	v
+arm_plot	../bin/simulation_loop_model_multiple_shapes/ik.py	/^def arm_plot(title, data, T):  $/;"	f	access:public
+arm_plot	../scripts/ik.py	/^def arm_plot(title, data, T):  $/;"	f	access:public
+ax	../bin/simulation_loop_model_multiple_shapes/offline_render.py	/^ax=imshow(data_cortex,interpolation='none',aspect='auto',vmin=0,vmax=1)$/;"	v
+ax	../bin/simulation_loop_model_single_shape/offline_render.py	/^ax=imshow(data_cortex,interpolation='none',aspect='auto',vmin=0,vmax=1)$/;"	v
+ax	../scripts/offline_render.py	/^ax=imshow(data_cortex,interpolation='none',aspect='auto',vmin=0,vmax=1)$/;"	v
+ax1	../tests/reservoir/plot.py	/^ax1 = fig.add_subplot(gs[:2,:8])$/;"	v
+ax2	../tests/reservoir/plot.py	/^ax2 = fig.add_subplot(gs[2:,:8])$/;"	v
+ax3	../tests/reservoir/plot.py	/^ax3 = fig.add_subplot(gs[:,8:])$/;"	v
+b	../scripts/moon.py	/^b=1.0$/;"	v
+b	../src/md5.cpp	/^    uint4 a = state[0], b = state[1], c = state[2], d = state[3], x[16];$/;"	l
+b1	../scripts/moon.py	/^b1 = b+r*cos(pi*2\/3.)$/;"	v
+bds	../src/hand_engine.cpp	/^    CENSSerializedRobot::Bodies bds = m_eRobots["hand"]->bodies;$/;"	l
+begin	../include/parametrizable.h	/^    size_t begin = r.rfind("[",end);$/;"	l
+beta	../src/hand_controller.cpp	/^            static double beta = 0.00001;$/;"	l	file:
+bg	../src/hand_controller.cpp	/^    vec bg = zeros(trials);  bg(testtimeline[tc%trials]) = 1;$/;"	l
+bg_crx_inp	../src/csntc.cpp	/^        vec bg_crx_inp = m_CRX2STR_W*m_cortex.m_output;$/;"	l
+bg_str_inp	../src/csntc.cpp	/^        vec bg_str_inp = str;$/;"	l
+bgm	../src/simulator.cpp	/^    mat bgm = randn<mat>(m_SELECTIONS,m_STIME)*m_BG_NOISE;$/;"	l
+bits	../src/md5.cpp	/^        unsigned char bits[8];$/;"	l
+blocksize	../include/md5.h	/^        enum {blocksize = 64}; \/\/ VC6 won't eat a const static int here$/;"	e	enum:MD5::__anon1
+bound	../include/utils.h	/^T2 bound(T1 min, T1 max, T2 v)$/;"	f	signature:(T1 min, T1 max, T2 v)
+buf	../include/utils.h	/^    stringstream buf;$/;"	l
+buf	../src/md5.cpp	/^    char buf[33];$/;"	l
+buffer	../include/md5.h	/^        uint1 buffer[blocksize]; \/\/ bytes that didn't fit in last 64 byte chunk$/;"	m	class:MD5	access:private
+buffer	../include/parametrizable.h	/^            std::stringstream buffer(rep);$/;"	p	signature:(rep)
+build_funcs	../include/simulator.h	/^    void build_funcs(const string &teach_sec_file, $/;"	p	struct:Simulator	access:public	signature:(const string &teach_sec_file, const string &fun_sec_file = Ó, bool reset_all=false)
+build_funcs	../src/simulator.cpp	/^void Simulator::build_funcs( const string &teach_sec_file, const string &fun_sec_file, bool reset_all )$/;"	f	class:Simulator	signature:( const string &teach_sec_file, const string &fun_sec_file, bool reset_all )
+c	../scripts/moon.py	/^c=1.0$/;"	v
+c	../src/basalganglia.cpp	/^    int c = 0;$/;"	l
+c	../src/md5.cpp	/^    uint4 a = state[0], b = state[1], c = state[2], d = state[3], x[16];$/;"	l
+callback	../scripts/sim_manager.py	/^def callback():$/;"	f	access:public
+cbaxes	../bin/simulation_loop_model_multiple_shapes/offline_render.py	/^cbaxes = fig.add_axes([0.92, 0.62, 0.01, 0.28]) $/;"	v
+cbaxes	../bin/simulation_loop_model_single_shape/offline_render.py	/^cbaxes = fig.add_axes([0.92, 0.62, 0.01, 0.28]) $/;"	v
+cbaxes	../scripts/offline_render.py	/^cbaxes = fig.add_axes([0.92, 0.62, 0.01, 0.28]) $/;"	v
+ccolor	../scripts/plot_arm_video_full.py	/^            ccolor = zeros(3)$/;"	v
+clear	../include/parametrizable.h	/^        v.clear();$/;"	p	signature:()
+close	../scripts/sim_manager.py	/^def close():$/;"	f	access:public
+comp	../src/simulator.cpp	/^            bool comp = test_bg_competition($/;"	l
+comp	../src/simulator.cpp	/^        bool comp = test_bg_competition($/;"	l
+controller	../include/hand_engine.h	/^        shared_ptr<Controller> controller;$/;"	m	class:Engine	access:public
+copy	../include/simulator.h	/^    Simulator& operator=(const Simulator& copy) = delete;$/;"	m	struct:Simulator	access:public
+copy	../include/simulator.h	/^    Simulator(const Simulator& copy) = delete;$/;"	m	struct:Simulator	access:public
+cortex_all_data	../src/simulator.cpp	/^        mat cortex_all_data = $/;"	l
+cortex_all_data	../src/simulator.cpp	/^        mat cortex_all_data = join_rows($/;"	l
+cortex_all_data_1	../src/simulator.cpp	/^        mat cortex_all_data_1 = m_csntc->m_cortex.m_data;$/;"	l
+cortex_all_data_2	../src/simulator.cpp	/^        mat cortex_all_data_2 = m_csntc->m_cortex.m_data;$/;"	l
+cortex_all_data_3	../src/simulator.cpp	/^        mat cortex_all_data_3 = m_csntc->m_cortex.m_data;$/;"	l
+cortex_all_data_4	../src/simulator.cpp	/^        mat cortex_all_data_4 = m_csntc->m_cortex.m_data;$/;"	l
+count	../include/md5.h	/^        uint4 count[2];   \/\/ 64bit counter for number of bits (lo, hi)$/;"	m	class:MD5	access:private
+crx_inp	../src/csntc.cpp	/^        vec crx_inp = $/;"	l
+csntc	../include/hand_controller.h	/^        shared_ptr<CSNTC> csntc;$/;"	m	class:Controller	access:public
+curr	../bin/simulation_loop_model_multiple_shapes/offline_render.py	/^curr = 1$/;"	v
+curr	../bin/simulation_loop_model_single_shape/offline_render.py	/^curr = 1$/;"	v
+curr	../scripts/offline_render.py	/^curr = 1$/;"	v
+curr	../scripts/plot_arm_video_full.py	/^        curr = 1$/;"	v
+curr_rho	../src/reservoir.cpp	/^    double curr_rho = evaluate_rho(w);$/;"	l
+curr_teach_all	../src/simulator.cpp	/^        mat curr_teach_all = $/;"	l
+curr_teach_all	../src/simulator.cpp	/^        mat curr_teach_all = join_rows($/;"	l
+curr_teach_all_1	../src/simulator.cpp	/^        mat curr_teach_all_1 = m_curr_teach;$/;"	l
+curr_teach_all_2	../src/simulator.cpp	/^        mat curr_teach_all_2 = m_curr_teach;$/;"	l
+curr_teach_all_3	../src/simulator.cpp	/^        mat curr_teach_all_3 = m_curr_teach;$/;"	l
+curr_teach_all_4	../src/simulator.cpp	/^        mat curr_teach_all_4 = m_curr_teach;$/;"	l
+d	../src/md5.cpp	/^    uint4 a = state[0], b = state[1], c = state[2], d = state[3], x[16];$/;"	l
+d	../src/simulator.cpp	/^                    vec d = x_prev \/ ( dot(inp_prev,inp_prev) + dot(x_prev,x_prev) + m_BETA ); $/;"	l
+da	../src/basalganglia_test.cpp	/^        mat da = DA_MIN*ones<vec>(N)*ones<vec>(STIME).t();$/;"	l
+data	../bin/simulation_loop_model_multiple_shapes/offline_render.py	/^data=loadtxt('out')$/;"	v
+data	../bin/simulation_loop_model_single_shape/offline_render.py	/^data=loadtxt('out')$/;"	v
+data	../scripts/offline_render.py	/^data=loadtxt('out')$/;"	v
+data	../scripts/plot_arm_video_full.py	/^data=loadtxt('out')$/;"	v
+data	../scripts/plot_mse.py	/^            data = data[4:]$/;"	v
+data	../scripts/plot_mse.py	/^        data = loadtxt(filename)$/;"	v
+data	../tests/reservoir/plot.py	/^data = np.loadtxt("activation_data")$/;"	v
+data_bg	../bin/simulation_loop_model_multiple_shapes/offline_render.py	/^data_bg = data[nc:(nc+6*nb     )               ,:];$/;"	v
+data_bg	../bin/simulation_loop_model_single_shape/offline_render.py	/^data_bg = data[nc:(nc+6*nb     )               ,:];$/;"	v
+data_bg	../scripts/offline_render.py	/^data_bg = data[nc:(nc+6*nb     )               ,:];$/;"	v
+data_bginp	../bin/simulation_loop_model_multiple_shapes/offline_render.py	/^data_bginp = data[(nc+6*nb+2*nj):              ,:];$/;"	v
+data_bginp	../bin/simulation_loop_model_single_shape/offline_render.py	/^data_bginp = data[(nc+6*nb+2*nj):              ,:];$/;"	v
+data_bginp	../scripts/offline_render.py	/^data_bginp = data[(nc+6*nb+2*nj):              ,:];$/;"	v
+data_cortex	../bin/simulation_loop_model_multiple_shapes/offline_render.py	/^data_cortex = data[:nc                         ,:];$/;"	v
+data_cortex	../bin/simulation_loop_model_single_shape/offline_render.py	/^data_cortex = data[:nc                         ,:];$/;"	v
+data_cortex	../scripts/offline_render.py	/^data_cortex = data[:nc                         ,:];$/;"	v
+data_da	../bin/simulation_loop_model_multiple_shapes/offline_render.py	/^data_da = loadtxt('out_da')$/;"	v
+data_da	../bin/simulation_loop_model_single_shape/offline_render.py	/^data_da = loadtxt('out_da')$/;"	v
+data_da	../scripts/offline_render.py	/^data_da = loadtxt('out_da')$/;"	v
+data_da	../scripts/plot_arm_video_full.py	/^data_da = loadtxt('out_da')$/;"	v
+data_inp	../bin/simulation_loop_model_multiple_shapes/offline_render.py	/^data_inp = loadtxt('out_inp')$/;"	v
+data_inp	../bin/simulation_loop_model_single_shape/offline_render.py	/^data_inp = loadtxt('out_inp')$/;"	v
+data_inp	../scripts/offline_render.py	/^data_inp = loadtxt('out_inp')$/;"	v
+data_inp	../scripts/plot_arm_video_full.py	/^data_inp = loadtxt('out_inp')$/;"	v
+data_inps	../src/simulator.cpp	/^        mat data_inps = zeros<mat>(m_csntc->m_N_CHA,m_STIME); $/;"	l
+data_inps	../src/simulator.cpp	/^    mat data_inps = zeros<mat>(m_csntc->m_N_CHA,m_STIME); $/;"	l
+data_inps_1	../src/simulator.cpp	/^        mat data_inps_1 = data_inps; $/;"	l
+data_inps_2	../src/simulator.cpp	/^        mat data_inps_2 = data_inps; $/;"	l
+data_inps_3	../src/simulator.cpp	/^        mat data_inps_3 = data_inps; $/;"	l
+data_inps_4	../src/simulator.cpp	/^        mat data_inps_4 = data_inps; $/;"	l
+data_rout	../bin/simulation_loop_model_multiple_shapes/offline_render.py	/^data_rout  = data[(nc+6*nb+1*nj):(nc+6*nb+2*nj),:];$/;"	v
+data_rout	../bin/simulation_loop_model_single_shape/offline_render.py	/^data_rout  = data[(nc+6*nb+1*nj):(nc+6*nb+2*nj),:];$/;"	v
+data_rout	../scripts/offline_render.py	/^data_rout  = data[(nc+6*nb+1*nj):(nc+6*nb+2*nj),:];$/;"	v
+data_teach	../bin/simulation_loop_model_multiple_shapes/offline_render.py	/^data_teach = data[(nc+6*nb     ):(nc+6*nb+1*nj),:];$/;"	v
+data_teach	../bin/simulation_loop_model_single_shape/offline_render.py	/^data_teach = data[(nc+6*nb     ):(nc+6*nb+1*nj),:];$/;"	v
+data_teach	../scripts/offline_render.py	/^data_teach = data[(nc+6*nb     ):(nc+6*nb+1*nj),:];$/;"	v
+dataout	../src/simulator.cpp	/^                mat dataout;$/;"	l
+dataout	../src/simulator.cpp	/^            mat dataout;$/;"	l
+dec	../src/hand_controller.cpp	/^            double dec = dot(x_prev,x_prev) + dot(inp_prev,inp_prev) + beta;$/;"	l
+decay	../src/hand_controller.cpp	/^    static double decay = 0.005;$/;"	l	file:
+decode	../include/md5.h	/^        static void decode(uint4 output[], const uint1 input[], size_type len);$/;"	p	class:MD5	access:private	signature:(uint4 output[], const uint1 input[], size_type len)
+decode	../src/md5.cpp	/^void MD5::decode(uint4 output[], const uint1 input[], size_type len)$/;"	f	class:MD5	signature:(uint4 output[], const uint1 input[], size_type len)
+delta	../src/hand_controller.cpp	/^    static double delta = dt\/decay;$/;"	l	file:
+digest	../include/md5.h	/^        uint1 digest[16]; \/\/ the result$/;"	m	class:MD5	access:private
+disableBodies	../src/hand_engine.cpp	/^    m_eRobots["hand"]->disableBodies();       $/;"	p	file:	signature:()
+distance_to_default	../bin/simulation_loop_model_multiple_shapes/ik.py	/^        def distance_to_default(q, *args): $/;"	f	function:Arm.inv_kin	access:public
+distance_to_default	../scripts/ik.py	/^        def distance_to_default(q, *args): $/;"	f	function:Arm.inv_kin	access:public
+distance_to_default	../scripts/ik_4.py	/^        def distance_to_default(q, *args): $/;"	f	function:Arm.inv_kin	access:public
+dopamine	../src/hand_controller.cpp	/^    vec dopamine = d*ones<vec>(csntc->m_N_CHA);$/;"	l
+dopamine	../src/hand_engine.cpp	/^    double dopamine  =$/;"	l
+dt	../src/hand_controller.cpp	/^    static double dt = 0.001;$/;"	l	file:
+e	../include/parametrizable.h	/^        std::string e;$/;"	l
+e	../tests/reservoir/plot.py	/^e = np.linalg.eigvals(w)$/;"	v
+e_w	../src/reservoir.cpp	/^    mat e_w = h*rho_estimation*m_w + (1 - h)*I;$/;"	l
+effective_rho_estimation	../src/reservoir.cpp	/^    double effective_rho_estimation = evaluate_rho(e_w); $/;"	l
+eigenvalues	../src/reservoir.cpp	/^    cx_vec eigenvalues; $/;"	l
+eigenvectors	../src/reservoir.cpp	/^    cx_mat eigenvectors; $/;"	l
+el	../include/utils.h	/^    buf >> el;$/;"	l
+elem	../src/csntc.cpp	/^    uvec elem = conv_to<uvec>::from(zeros(1));$/;"	l
+enableBodies	../src/hand_engine.cpp	/^    m_eRobots["hand"]->enableBodies();       $/;"	p	file:	signature:()
+encode	../include/md5.h	/^        static void encode(uint1 output[], const uint4 input[], size_type len);$/;"	p	class:MD5	access:private	signature:(uint1 output[], const uint4 input[], size_type len)
+encode	../src/md5.cpp	/^void MD5::encode(uint1 output[], const uint4 input[], size_type len)$/;"	f	class:MD5	signature:(uint1 output[], const uint4 input[], size_type len)
+end	../include/parametrizable.h	/^    size_t end = r.find("]");$/;"	l
+end_thread	../scripts/online_render.py	/^end_thread = False$/;"	v
+endl	../include/parametrizable.h	/^    out << value << " " << separator << " " << name << std::endl;$/;"	m	class:std
+endl	../include/utils.h	/^inline void print_log() {  cout << endl;  }$/;"	l
+endl	../include/utils.h	/^inline void print_log(T&& t ) { cout << t << endl;  }$/;"	l
+endl	../src/basalganglia.cpp	/^        fout << endl;$/;"	l
+endl	../src/hand_controller.cpp	/^    trialstream << testtimeline[tc%trials] << endl;$/;"	l
+endl	../src/simulation1.cpp	/^                cout << endl << "wrong parameters" << endl << endl;$/;"	l
+endl	../src/simulation1.cpp	/^    cout << "SEED: " << SEED << endl;$/;"	l
+endl	../src/simulation1.cpp	/^    cout << endl;$/;"	l
+endl	../src/simulation2.cpp	/^                cout << endl << "wrong parameters" << endl << endl;$/;"	l
+endl	../src/simulation2.cpp	/^    cout << "SEED: " << SEED << endl;$/;"	l
+endl	../src/simulation2.cpp	/^    cout << endl;$/;"	l
+endl	../src/simulator.cpp	/^            fmse << mse_tot  <<  " " << comp <<  endl;$/;"	l
+endl	../src/simulator.cpp	/^            fmse << mse_tot << endl;$/;"	l
+endl	../src/simulator.cpp	/^        fmse << mse_tot  <<  " " << comp <<  endl;$/;"	l
+engine	../src/hand.cpp	/^    Engine engine(rnd);$/;"	p	file:	signature:(rnd)
+err	../include/hand_controller.h	/^        vec err;$/;"	m	class:Controller	access:public
+err	../src/simulator.cpp	/^                    vec err = y - ty; $/;"	l
+err_prev	../include/hand_controller.h	/^        vec err_prev;$/;"	m	class:Controller	access:public
+err_prev	../src/simulator.cpp	/^    vec err_prev = zeros<vec>(m_n_readout);$/;"	l
+eta	../src/hand_controller.cpp	/^            static double eta = 1.4;$/;"	l	file:
+evaluate_rho	../src/reservoir.cpp	/^double evaluate_rho(mat m)$/;"	f	signature:(mat m)
+f	../scripts/plot_arm_video_full.py	/^        f = figure("post",figsize=(8,7))$/;"	v
+fig	../bin/simulation_loop_model_multiple_shapes/offline_render.py	/^fig = figure("bg",figsize=(7,5))$/;"	v
+fig	../bin/simulation_loop_model_multiple_shapes/offline_render.py	/^fig = figure("inp",figsize=(7,5))$/;"	v
+fig	../bin/simulation_loop_model_multiple_shapes/offline_render.py	/^fig = figure("render",figsize=(7,5))$/;"	v
+fig	../bin/simulation_loop_model_single_shape/offline_render.py	/^fig = figure("bg",figsize=(7,5))$/;"	v
+fig	../bin/simulation_loop_model_single_shape/offline_render.py	/^fig = figure("inp",figsize=(7,5))$/;"	v
+fig	../bin/simulation_loop_model_single_shape/offline_render.py	/^fig = figure("render",figsize=(7,5))$/;"	v
+fig	../scripts/offline_render.py	/^fig = figure("bg",figsize=(7,5))$/;"	v
+fig	../scripts/offline_render.py	/^fig = figure("inp",figsize=(7,5))$/;"	v
+fig	../scripts/offline_render.py	/^fig = figure("render",figsize=(7,5))$/;"	v
+fig	../scripts/plot_arm_video_full.py	/^        fig = figure("render",figsize=(8,2))$/;"	v
+fig	../scripts/plot_mse.py	/^            fig = figure("mse")$/;"	v
+fig	../tests/reservoir/plot.py	/^fig = plt.figure(figsize=(12,4))$/;"	v
+fig7btn	../scripts/sim_manager.py	/^fig7btn = Button(menu, text="Figure 7", width=10, command=onFig7)$/;"	v
+filename	../scripts/plot_mse.py	/^filename = args.file$/;"	v
+finalize	../include/md5.h	/^        MD5& finalize();$/;"	p	class:MD5	access:public	signature:()
+finalize	../src/md5.cpp	/^MD5& MD5::finalize()$/;"	f	class:MD5	signature:()
+finalized	../include/md5.h	/^        bool finalized;$/;"	m	class:MD5	access:private
+firstpart	../src/md5.cpp	/^    size_type firstpart = 64 - index;$/;"	l
+fn	../src/simulator.cpp	/^        mat fn;$/;"	l
+fun	../scripts/fun.py	/^def fun(x,A=K\/3, amp = .5, center= 0.5) :$/;"	f	access:public
+fun	../scripts/fun_4.py	/^def fun(x,A=K, amp = .5, center= 0.5) :$/;"	f	access:public
+fun_all	../src/simulator.cpp	/^        mat fun_all = $/;"	l
+fun_all_1	../src/simulator.cpp	/^        mat fun_all_1 = m_fun;$/;"	l
+fun_all_2	../src/simulator.cpp	/^        mat fun_all_2 = m_fun;$/;"	l
+fun_all_3	../src/simulator.cpp	/^        mat fun_all_3 = m_fun;$/;"	l
+fun_all_4	../src/simulator.cpp	/^        mat fun_all_4 = m_fun;$/;"	l
+fweights	../src/reservoir.cpp	/^    string fweights = par_filename  + "_" + md5(ss.str());$/;"	l
+g	../src/hand_controller.cpp	/^            vec g = (1-delta)*err_prev - err;$/;"	l
+g	../src/simulator.cpp	/^                    vec g = DRVTV*(1 - m_DELTA)*err_prev - err;$/;"	l
+ganglia_all_data	../src/simulator.cpp	/^        mat ganglia_all_data = $/;"	l
+ganglia_all_data_1	../src/simulator.cpp	/^        mat ganglia_all_data_1 = m_csntc->m_ganglia.m_data;$/;"	l
+ganglia_all_data_2	../src/simulator.cpp	/^        mat ganglia_all_data_2 = m_csntc->m_ganglia.m_data;$/;"	l
+ganglia_all_data_3	../src/simulator.cpp	/^        mat ganglia_all_data_3 = m_csntc->m_ganglia.m_data;$/;"	l
+ganglia_all_data_4	../src/simulator.cpp	/^        mat ganglia_all_data_4 = m_csntc->m_ganglia.m_data;$/;"	l
+gap	../scripts/plot_mse.py	/^gap = int(args.gap)$/;"	v
+generalization	../bin/simulation_loop_model_multiple_shapes/plot_arm.py	/^def generalization() :$/;"	f	access:public
+generalization	../scripts/plot_arm.py	/^def generalization() :$/;"	f	access:public
+getHingeAngle	../src/hand_engine.cpp	/^        m_eRobots["hand"]->hinges["Pinky2_to_Pinky3"].hinge->getHingeAngle();$/;"	p	file:	signature:()
+get_joint_positions	../bin/simulation_loop_model_multiple_shapes/ik.py	/^    def get_joint_positions(self,q):$/;"	m	class:Arm	access:public
+get_joint_positions	../scripts/ik.py	/^    def get_joint_positions(self,q):$/;"	m	class:Arm	access:public
+get_joint_positions	../scripts/ik_4.py	/^    def get_joint_positions(self,q):$/;"	m	class:Arm	access:public
+get_xy	../bin/simulation_loop_model_multiple_shapes/ik.py	/^    def get_xy(self, q=None):$/;"	m	class:Arm	access:public
+get_xy	../scripts/ik.py	/^    def get_xy(self, q=None):$/;"	m	class:Arm	access:public
+get_xy	../scripts/ik_4.py	/^    def get_xy(self, q=None):$/;"	m	class:Arm	access:public
+getline	../include/parametrizable.h	/^    std::getline(stream,r);$/;"	p	class:std	signature:(stream,r)
+gp	../scripts/plot_arm_video_full.py	/^gp = 5\/32.$/;"	v
+graphs	../bin/simulation_loop_model_multiple_shapes/offline_render.py	/^graphs = 6$/;"	v
+graphs	../bin/simulation_loop_model_single_shape/offline_render.py	/^graphs = 6$/;"	v
+graphs	../scripts/offline_render.py	/^graphs = 6$/;"	v
+graphs	../scripts/plot_arm_video_full.py	/^graphs = 3$/;"	v
+gs	../bin/simulation_loop_model_multiple_shapes/offline_render.py	/^gs = gridspec.GridSpec(14, 1)$/;"	v
+gs	../bin/simulation_loop_model_single_shape/offline_render.py	/^gs = gridspec.GridSpec(14, 1)$/;"	v
+gs	../scripts/offline_render.py	/^gs = gridspec.GridSpec(14, 1)$/;"	v
+gs	../scripts/plot_arm_video_full.py	/^gs = gridspec.GridSpec(5, 1)$/;"	v
+gs	../tests/reservoir/plot.py	/^gs = gridspec.GridSpec(4,12)$/;"	v
+h	../src/basalganglia.cpp	/^    double h = m_DT\/m_TAU;$/;"	l
+h	../src/layer.cpp	/^    double h = m_DT\/m_TAU;$/;"	l
+h	../src/reservoir.cpp	/^    double h = m_DT\/m_TAU;   \/\/ convenience decay constant$/;"	l
+help	../bin/simulation_loop_model_multiple_shapes/plot_arm.py	/^        help="Print pictures",$/;"	v
+help	../scripts/plot_arm.py	/^        help="Print pictures",$/;"	v
+help	../scripts/plot_arm_video_full.py	/^        help="Print pictures",$/;"	v
+help	../scripts/plot_mse.py	/^        help="file to read for data",$/;"	v
+help	../scripts/plot_mse.py	/^        help="gap between series",$/;"	v
+help	../src/simulation1.cpp	/^                cout << help; $/;"	l
+help	../src/simulation1.cpp	/^                cout << help; exit(0);$/;"	l
+help	../src/simulation1.cpp	/^    string help =$/;"	l
+help	../src/simulation2.cpp	/^                cout << help; $/;"	l
+help	../src/simulation2.cpp	/^                cout << help; exit(0);$/;"	l
+help	../src/simulation2.cpp	/^    string help =$/;"	l
+hexdigest	../include/md5.h	/^        std::string hexdigest() const;$/;"	p	class:MD5	access:public	signature:() const
+hexdigest	../src/md5.cpp	/^std::string MD5::hexdigest() const$/;"	f	class:MD5	signature:() const
+hinge_number	../src/hand_engine.cpp	/^    int hinge_number = m_eRobots["hand"]->hinges.size()-1; $/;"	l
+i	../src/hand_engine.cpp	/^    int i=0;$/;"	l
+i	../src/md5.cpp	/^    size_type i;$/;"	l
+impulse	../src/hand_engine.cpp	/^    const double impulse = .8;$/;"	l
+increment	../src/simulator.cpp	/^    double increment = 0.6;  \/\/ Dopaminergic increment when switched on$/;"	l
+index	../src/md5.cpp	/^        size_type index = count[0] \/ 8 % 64;$/;"	l
+index	../src/md5.cpp	/^    size_type index = count[0] \/ 8 % blocksize;$/;"	l
+info_arch	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
+info_arch	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
+info_compiler	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v
+info_compiler	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v
+info_platform	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v
+info_platform	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v
+info_simulate	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";$/;"	v
+info_simulate	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";$/;"	v
+info_simulate_version	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^char const info_simulate_version[] = {$/;"	v
+info_simulate_version	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_simulate_version[] = {$/;"	v
+info_version	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^char const info_version[] = {$/;"	v
+info_version	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version[] = {$/;"	v
+init	../include/md5.h	/^        void init();$/;"	p	class:MD5	access:private	signature:()
+init	../include/reservoir.h	/^        void init();     $/;"	p	class:Reservoir	access:public	signature:()
+init	../src/csntc.cpp	/^    m_cortex.init();$/;"	p	file:	signature:()
+init	../src/hand.cpp	/^    engine.init(argc,argv);$/;"	p	file:	signature:(argc,argv)
+init	../src/md5.cpp	/^void MD5::init()$/;"	f	class:MD5	signature:()
+init	../src/reservoir.cpp	/^void Reservoir::init()$/;"	f	class:Reservoir	signature:()
+init	../src/reservoir_test.cpp	/^    r.init();$/;"	p	file:	signature:()
+initObjects	../include/hand_engine.h	/^        void initObjects();$/;"	p	class:Engine	access:public	signature:()
+initObjects	../src/hand_engine.cpp	/^void Engine::initObjects() {$/;"	f	class:Engine	signature:()
+inp	../include/hand_controller.h	/^        vec inp;$/;"	m	class:Controller	access:public
+inp	../src/basalganglia_test.cpp	/^        mat inp = INP_STDERR*randn<mat>(N,STIME)+ INP_BLERR;$/;"	l
+inp	../src/reservoir_test.cpp	/^    mat inp = zeros(N,STIME);$/;"	l
+inp_prev	../include/hand_controller.h	/^        vec inp_prev;$/;"	m	class:Controller	access:public
+inp_prev	../src/simulator.cpp	/^    vec inp_prev = zeros<vec>(m_csntc->m_N_CRX);$/;"	l
+inps_all	../src/simulator.cpp	/^        mat inps_all = $/;"	l
+inv_kin	../bin/simulation_loop_model_multiple_shapes/ik.py	/^    def inv_kin(self, xy):$/;"	m	class:Arm	access:public
+inv_kin	../scripts/ik.py	/^    def inv_kin(self, xy):$/;"	m	class:Arm	access:public
+inv_kin	../scripts/ik_4.py	/^    def inv_kin(self, xy):$/;"	m	class:Arm	access:public
+is_armadillo	../include/utils.h	/^struct is_armadillo$/;"	s	inherits:std::false_type
+is_armadillo	../include/utils.h	/^struct is_armadillo< T, $/;"	s	inherits:std::true_type
+is_number	../include/utils.h	/^bool is_number(const std::string& s);$/;"	p	signature:(const std::string& s)
+is_number	../src/utils.cpp	/^bool is_number(const std::string& s)$/;"	f	signature:(const std::string& s)
+is_test_session	../src/simulator.cpp	/^        bool is_test_session = (session % 20 == 0); $/;"	l
+it	../src/hand_engine.cpp	/^    CENSSerializedRobot::Bodies::iterator it = bds.begin();$/;"	l
+it	../src/utils.cpp	/^    std::string::const_iterator it = s.begin();   $/;"	l
+join_cols	../src/simulator.cpp	/^                join_cols(join_cols(m_da,m_da),m_da).raw_print(fda);$/;"	p	file:	signature:(m_da,m_da)
+join_vert	../src/basalganglia_test.cpp	/^                join_vert($/;"	p	file:	signature:(bg.m_data, tha.m_data)
+js	../scripts/plot_arm_video_full.py	/^        js = arm.get_joint_positions(q)$/;"	v
+k	../scripts/online_render.py	/^k = KeyThread()$/;"	v
+labels	../scripts/plot_arm_video_full.py	/^labels = ['a','b','c']$/;"	v
+learn	../src/hand_engine.cpp	/^    bool learn = false; if (tt < learn_trials) learn = true;   $/;"	l
+learn_int	../src/hand_engine.cpp	/^    bool learn_int = false;$/;"	l
+learn_trials	../src/hand_engine.cpp	/^    const int learn_trials = 3*10;$/;"	l
+lines	../include/parametrizable.h	/^    std::vector<std::string> lines;$/;"	l
+load	../src/reservoir.cpp	/^            m_w.load(fweights);$/;"	p	file:	signature:(fweights)
+load	../src/simulator.cpp	/^        fn.load(fun_sec_file,raw_ascii);      $/;"	p	file:	signature:(fun_sec_file,raw_ascii)
+load	../src/simulator.cpp	/^    teaches.load(teach_sec_file,raw_ascii);    \/\/ Take data from file$/;"	p	file:	signature:(teach_sec_file,raw_ascii)
+loadParameters	../include/parametrizable.h	/^        void loadParameters();$/;"	p	class:Parametrizable	access:public	signature:()
+loadParameters	../include/parametrizable.h	/^void inline Parametrizable::loadParameters( )$/;"	f	class:Parametrizable	signature:( )
+m	../src/utils.cpp	/^            double m = mean(rowvec(tha.row(r))(rngs.col(c)));$/;"	l
+m_ALPHA	../include/reservoir.h	/^        double m_ALPHA;    \/*!< traslation eigenvalues proportion *\/$/;"	m	class:Reservoir	access:public
+m_AMP	../include/basalganglia.h	/^        double m_AMP;    \/*!< Leaky output amplitude *\/$/;"	m	class:BasalGanglia	access:public
+m_AMP	../include/layer.h	/^        double m_AMP; \/*!< leaky output amplitude *\/$/;"	m	class:Layer	access:public
+m_AMP	../include/reservoir.h	/^        double m_AMP;    \/*!< Leaky output amplitude *\/$/;"	m	class:Reservoir	access:public
+m_BETA	../include/reservoir.h	/^        double m_BETA;    \/*!< rotation eigenvalues proportion *\/$/;"	m	class:Reservoir	access:public
+m_BETA	../include/simulator.h	/^    double m_BETA;    \/\/\/< BPDC regularization parameter - ONLINE$/;"	m	struct:Simulator	access:public
+m_BG_BIAS_AMP	../include/simulator.h	/^    double m_BG_BIAS_AMP;    \/\/\/< Bias amplitude of the input to the to-be-selected striatal channel$/;"	m	struct:Simulator	access:public
+m_BG_NOISE	../include/simulator.h	/^    double m_BG_NOISE;    \/\/\/< Noise to the striatum $/;"	m	struct:Simulator	access:public
+m_BL	../include/layer.h	/^        double m_BL; \/*!< activation baseline *\/$/;"	m	class:Layer	access:public
+m_CRX2SD1_W	../include/basalganglia.h	/^        double m_CRX2SD1_W;    \/*!< Cortex -> striatum D1 *\/$/;"	m	class:BasalGanglia	access:public
+m_CRX2SD2_W	../include/basalganglia.h	/^        double m_CRX2SD2_W;    \/*!< Cortex -> striatum D2*\/$/;"	m	class:BasalGanglia	access:public
+m_CRX2STN_W	../include/basalganglia.h	/^        double m_CRX2STN_W;    \/*!< Cortex -> STN *\/$/;"	m	class:BasalGanglia	access:public
+m_CRX2STR	../include/csntc.h	/^        double m_CRX2STR;    \/*!< Cortex -> Striatum weight parameter *\/$/;"	m	class:CSNTC	access:public
+m_CRX2STR_W	../include/csntc.h	/^        mat m_CRX2STR_W;    \/*!< Cortex -> Striatum *\/$/;"	m	class:CSNTC	access:public
+m_CRX2THA	../include/csntc.h	/^        double m_CRX2THA;    \/*!< Cortex -> Thalamus weight parameter *\/$/;"	m	class:CSNTC	access:public
+m_CRX2THA_W	../include/csntc.h	/^        mat m_CRX2THA_W;    \/*!< Cortex -> Thalamus *\/$/;"	m	class:CSNTC	access:public
+m_DA_GAP	../include/simulator.h	/^    double m_DA_GAP;    \/\/\/< Time gap of dopaminergic switch-off at start and end of trial$/;"	m	struct:Simulator	access:public
+m_DELTA	../include/simulator.h	/^    double m_DELTA;    \/\/\/< DT\/TAU$/;"	m	struct:Simulator	access:public
+m_DT	../include/basalganglia.h	/^        double m_DT;    \/*!< Integration step *\/$/;"	m	class:BasalGanglia	access:public
+m_DT	../include/layer.h	/^        double m_DT; \/*!< integration step *\/$/;"	m	class:Layer	access:public
+m_DT	../include/reservoir.h	/^        double m_DT;    \/*!< Integration step *\/$/;"	m	class:Reservoir	access:public
+m_DT	../include/simulator.h	/^    double m_DT;    \/\/\/< Integration timestep$/;"	m	struct:Simulator	access:public
+m_EPSILON	../include/reservoir.h	/^        double m_EPSILON;    \/*!<  distance from the spectral radius limit for chaotic behaviour *\/$/;"	m	class:Reservoir	access:public
+m_ETA	../include/simulator.h	/^    double m_ETA;    \/\/\/< Learning rate - ONLINE$/;"	m	struct:Simulator	access:public
+m_FUN_AMP	../include/simulator.h	/^    double m_FUN_AMP;    \/\/\/< Amplitude of the cortical input wave function$/;"	m	struct:Simulator	access:public
+m_FUN_CENTER	../include/simulator.h	/^    double m_FUN_CENTER;    \/\/\/< Equilibrium center of the cortical input wave function$/;"	m	struct:Simulator	access:public
+m_FUN_FILE_1	../include/simulator.h	/^    static const string m_FUN_FILE_1;    \/\/\/< Filename for data about input $/;"	m	struct:Simulator	access:public
+m_FUN_FILE_1	../src/simulator.cpp	/^const string Simulator::m_FUN_FILE_1 = "parameters\/FUN_1";$/;"	m	class:Simulator	file:
+m_FUN_FILE_2	../include/simulator.h	/^    static const string m_FUN_FILE_2;    \/\/\/< Filename for data about input $/;"	m	struct:Simulator	access:public
+m_FUN_FILE_2	../src/simulator.cpp	/^const string Simulator::m_FUN_FILE_2 = "parameters\/FUN_2";$/;"	m	class:Simulator	file:
+m_FUN_FILE_3	../include/simulator.h	/^    static const string m_FUN_FILE_3;    \/\/\/< Filename for data about input $/;"	m	struct:Simulator	access:public
+m_FUN_FILE_3	../src/simulator.cpp	/^const string Simulator::m_FUN_FILE_3 = "parameters\/FUN_3";$/;"	m	class:Simulator	file:
+m_FUN_FILE_4	../include/simulator.h	/^    static const string m_FUN_FILE_4;    \/\/\/< Filename for data about input $/;"	m	struct:Simulator	access:public
+m_FUN_FILE_4	../src/simulator.cpp	/^const string Simulator::m_FUN_FILE_4 = "parameters\/FUN_4";$/;"	m	class:Simulator	file:
+m_FUN_PERIOD	../include/simulator.h	/^    double m_FUN_PERIOD;    \/\/\/< Period of the cortical input wave function $/;"	m	struct:Simulator	access:public
+m_FUN_PHASE	../include/simulator.h	/^    double m_FUN_PHASE;    \/\/\/< Phase of the cortical input wave function$/;"	m	struct:Simulator	access:public
+m_G	../include/reservoir.h	/^        double m_G; \/*!<  spectral amplification *\/$/;"	m	class:Reservoir	access:public
+m_GAMMA	../include/reservoir.h	/^        double m_GAMMA;    \/*!<  mean point of eigenvalues *\/$/;"	m	class:Reservoir	access:public
+m_GPE2GPI_W	../include/basalganglia.h	/^        double m_GPE2GPI_W;    \/*!< GPe -> GPi *\/$/;"	m	class:BasalGanglia	access:public
+m_GPE2STN_W	../include/basalganglia.h	/^        double m_GPE2STN_W;    \/*!< GPe -> STN *\/$/;"	m	class:BasalGanglia	access:public
+m_GPE_BL	../include/basalganglia.h	/^        double m_GPE_BL;    \/*!< Baseline activation of striatum of GPe *\/$/;"	m	class:BasalGanglia	access:public
+m_GPI2THA	../include/csntc.h	/^        double m_GPI2THA;    \/*!< GPi -> Thalamus weight parameter *\/$/;"	m	class:CSNTC	access:public
+m_GPI2THA_w	../include/csntc.h	/^        vec m_GPI2THA_w;    \/*!< GPi -> Thalamus *\/$/;"	m	class:CSNTC	access:public
+m_GPI_BL	../include/basalganglia.h	/^        double m_GPI_BL;    \/*!< Baseline activation of GPi *\/$/;"	m	class:BasalGanglia	access:public
+m_INP2BG	../include/simulator.h	/^    double m_INP2BG;     \/\/\/< Maximum amplitude of weights from input to striatum$/;"	m	struct:Simulator	access:public
+m_INP2M	../include/simulator.h	/^    double m_INP2M;     \/\/\/< Maximum amplitude of weights from input to motor cortex$/;"	m	struct:Simulator	access:public
+m_INP2SD1_W	../include/basalganglia.h	/^        double m_INP2SD1_W;    \/*!< Input -> striatum D1 *\/ $/;"	m	class:BasalGanglia	access:public
+m_INP2SD2_W	../include/basalganglia.h	/^        double m_INP2SD2_W;    \/*!< Input -> striatum D2 *\/$/;"	m	class:BasalGanglia	access:public
+m_INP2STN_W	../include/basalganglia.h	/^        double m_INP2STN_W;    \/*!< Input -> STN *\/$/;"	m	class:BasalGanglia	access:public
+m_LAMBDA	../include/simulator.h	/^    double m_LAMBDA;    \/\/\/< Ridge regression regularization parameter - OFFLINE$/;"	m	struct:Simulator	access:public
+m_LEARN_WINDOW	../include/simulator.h	/^    double m_LEARN_WINDOW;    \/\/\/< Length of the learning window in timesteps$/;"	m	struct:Simulator	access:public
+m_LOAD	../include/reservoir.h	/^        string m_LOAD;    \/*!< switch on\/off loading weights from file *\/$/;"	m	class:Reservoir	access:public
+m_N	../include/basalganglia.h	/^        int m_N;    \/*!< Number of channels *\/$/;"	m	class:BasalGanglia	access:public
+m_N	../include/layer.h	/^        int m_N; \/*!< number of channels *\/$/;"	m	class:Layer	access:public
+m_N	../include/reservoir.h	/^        double m_N;    \/*!< Number of channels *\/$/;"	m	class:Reservoir	access:public
+m_NAME	../include/reservoir.h	/^        string m_NAME;    \/*!< name of the object *\/$/;"	m	class:Reservoir	access:public
+m_NOISE	../include/reservoir.h	/^        bool m_NOISE;    \/*!< switch on\/off internal noise *\/$/;"	m	class:Reservoir	access:public
+m_NOISE_STD	../include/reservoir.h	/^        double m_NOISE_STD;    \/*!<internal noise standard deviation *\/$/;"	m	class:Reservoir	access:public
+m_NUMCOMP	../include/basalganglia.h	/^        static const int m_NUMCOMP = 5;     \/*!< Number of layers *\/ $/;"	m	class:BasalGanglia	access:public
+m_N_CHA	../include/csntc.h	/^        double m_N_CHA;    \/*!< Number of basal ganglia channels *\/$/;"	m	class:CSNTC	access:public
+m_N_CRX	../include/csntc.h	/^        double m_N_CRX;    \/*!< Number of cortical units *\/$/;"	m	class:CSNTC	access:public
+m_N_THA	../include/csntc.h	/^        double m_N_THA;    \/*!< Number of thalamic units *\/ $/;"	m	class:CSNTC	access:public
+m_PRINT	../include/simulator.h	/^    string m_PRINT;    \/\/\/< "TRUE" full storage of data of the model - "FALSE" otherwise$/;"	m	struct:Simulator	access:public
+m_SD12GPI_W	../include/basalganglia.h	/^        double m_SD12GPI_W;    \/*!< Striatum D1 -> GPi *\/$/;"	m	class:BasalGanglia	access:public
+m_SD1_BL	../include/basalganglia.h	/^        double m_SD1_BL;    \/*!< Baseline activation of striatum D1 *\/$/;"	m	class:BasalGanglia	access:public
+m_SD1_DA	../include/basalganglia.h	/^        double m_SD1_DA;    \/*!< DA multiplying factor of striatum D1 *\/$/;"	m	class:BasalGanglia	access:public
+m_SD22GPE_W	../include/basalganglia.h	/^        double m_SD22GPE_W;    \/*!< Striatum D2 -> GPe *\/$/;"	m	class:BasalGanglia	access:public
+m_SD2_BL	../include/basalganglia.h	/^        double m_SD2_BL;    \/*!< Baseline activation of striatum D2 *\/$/;"	m	class:BasalGanglia	access:public
+m_SD2_DA	../include/basalganglia.h	/^        double m_SD2_DA;    \/*!< DA multiplying factor of striatum D2 *\/$/;"	m	class:BasalGanglia	access:public
+m_SEED	../include/reservoir.h	/^        int m_SEED;   \/*!< seed of the random generation (for file sync) *\/$/;"	m	class:Reservoir	access:public
+m_SELECTIONS	../include/simulator.h	/^    int m_SELECTIONS;    \/\/\/< Number of possible selections (bg channels)$/;"	m	struct:Simulator	access:public
+m_SESSIONS	../include/simulator.h	/^    int m_SESSIONS;    \/\/\/< Number of sessions - ONLINE$/;"	m	struct:Simulator	access:public
+m_SPARSENESS	../include/reservoir.h	/^        double m_SPARSENESS;    \/*!< sparseness proportion of internal connections *\/$/;"	m	class:Reservoir	access:public
+m_STIME	../include/basalganglia.h	/^        int m_STIME;    \/*!< Simulation timesteps *\/$/;"	m	class:BasalGanglia	access:public
+m_STIME	../include/csntc.h	/^        int m_STIME;    \/*!< Simulation timesteps *\/$/;"	m	class:CSNTC	access:public
+m_STIME	../include/layer.h	/^        int m_STIME; \/*!< simulation timesteps *\/$/;"	m	class:Layer	access:public
+m_STIME	../include/reservoir.h	/^        double m_STIME;    \/*!< Simulation timesteps *\/$/;"	m	class:Reservoir	access:public
+m_STIME	../include/simulator.h	/^    int m_STIME;    \/\/\/< Number of total timesteps per session$/;"	m	struct:Simulator	access:public
+m_STN2GPE_W	../include/basalganglia.h	/^        double m_STN2GPE_W;    \/*!< STN -> GPe *\/$/;"	m	class:BasalGanglia	access:public
+m_STN2GPI_W	../include/basalganglia.h	/^        double m_STN2GPI_W;    \/*!< STN -> GPi *\/$/;"	m	class:BasalGanglia	access:public
+m_TAU	../include/basalganglia.h	/^        double m_TAU;    \/*!< Leaky decay *\/$/;"	m	class:BasalGanglia	access:public
+m_TAU	../include/layer.h	/^        double m_TAU; \/*!< leaky dacay *\/$/;"	m	class:Layer	access:public
+m_TAU	../include/reservoir.h	/^        double m_TAU;    \/*!< Leaky decay *\/$/;"	m	class:Reservoir	access:public
+m_TAU	../include/simulator.h	/^    double m_TAU;    \/\/\/< Leaky decay$/;"	m	struct:Simulator	access:public
+m_TEACH_FILE_1	../include/simulator.h	/^    static const string m_TEACH_FILE_1;    \/\/\/< Filename for data about target activities$/;"	m	struct:Simulator	access:public
+m_TEACH_FILE_1	../src/simulator.cpp	/^const string Simulator::m_TEACH_FILE_1 = "parameters\/TEACH_1";$/;"	m	class:Simulator	file:
+m_TEACH_FILE_2	../include/simulator.h	/^    static const string m_TEACH_FILE_2;    \/\/\/< Filename for data about target activities$/;"	m	struct:Simulator	access:public
+m_TEACH_FILE_2	../src/simulator.cpp	/^const string Simulator::m_TEACH_FILE_2 = "parameters\/TEACH_2";$/;"	m	class:Simulator	file:
+m_TEACH_FILE_3	../include/simulator.h	/^    static const string m_TEACH_FILE_3;    \/\/\/< Filename for data about target activities$/;"	m	struct:Simulator	access:public
+m_TEACH_FILE_3	../src/simulator.cpp	/^const string Simulator::m_TEACH_FILE_3 = "parameters\/TEACH_3";$/;"	m	class:Simulator	file:
+m_TEACH_FILE_4	../include/simulator.h	/^    static const string m_TEACH_FILE_4;    \/\/\/< Filename for data about target activities$/;"	m	struct:Simulator	access:public
+m_TEACH_FILE_4	../src/simulator.cpp	/^const string Simulator::m_TEACH_FILE_4 = "parameters\/TEACH_4";$/;"	m	class:Simulator	file:
+m_TH	../include/basalganglia.h	/^        double m_TH;    \/*!< Leaky output threshold *\/$/;"	m	class:BasalGanglia	access:public
+m_TH	../include/layer.h	/^        double m_TH; \/*!< leaky output threshold *\/$/;"	m	class:Layer	access:public
+m_TH	../include/reservoir.h	/^        double m_TH;    \/*!< Leaky output threshold *\/$/;"	m	class:Reservoir	access:public
+m_THA2CRX	../include/csntc.h	/^        double m_THA2CRX;    \/*!< Thalamus -> Cortex weight parameter *\/$/;"	m	class:CSNTC	access:public
+m_THA2CRX_SPREAD	../include/csntc.h	/^        double m_THA2CRX_SPREAD;    \/*!< Spread of thalamic input $/;"	m	class:CSNTC	access:public
+m_THA2CRX_W	../include/csntc.h	/^        mat m_THA2CRX_W;    \/*!< Thalamus -> Cortex *\/$/;"	m	class:CSNTC	access:public
+m_TRUNK	../include/reservoir.h	/^        bool m_TRUNK;   \/*!< if tanh output function is trunked *\/$/;"	m	class:Reservoir	access:public
+m_TTIME	../include/simulator.h	/^    int m_TTIME;    \/\/\/< Number of timesteps per trial$/;"	m	struct:Simulator	access:public
+m_WEIGHT_MEAN	../include/reservoir.h	/^        double m_WEIGHT_MEAN;    \/*!< mean value of weights *\/$/;"	m	class:Reservoir	access:public
+m_WEIGHT_MEAN	../src/reservoir.cpp	/^        m_EPSILON<< m_SPARSENESS << m_WEIGHT_MEAN; $/;"	l
+m_W_inp2bg	../include/simulator.h	/^    double m_W_inp2bg;    \/\/\/< Read-out  weights$/;"	m	struct:Simulator	access:public
+m_W_inp2m	../include/simulator.h	/^    mat m_W_inp2m;    \/\/\/< Read-out  weights$/;"	m	struct:Simulator	access:public
+m_Wout	../include/simulator.h	/^    mat m_Wout;    \/\/\/< Read-out weights $/;"	m	struct:Simulator	access:public
+m_arng	../src/simulator.cpp	/^    uvec m_arng = conv_to<uvec>::from(linspace(0,m_STIME-1,m_STIME));$/;"	l
+m_bg_inp	../include/simulator.h	/^    mat m_bg_inp; \/\/\/< Vector of input to the striatum$/;"	m	struct:Simulator	access:public
+m_cortex	../include/csntc.h	/^        Reservoir m_cortex;    \/*!< Cortical module *\/$/;"	m	class:CSNTC	access:public
+m_crx_idx	../include/simulator.h	/^    uvec m_crx_idx;    \/\/\/< Indices of the vector of cortical units$/;"	m	struct:Simulator	access:public
+m_crx_inp	../include/simulator.h	/^    mat m_crx_inp;    \/\/\/< Vector of input to cortical units $/;"	m	struct:Simulator	access:public
+m_csntc	../include/simulator.h	/^    unique_ptr<CSNTC> m_csntc;    \/\/\/< A CSNTC object containing all data and methods for a CSNTC module$/;"	m	struct:Simulator	access:public
+m_curr_teach	../include/simulator.h	/^    mat m_curr_teach;    \/\/\/< Same as m_teach except that the sequence of trials is shuffled on every session$/;"	m	struct:Simulator	access:public
+m_da	../include/simulator.h	/^    vec m_da;    \/\/\/< A vector of length m_STIME containing the dopaminergic modulation    $/;"	m	struct:Simulator	access:public
+m_data	../include/basalganglia.h	/^        mat m_data;    \/*!< Storage of the timeline of activations *\/$/;"	m	class:BasalGanglia	access:public
+m_data	../include/csntc.h	/^        mat m_data;    \/*!< Store of activation hystory *\/$/;"	m	class:CSNTC	access:public
+m_data	../include/layer.h	/^        mat m_data; \/*!< activation storage *\/$/;"	m	class:Layer	access:public
+m_data	../include/reservoir.h	/^        mat m_data;    \/*!< activaion storage *\/$/;"	m	class:Reservoir	access:public
+m_data	../src/basalganglia.cpp	/^            fout << m_data(r,c) << " ";$/;"	p	file:	signature:(r,c)
+m_fun	../include/simulator.h	/^    mat m_fun;    \/\/\/< The cortical wave input during a session (length = m_STIME) $/;"	m	struct:Simulator	access:public
+m_ganglia	../include/csntc.h	/^        BasalGanglia m_ganglia;    \/*!< Basal ganglia module *\/$/;"	m	class:CSNTC	access:public
+m_gpe	../include/basalganglia.h	/^        vec m_gpe;    \/*!< External globus pallidus - activation  *\/$/;"	m	class:BasalGanglia	access:public
+m_gpep	../include/basalganglia.h	/^        vec m_gpep;    \/*!< External globus pallidus - potential  *\/$/;"	m	class:BasalGanglia	access:public
+m_gpi	../include/basalganglia.h	/^        vec m_gpi;    \/*!< Internal globus pallidus - activation  *\/$/;"	m	class:BasalGanglia	access:public
+m_gpip	../include/basalganglia.h	/^        vec m_gpip;    \/*!< Internal globus pallidus - potential  *\/$/;"	m	class:BasalGanglia	access:public
+m_n_readout	../include/simulator.h	/^    int m_n_readout;    \/\/\/< Number of readouts$/;"	m	struct:Simulator	access:public
+m_output	../include/layer.h	/^        vec m_output; \/*!< activation vector *\/$/;"	m	class:Layer	access:public
+m_output	../include/reservoir.h	/^        vec m_output;    \/*!< activaion output *\/$/;"	m	class:Reservoir	access:public
+m_rng	../include/simulator.h	/^    uvec m_rng;    \/\/\/< [ m_rng1' m_rng2' m_rng3' ] - matlab syntax$/;"	m	struct:Simulator	access:public
+m_rngs	../include/simulator.h	/^    umat m_rngs;    \/\/\/< [ m_rng1 m_rng2 m_rng3 ]' - matlab syntax  $/;"	m	struct:Simulator	access:public
+m_rout	../include/simulator.h	/^    mat m_rout;    \/\/\/< Read-out story $/;"	m	struct:Simulator	access:public
+m_sNOISE	../include/reservoir.h	/^        string m_sNOISE;    \/*|< string version of m_NOISE for file sync*\/ $/;"	m	class:Reservoir	access:public
+m_sTRUNK	../include/reservoir.h	/^        string m_sTRUNK;    \/*!< string version of m_TRUNK for file sync *\/$/;"	m	class:Reservoir	access:public
+m_sd1	../include/basalganglia.h	/^        vec m_sd1;    \/*!< Striatum D1 - activation *\/ $/;"	m	class:BasalGanglia	access:public
+m_sd1p	../include/basalganglia.h	/^        vec m_sd1p;    \/*!< Striatum D1 - potential *\/ $/;"	m	class:BasalGanglia	access:public
+m_sd2	../include/basalganglia.h	/^        vec m_sd2;    \/*!< Striatum D2 - activation  *\/$/;"	m	class:BasalGanglia	access:public
+m_sd2p	../include/basalganglia.h	/^        vec m_sd2p;    \/*!< Striatum D2 - potential  *\/$/;"	m	class:BasalGanglia	access:public
+m_stn	../include/basalganglia.h	/^        vec m_stn;    \/*!< Subthalamic nucleus - activation  *\/$/;"	m	class:BasalGanglia	access:public
+m_stnp	../include/basalganglia.h	/^        vec m_stnp;    \/*!< Subthalamic nucleus - potential  *\/$/;"	m	class:BasalGanglia	access:public
+m_teach	../include/simulator.h	/^    mat m_teach;    \/\/\/< Each row contains a s_STIME vector with the target function of a readout unit for each trial $/;"	m	struct:Simulator	access:public
+m_thalamus	../include/csntc.h	/^        Layer m_thalamus;    \/*!< Thalamic module *\/$/;"	m	class:CSNTC	access:public
+m_trial_idx	../include/simulator.h	/^    uvec m_trial_idx;   \/\/\/< Trial sequence$/;"	m	struct:Simulator	access:public
+m_trial_idx	../src/simulator.cpp	/^        bgm(m_trial_idx(s),span(s*m_TTIME,(s+1)*m_TTIME-1)) += m_BG_BIAS_AMP;$/;"	p	file:	signature:(s)
+m_u	../include/layer.h	/^        vec m_u;$/;"	m	class:Layer	access:private
+m_u	../include/reservoir.h	/^        vec m_u;$/;"	m	class:Reservoir	access:protected
+m_v	../include/layer.h	/^        vec m_v;$/;"	m	class:Layer	access:private
+m_v	../include/reservoir.h	/^        vec m_v;$/;"	m	class:Reservoir	access:protected
+m_w	../include/reservoir.h	/^        mat m_w;    \/*! internal weights *\/$/;"	m	class:Reservoir	access:public
+main	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^int main(int argc, char* argv[])$/;"	f	signature:(int argc, char* argv[])
+main	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^void main() {}$/;"	f
+main	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^int main(int argc, char* argv[])$/;"	f	signature:(int argc, char* argv[])
+main	../src/basalganglia_test.cpp	/^int main()$/;"	f	signature:()
+main	../src/hand.cpp	/^int main(int argc, char** argv) $/;"	f	signature:(int argc, char** argv)
+main	../src/reservoir_test.cpp	/^int main()$/;"	f	signature:()
+main	../src/simulation1.cpp	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	../src/simulation2.cpp	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+make_series	../bin/simulation_loop_model_multiple_shapes/ik.py	/^def make_series() :$/;"	f	access:public
+make_series	../scripts/ik.py	/^def make_series() :$/;"	f	access:public
+make_shape	../bin/simulation_loop_model_multiple_shapes/ik.py	/^def make_shape(b=1.0,c=1.0,r=0.2,shape=SQUARE) :$/;"	f	access:public
+make_shape	../scripts/ik.py	/^def make_shape(b=1.0,c=1.0,r=0.2,shape=SQUARE) :$/;"	f	access:public
+markeredgecolor	../scripts/plot_arm_video_full.py	/^                    markeredgecolor="#000000", $/;"	v
+markeredgecolor	../scripts/plot_arm_video_full.py	/^                    markeredgecolor="#aaaaaa", $/;"	v
+markeredgecolor	../scripts/plot_arm_video_full.py	/^                markeredgecolor="#000000", $/;"	v
+markeredgecolor	../scripts/plot_arm_video_full.py	/^                markeredgecolor="#aaaaaa", $/;"	v
+maximum	../include/utils.h	/^T2 maximum(T1 th, T2 v)$/;"	f	signature:(T1 th, T2 v)
+md5	../include/md5.h	/^std::string md5(const std::string str);$/;"	p	signature:(const std::string str)
+md5	../src/md5.cpp	/^    MD5 md5 = MD5(str);$/;"	l
+md5	../src/md5.cpp	/^std::string md5(const std::string str)$/;"	f	signature:(const std::string str)
+menu	../scripts/sim_manager.py	/^menu = Frame(root)$/;"	v
+min_val	../src/simulator.cpp	/^    double min_val = 0.2;    \/\/ Minimum $/;"	l
+min_val	../src/simulator.cpp	/^    double min_val = 0.2;    \/\/ Minimum of dopamine $/;"	l
+minimum	../include/utils.h	/^T2 minimum(T1 th, T2 v)$/;"	f	signature:(T1 th, T2 v)
+mm	../src/utils.cpp	/^        vec mm = zeros<vec>(n_rngs);$/;"	l
+mod	../include/utils.h	/^T mod(T a, int n)$/;"	f	signature:(T a, int n)
+modify_trial_sequence	../include/simulator.h	/^    void modify_trial_sequence(bool reset=false);    \/\/\/< Shuffle per-trial timeseries of input an teaching of the single session $/;"	p	struct:Simulator	access:public	signature:(bool reset=false)
+modify_trial_sequence	../src/simulator.cpp	/^void Simulator::modify_trial_sequence(bool reset)$/;"	f	class:Simulator	signature:(bool reset)
+mse	../include/utils.h	/^double mse(mat f, mat y);$/;"	p	signature:(mat f, mat y)
+mse	../src/utils.cpp	/^double mse(mat f, mat y) $/;"	f	signature:(mat f, mat y)
+mse_tot	../src/simulator.cpp	/^            double mse_tot = 0;$/;"	l
+mse_tot	../src/simulator.cpp	/^        double mse_tot = 0;$/;"	l
+n	../bin/simulation_loop_model_multiple_shapes/ik.py	/^n = 3$/;"	v
+n	../scripts/ik.py	/^n = 3$/;"	v
+n	../scripts/ik_4.py	/^    n = 3$/;"	v	class:Arm
+n	../scripts/plot_arm_video_full.py	/^n=3$/;"	v
+n_readout	../include/hand_controller.h	/^        int n_readout;$/;"	m	class:Controller	access:public
+n_rngs	../src/utils.cpp	/^    int n_rngs = rngs.n_cols;$/;"	l
+name	../include/parametrizable.h	/^        const std::string name;    \/*!< Name of the parameter *\/$/;"	m	class:Parameter	access:private
+nb	../bin/simulation_loop_model_multiple_shapes/offline_render.py	/^nb = 3$/;"	v
+nb	../bin/simulation_loop_model_single_shape/offline_render.py	/^nb = 3$/;"	v
+nb	../scripts/offline_render.py	/^nb = 3$/;"	v
+nc	../bin/simulation_loop_model_multiple_shapes/offline_render.py	/^nc = 300$/;"	v
+nc	../bin/simulation_loop_model_single_shape/offline_render.py	/^nc = 300$/;"	v
+nc	../scripts/offline_render.py	/^nc = 300$/;"	v
+nj	../bin/simulation_loop_model_multiple_shapes/offline_render.py	/^nj = 3$/;"	v
+nj	../bin/simulation_loop_model_single_shape/offline_render.py	/^nj = 3$/;"	v
+nj	../scripts/offline_render.py	/^nj = 3$/;"	v
+normalize	../include/reservoir.h	/^        mat normalize(mat w, double rho);   $/;"	p	class:Reservoir	access:public	signature:(mat w, double rho)
+normalize	../src/reservoir.cpp	/^mat Reservoir::normalize(mat w, double rho)$/;"	f	class:Reservoir	signature:(mat w, double rho)
+normalize_to_echo	../include/reservoir.h	/^        void normalize_to_echo();     $/;"	p	class:Reservoir	access:public	signature:()
+normalize_to_echo	../src/reservoir.cpp	/^void Reservoir::normalize_to_echo() $/;"	f	class:Reservoir	signature:()
+ofstream	../src/basalganglia.cpp	/^    ofstream fout( (par_filename+ "_save").c_str() );$/;"	p	file:	signature:(par_filename+ Ó).c_str() 
+onFig7	../scripts/sim_manager.py	/^def onFig7():$/;"	f	access:public
+operator <<	../include/md5.h	/^        friend std::ostream& operator<<(std::ostream&, MD5 md5);$/;"	p	class:MD5	access:friend	signature:(std::ostream&, MD5 md5)
+operator <<	../include/parametrizable.h	/^std::ostream& operator<< ($/;"	f	signature:( std::ostream& stream, const std::vector<T> &v)
+operator <<	../src/md5.cpp	/^std::ostream& operator<<(std::ostream& out, MD5 md5)$/;"	f	signature:(std::ostream& out, MD5 md5)
+operator =	../include/basalganglia.h	/^        BasalGanglia &operator=(const BasalGanglia &) = delete;$/;"	p	class:BasalGanglia	access:public	signature:(const BasalGanglia &)
+operator =	../include/csntc.h	/^        CSNTC &operator=(const CSNTC &) = delete;$/;"	p	class:CSNTC	access:public	signature:(const CSNTC &)
+operator =	../include/layer.h	/^        Layer &operator=(const Layer &) = delete;$/;"	p	class:Layer	access:public	signature:(const Layer &)
+operator =	../include/parametrizable.h	/^        Parameter<T>& operator=(const Parameter<T>& ) = delete; $/;"	p	class:Parameter	access:public	signature:(const Parameter<T>& )
+operator =	../include/parametrizable.h	/^        Parametrizable& operator=(const Parametrizable& ) = delete;   $/;"	p	class:Parametrizable	access:public	signature:(const Parametrizable& )
+operator =	../include/reservoir.h	/^        Reservoir &operator=(const Reservoir &) = delete;$/;"	p	class:Reservoir	access:public	signature:(const Reservoir &)
+operator >>	../include/parametrizable.h	/^template<typename T> std::istream& operator>> ($/;"	f	signature:( std::istream& stream, std::vector<T> &v)
+option	../src/simulation1.cpp	/^    map<string,int> option;    \/\/ Maps command-line strings to indices$/;"	l
+option	../src/simulation2.cpp	/^    map<string,int> option;    \/\/ Maps command-line strings to indices$/;"	l
+outfun	../include/utils.h	/^vec outfun(vec x, double th = 0, double amp = 1);$/;"	p	signature:(vec x, double th = 0, double amp = 1)
+outfun	../src/utils.cpp	/^vec outfun(vec x, double th, double amp) $/;"	f	signature:(vec x, double th, double amp)
+padLen	../src/md5.cpp	/^        size_type padLen = (index < 56) ? (56 - index) : (120 - index);$/;"	l
+padding	../src/md5.cpp	/^    static unsigned char padding[64] = {$/;"	l	file:
+par_file	../include/parametrizable.h	/^    std::ifstream par_file(par_filename.c_str()); $/;"	p	signature:(par_filename.c_str())
+par_file	../include/parametrizable.h	/^    std::ofstream par_file(par_filename.c_str()); $/;"	p	signature:(par_filename.c_str())
+par_filedir	../include/parametrizable.h	/^        const std::string par_filedir;    \/*!< Directory of the $/;"	m	class:Parametrizable	access:public
+par_filename	../include/parametrizable.h	/^        const std::string par_filename;   \/*!< Name of the $/;"	m	class:Parametrizable	access:public
+parameter_dir_exception	../include/parametrizable.h	/^        parameter_dir_exception(const std::string &dir)$/;"	f	class:parameter_dir_exception	access:public	signature:(const std::string &dir)
+parameter_dir_exception	../include/parametrizable.h	/^class parameter_dir_exception : public parameter_exception $/;"	c	inherits:parameter_exception
+parameter_dir_exception::parameter_dir_exception	../include/parametrizable.h	/^        parameter_dir_exception(const std::string &dir)$/;"	f	class:parameter_dir_exception	access:public	signature:(const std::string &dir)
+parameter_exception	../include/parametrizable.h	/^        parameter_exception(const std::string &msg) $/;"	f	class:parameter_exception	access:public	signature:(const std::string &msg)
+parameter_exception	../include/parametrizable.h	/^class parameter_exception : public std::runtime_error $/;"	c	inherits:std::runtime_error
+parameter_exception::parameter_exception	../include/parametrizable.h	/^        parameter_exception(const std::string &msg) $/;"	f	class:parameter_exception	access:public	signature:(const std::string &msg)
+parameter_file_exception	../include/parametrizable.h	/^        parameter_file_exception(const std::string &file)$/;"	f	class:parameter_file_exception	access:public	signature:(const std::string &file)
+parameter_file_exception	../include/parametrizable.h	/^class parameter_file_exception : public parameter_exception $/;"	c	inherits:parameter_exception
+parameter_file_exception::parameter_file_exception	../include/parametrizable.h	/^        parameter_file_exception(const std::string &file)$/;"	f	class:parameter_file_exception	access:public	signature:(const std::string &file)
+parameter_found	../include/parametrizable.h	/^    bool parameter_found = false;$/;"	l
+parameter_name_exception	../include/parametrizable.h	/^        parameter_name_exception(const std::string &name)$/;"	f	class:parameter_name_exception	access:public	signature:(const std::string &name)
+parameter_name_exception	../include/parametrizable.h	/^class parameter_name_exception : public parameter_exception $/;"	c	inherits:parameter_exception
+parameter_name_exception::parameter_name_exception	../include/parametrizable.h	/^        parameter_name_exception(const std::string &name)$/;"	f	class:parameter_name_exception	access:public	signature:(const std::string &name)
+parameters	../include/parametrizable.h	/^        std::vector<std::unique_ptr<BaseParameter>> parameters;$/;"	m	class:Parametrizable	access:private
+params	../scripts/ik_4.py	/^    params = array([ [   0.8+ax,  1.2+ay,  radius,     0.8+bx,  1.2+by,  radius,     0.8+cx,  1.2+cy,  radius,  0.8+dx,  1.2+dy,  radius    ],   # TEACH_1$/;"	v	class:Arm
+parser	../bin/simulation_loop_model_multiple_shapes/plot_arm.py	/^parser = argparse.ArgumentParser()$/;"	v
+parser	../scripts/plot_arm.py	/^parser = argparse.ArgumentParser()$/;"	v
+parser	../scripts/plot_arm_video_full.py	/^parser = argparse.ArgumentParser()$/;"	v
+parser	../scripts/plot_mse.py	/^parser = argparse.ArgumentParser()$/;"	v
+pattern	../include/parametrizable.h	/^    std::string pattern = $/;"	l
+plot_fun	../scripts/fun.py	/^def plot_fun(y_1,y_2) :$/;"	f	access:public
+plot_fun	../scripts/fun_4.py	/^def plot_fun(y_1,y_2) :$/;"	f	access:public
+print_log	../include/utils.h	/^inline void print_log() {  cout << endl;  }$/;"	f	signature:()
+print_log	../include/utils.h	/^inline void print_log(Arg&& arg1, Args&&... args)$/;"	f	signature:(Arg&& arg1, Args&&... args)
+print_log	../include/utils.h	/^inline void print_log(T&& t ) { cout << t << endl;  }$/;"	f	signature:(T&& t )
+print_log	../include/utils.h	/^inline void print_log(T&& t) {  }$/;"	f	signature:(T&& t)
+print_log_not_ended	../include/utils.h	/^inline void print_log_not_ended(T&& t ) { cout << t; }$/;"	f	signature:(T&& t )
+print_log_not_ended	../include/utils.h	/^inline void print_log_not_ended(T&& t ) { }$/;"	f	signature:(T&& t )
+prng	../scripts/plot_arm_video_full.py	/^        prng = arange(t-50,t).astype("int") $/;"	v
+push_back	../include/parametrizable.h	/^            v.push_back(tmp);$/;"	p	signature:(tmp)
+push_back	../include/parametrizable.h	/^        lines.push_back( line );$/;"	p	signature:( line )
+push_back	../include/parametrizable.h	/^    lines.push_back( line );$/;"	p	signature:( line )
+q	../scripts/fun.py	/^q = 0.1$/;"	v
+q	../scripts/fun_4.py	/^q = 0.2$/;"	v
+q	../scripts/plot_arm_video_full.py	/^        q = TEACH[:,t]$/;"	v
+q	../scripts/plot_arm_video_full.py	/^        q = rout[:,t]$/;"	v
+qnxnto	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^char const* qnxnto = "INFO" ":" "qnxnto";$/;"	v
+qnxnto	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* qnxnto = "INFO" ":" "qnxnto";$/;"	v
+r	../include/parametrizable.h	/^    std::string r;$/;"	l
+r	../scripts/moon.py	/^r=0.2$/;"	v
+r1	../scripts/moon.py	/^r1 = r*sin(pi*2\/3.)$/;"	v
+radius	../scripts/ik_4.py	/^    radius = 0.2$/;"	v	class:Arm
+randomize	../include/reservoir.h	/^        mat randomize();    $/;"	p	class:Reservoir	access:public	signature:()
+randomize	../src/reservoir.cpp	/^mat Reservoir::randomize()$/;"	f	class:Reservoir	signature:()
+raw_print	../src/basalganglia_test.cpp	/^                crx.m_data).raw_print();$/;"	p	file:	signature:()
+raw_print	../src/reservoir_test.cpp	/^    r.m_w.raw_print(w_o);$/;"	p	file:	signature:(w_o)
+raw_print	../src/simulator.cpp	/^                dataout.raw_print(fout);$/;"	p	file:	signature:(fout)
+raw_print	../src/simulator.cpp	/^                fun_all.raw_print(finp);$/;"	p	file:	signature:(finp)
+raw_print	../src/simulator.cpp	/^                join_cols(join_cols(m_da,m_da),m_da).raw_print(fda);$/;"	p	file:	signature:(fda)
+raw_print	../src/simulator.cpp	/^                m_da.raw_print(fda);$/;"	p	file:	signature:(fda)
+raw_print	../src/simulator.cpp	/^                m_fun.raw_print(finp);$/;"	p	file:	signature:(finp)
+raw_print	../src/simulator.cpp	/^            dataout.raw_print(fout);$/;"	p	file:	signature:(fout)
+raw_print	../src/simulator.cpp	/^            m_da.raw_print(fda);$/;"	p	file:	signature:(fda)
+raw_print	../src/simulator.cpp	/^            m_fun.raw_print(finp);$/;"	p	file:	signature:(finp)
+re	../include/parametrizable.h	/^    boost::regex re(  pattern );   $/;"	p	signature:( pattern )
+readout	../include/hand_controller.h	/^        vec readout;$/;"	m	class:Controller	access:public
+readout	../src/hand_engine.cpp	/^    vec readout = (M_PI\/2.)*controller->step(t, tt,trial_interval, dopamine, learn);$/;"	l
+readout_pot	../include/hand_controller.h	/^        vec readout_pot;$/;"	m	class:Controller	access:public
+real_patterns	../src/hand_engine.cpp	/^    vec real_patterns;$/;"	l
+remind	../include/utils.h	/^inline double remind(double a,double b)$/;"	f	signature:(double a,double b)
+rep	../include/parametrizable.h	/^            std::string rep =  $/;"	l
+replot	../scripts/online_render.py	/^def replot() :$/;"	f	access:public
+require	../build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^  int require = 0;$/;"	l
+require	../build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  int require = 0;$/;"	l
+reset	../include/basalganglia.h	/^        virtual void reset();          $/;"	p	class:BasalGanglia	access:public	implementation:virtual	signature:()
+reset	../include/csntc.h	/^        virtual void reset();                $/;"	p	class:CSNTC	access:public	implementation:virtual	signature:()
+reset	../include/layer.h	/^        virtual void reset();$/;"	p	class:Layer	access:public	implementation:virtual	signature:()
+reset	../include/reservoir.h	/^        void reset();    \/*!< reset activations *\/$/;"	p	class:Reservoir	access:public	signature:()
+reset	../src/basalganglia.cpp	/^void BasalGanglia::reset()$/;"	f	class:BasalGanglia	signature:()
+reset	../src/csntc.cpp	/^    m_cortex.reset();$/;"	p	file:	signature:()
+reset	../src/csntc.cpp	/^    m_ganglia.reset();$/;"	p	file:	signature:()
+reset	../src/csntc.cpp	/^    m_thalamus.reset();$/;"	p	file:	signature:()
+reset	../src/csntc.cpp	/^void CSNTC::reset()$/;"	f	class:CSNTC	signature:()
+reset	../src/layer.cpp	/^void Layer::reset()$/;"	f	class:Layer	signature:()
+reset	../src/reservoir.cpp	/^void Reservoir::reset()$/;"	f	class:Reservoir	signature:()
+rho	../tests/reservoir/plot.py	/^rho = np.max(np.abs(e))$/;"	v
+rho_estimation	../src/reservoir.cpp	/^    double rho_estimation = 100.0;       \/\/ initial rho estimation$/;"	l
+rnd	../src/hand.cpp	/^    unsigned int rnd = time(0);$/;"	l
+rng	../scripts/plot_arm_video_full.py	/^rng = vstack([rng1,rng2,rng3])$/;"	v
+rng	../src/csntc.cpp	/^    uvec rng = conv_to<uvec>::from(linspace(0,T2CP-1,T2CP));$/;"	l
+rng	../src/simulator.cpp	/^        uvec rng = m_arng( span(m_TTIME\/2,m_TTIME\/2 +m_LEARN_WINDOW - 1) )+ x*m_TTIME; $/;"	l
+rng1	../scripts/plot_arm_video_full.py	/^rng1 = arange((timestep_gap*gp),(timestep_gap-timestep_gap*gp))$/;"	v
+rng2	../scripts/plot_arm_video_full.py	/^rng2 = arange((timestep_gap*gp),(timestep_gap-timestep_gap*gp)) + timestep_gap$/;"	v
+rng3	../scripts/plot_arm_video_full.py	/^rng3 = arange((timestep_gap*gp),(timestep_gap-timestep_gap*gp)) + 2*timestep_gap$/;"	v
+rng_curr	../scripts/plot_arm_video_full.py	/^    rng_curr = rng[CURR,:].astype("int") $/;"	v
+root	../scripts/sim_manager.py	/^root = Tk()$/;"	v
+rotate_left	../include/md5.h	/^        static inline uint4 rotate_left(uint4 x, int n);$/;"	p	class:MD5	access:private	signature:(uint4 x, int n)
+rotate_left	../src/md5.cpp	/^inline MD5::uint4 MD5::rotate_left(uint4 x, int n) {$/;"	f	class:MD5	signature:(uint4 x, int n)
+rout	../scripts/plot_arm_video_full.py	/^rout = (TCH.max() - TCH.min())*((rout-.2)\/.6) + TCH.min()$/;"	v
+rout	../scripts/plot_arm_video_full.py	/^rout = data[-6:-3,:];$/;"	v
+rout_1	../src/simulator.cpp	/^        mat rout_1 = m_rout; $/;"	l
+rout_2	../src/simulator.cpp	/^        mat rout_2 = m_rout; $/;"	l
+rout_3	../src/simulator.cpp	/^        mat rout_3 = m_rout; $/;"	l
+rout_4	../src/simulator.cpp	/^        mat rout_4 = m_rout; $/;"	l
+rout_all	../src/simulator.cpp	/^        mat rout_all = $/;"	l
+rows	../src/reservoir_test.cpp	/^    vec rows = zeros(N); $/;"	l
+run	../scripts/online_render.py	/^    def run(self):$/;"	m	class:KeyThread	access:public
+run	../src/hand.cpp	/^    engine.run();$/;"	p	file:	signature:()
+run_offline	../include/simulator.h	/^    void run_offline();    \/\/\/< Run a life-cicle for offline learning simulation $/;"	p	struct:Simulator	access:public	signature:()
+run_offline	../src/simulation1.cpp	/^            sim.run_offline();$/;"	p	file:	signature:()
+run_offline	../src/simulator.cpp	/^void Simulator::run_offline()$/;"	f	class:Simulator	signature:()
+run_offline_double_teach	../include/simulator.h	/^    void run_offline_double_teach();    \/\/\/< Run a life-cicle for offline learning simulation $/;"	p	struct:Simulator	access:public	signature:()
+run_offline_double_teach	../src/simulation2.cpp	/^        sim.run_offline_double_teach();$/;"	p	file:	signature:()
+run_offline_double_teach	../src/simulator.cpp	/^void Simulator::run_offline_double_teach()$/;"	f	class:Simulator	signature:()
+run_online	../include/simulator.h	/^    void run_online();    \/\/\/< Run a life-cicle for offline learning simulation $/;"	p	struct:Simulator	access:public	signature:()
+run_online	../src/simulation1.cpp	/^            sim.run_online();$/;"	p	file:	signature:()
+run_online	../src/simulator.cpp	/^void Simulator::run_online()$/;"	f	class:Simulator	signature:()
+save	../include/basalganglia.h	/^        virtual void save();    $/;"	p	class:BasalGanglia	access:public	implementation:virtual	signature:()
+save	../include/parametrizable.h	/^        parameter->save(par_file);$/;"	p	signature:(par_file)
+save	../include/parametrizable.h	/^        virtual void save(std::ostream &out) = 0;$/;"	p	class:BaseParameter	access:public	implementation:pure virtual	signature:(std::ostream &out)
+save	../include/parametrizable.h	/^        virtual void save(std::ostream &out);$/;"	p	class:Parameter	access:public	implementation:virtual	signature:(std::ostream &out)
+save	../include/parametrizable.h	/^template <typename T> void inline Parameter<T>::save(std::ostream &out) $/;"	f	class:Parameter	signature:(std::ostream &out)
+save	../src/basalganglia.cpp	/^void BasalGanglia::save()$/;"	f	class:BasalGanglia	signature:()
+save	../src/reservoir.cpp	/^            m_w.save(fweights);$/;"	p	file:	signature:(fweights)
+saveParameters	../include/parametrizable.h	/^        void saveParameters();$/;"	p	class:Parametrizable	access:public	signature:()
+saveParameters	../include/parametrizable.h	/^void inline Parametrizable::saveParameters()$/;"	f	class:Parametrizable	signature:()
+savestream	../include/hand_engine.h	/^        ofstream savestream;$/;"	m	class:Engine	access:public
+scale	../scripts/fun.py	/^scale = [2.0,3.0,5.0,4.0]$/;"	v
+scale	../src/simulator.cpp	/^    double scale = 0.6;     \/\/ Range to maximum$/;"	l
+seed	../include/hand_engine.h	/^        unsigned int seed;$/;"	m	class:Engine	access:public
+separator	../include/parametrizable.h	/^        const std::string separator;  \/*!< Name of the parameter *\/$/;"	m	class:Parameter	access:private
+shapes	../scripts/ik_4.py	/^    shapes = {'MOON':MOON,'SQUARE':SQUARE,'INF':INF, 'TRIANGLE':TRIANGLE } $/;"	v	class:Arm
+simpletest	../bin/simulation_loop_model_multiple_shapes/plot_arm.py	/^def simpletest(shape=0) :$/;"	f	access:public
+simpletest	../scripts/plot_arm.py	/^def simpletest(shape=0) :$/;"	f	access:public
+sinusoid_sequence	../include/utils.h	/^vec sinusoid_sequence( $/;"	p	signature:( double steps=100, double period = 1, double phase = 0, double center = 0, double amplitude = 1 )
+sinusoid_sequence	../src/utils.cpp	/^vec sinusoid_sequence( $/;"	f	signature:( double steps, double period, double phase, double center, double amplitude )
+size_type	../include/md5.h	/^        typedef unsigned int size_type; \/\/ must be 32bit$/;"	t	class:MD5	access:public
+span	../src/basalganglia.cpp	/^    m_data(span(m_N*c,m_N*(c+1)-1), t) = m_gpe;$/;"	p	file:	signature:(m_N*c,m_N*(c+1)-1)
+span	../src/basalganglia.cpp	/^    m_data(span(m_N*c,m_N*(c+1)-1), t) = m_gpi; c++;$/;"	p	file:	signature:(m_N*c,m_N*(c+1)-1)
+span	../src/basalganglia.cpp	/^    m_data(span(m_N*c,m_N*(c+1)-1), t) = m_sd1; c++; $/;"	p	file:	signature:(m_N*c,m_N*(c+1)-1)
+span	../src/basalganglia.cpp	/^    m_data(span(m_N*c,m_N*(c+1)-1), t) = m_sd2; c++;$/;"	p	file:	signature:(m_N*c,m_N*(c+1)-1)
+span	../src/basalganglia.cpp	/^    m_data(span(m_N*c,m_N*(c+1)-1), t) = m_stn; c++;$/;"	p	file:	signature:(m_N*c,m_N*(c+1)-1)
+span	../src/simulator.cpp	/^        bgm(m_trial_idx(s),span(s*m_TTIME,(s+1)*m_TTIME-1)) += m_BG_BIAS_AMP;$/;"	p	file:	signature:(s*m_TTIME,(s+1)*m_TTIME-1)
+span	../src/simulator.cpp	/^        m_rng( span(x*m_LEARN_WINDOW, (x+1)*m_LEARN_WINDOW - 1) ) = rng;$/;"	p	file:	signature:(x*m_LEARN_WINDOW, (x+1)*m_LEARN_WINDOW - 1)
+span::all	../src/simulator.cpp	/^    m_W_inp2m( span(0, m_csntc->m_N_CRX*(1-m_csntc->m_THA2CRX_SPREAD) ), span::all) *= 0;$/;"	m	class:span	file:
+ss	../src/reservoir.cpp	/^    stringstream ss;$/;"	l
+st	../scripts/plot_arm_video_full.py	/^        st = story[find(logical_and(story[:,0]!=0,story[:,1]!=0 )),:]$/;"	v
+state	../include/md5.h	/^        uint4 state[4];   \/\/ digest so far$/;"	m	class:MD5	access:private
+std::endl	../include/parametrizable.h	/^    out << value << " " << separator << " " << name << std::endl;$/;"	m	class:std
+std::getline	../include/parametrizable.h	/^    std::getline(stream,r);$/;"	p	class:std	signature:(stream,r)
+step	../include/basalganglia.h	/^        virtual void step( vec inp, vec crx, vec da);      $/;"	p	class:BasalGanglia	access:public	implementation:virtual	signature:( vec inp, vec crx, vec da)
+step	../include/csntc.h	/^        virtual void step( vec crx, vec str, vec da); $/;"	p	class:CSNTC	access:public	implementation:virtual	signature:( vec crx, vec str, vec da)
+step	../include/hand_controller.h	/^        const vec &step(int t, int tc, int ti, double d, bool learn);$/;"	p	class:Controller	access:public	signature:(int t, int tc, int ti, double d, bool learn)
+step	../include/hand_engine.h	/^        void step( int timestep);$/;"	p	class:Engine	access:public	signature:( int timestep)
+step	../include/layer.h	/^        virtual void step(vec inp);  $/;"	p	class:Layer	access:public	implementation:virtual	signature:(vec inp)
+step	../include/reservoir.h	/^        void step(vec inp);    \/*!< single step *\/$/;"	p	class:Reservoir	access:public	signature:(vec inp)
+step	../include/simulator.h	/^    void step(int t);    \/\/\/< Spreading step $/;"	p	struct:Simulator	access:public	signature:(int t)
+step	../src/basalganglia.cpp	/^void BasalGanglia::step(vec inp, vec crx, vec da)$/;"	f	class:BasalGanglia	signature:(vec inp, vec crx, vec da)
+step	../src/basalganglia_test.cpp	/^            bg.step($/;"	p	file:	signature:( inp.col(t), crx.m_output, da.col(t) )
+step	../src/basalganglia_test.cpp	/^            crx.step( $/;"	p	file:	signature:( THA2CRX_W*tha.m_output + CRX_BLERR + CRX_STDERR*randn<vec>(N) )
+step	../src/basalganglia_test.cpp	/^            tha.step( $/;"	p	file:	signature:( CRX2THA_W*crx.m_output - GPI2THA_W*bg.m_gpi )
+step	../src/csntc.cpp	/^        m_cortex.step(crx_inp);$/;"	p	file:	signature:(crx_inp)
+step	../src/csntc.cpp	/^        m_ganglia.step(bg_str_inp, bg_crx_inp, da);$/;"	p	file:	signature:(bg_str_inp, bg_crx_inp, da)
+step	../src/csntc.cpp	/^        m_thalamus.step(th_inp);$/;"	p	file:	signature:(th_inp)
+step	../src/csntc.cpp	/^void CSNTC::step(vec crx, vec str, vec da)$/;"	f	class:CSNTC	signature:(vec crx, vec str, vec da)
+step	../src/hand_controller.cpp	/^    csntc->step(inp, $/;"	p	file:	signature:(inp, bg, dopamine)
+step	../src/hand_controller.cpp	/^const vec &Controller::step(int t, int tc, int ti, double d, bool learn)$/;"	f	class:Controller	signature:(int t, int tc, int ti, double d, bool learn)
+step	../src/hand_engine.cpp	/^    CENSSerializedEngine::step(timestep);$/;"	p	class:CENSSerializedEngine	file:	signature:(timestep)
+step	../src/hand_engine.cpp	/^void Engine::step( int timestep ) $/;"	f	class:Engine	signature:( int timestep )
+step	../src/layer.cpp	/^void Layer::step(vec inp)$/;"	f	class:Layer	signature:(vec inp)
+step	../src/reservoir.cpp	/^void Reservoir::step(vec inp)$/;"	f	class:Reservoir	signature:(vec inp)
+step	../src/reservoir_test.cpp	/^        r.step(inp.col(t));$/;"	p	file:	signature:(inp.col(t))
+step	../src/simulator.cpp	/^                readout_layer.step(W*x);    \/\/ Readout spreading$/;"	p	file:	signature:(W*x)
+step	../src/simulator.cpp	/^    m_csntc->step(  $/;"	p	file:	signature:( m_W_inp2m*m_crx_inp.col(t), m_W_inp2bg*m_bg_inp.col(t), ones<vec>(m_csntc->m_N_CHA)*m_da(t) )
+step	../src/simulator.cpp	/^void Simulator::step(int t)$/;"	f	class:Simulator	signature:(int t)
+step_noise	../include/simulator.h	/^    void step_noise(int t);    \/\/\/< Spreading step with further noise in the striatal input (for striato-cortical learning) $/;"	p	struct:Simulator	access:public	signature:(int t)
+store	../include/basalganglia.h	/^        virtual void store(int t);$/;"	p	class:BasalGanglia	access:public	implementation:virtual	signature:(int t)
+store	../include/csntc.h	/^        virtual void store(int t);$/;"	p	class:CSNTC	access:public	implementation:virtual	signature:(int t)
+store	../include/layer.h	/^        virtual void store(int t);$/;"	p	class:Layer	access:public	implementation:virtual	signature:(int t)
+store	../include/reservoir.h	/^        void store(int t);    \/*!< store *\/$/;"	p	class:Reservoir	access:public	signature:(int t)
+store	../src/basalganglia.cpp	/^void BasalGanglia::store(int t)$/;"	f	class:BasalGanglia	signature:(int t)
+store	../src/basalganglia_test.cpp	/^            bg.store(t);$/;"	p	file:	signature:(t)
+store	../src/basalganglia_test.cpp	/^            crx.store(t);$/;"	p	file:	signature:(t)
+store	../src/basalganglia_test.cpp	/^            tha.store(t);$/;"	p	file:	signature:(t)
+store	../src/csntc.cpp	/^    m_cortex.store(t);$/;"	p	file:	signature:(t)
+store	../src/csntc.cpp	/^    m_ganglia.store(t);$/;"	p	file:	signature:(t)
+store	../src/csntc.cpp	/^    m_thalamus.store(t);$/;"	p	file:	signature:(t)
+store	../src/csntc.cpp	/^void CSNTC::store(int t)$/;"	f	class:CSNTC	signature:(int t)
+store	../src/hand_controller.cpp	/^    csntc->store(t);$/;"	p	file:	signature:(t)
+store	../src/layer.cpp	/^void Layer::store(int t)$/;"	f	class:Layer	signature:(int t)
+store	../src/reservoir.cpp	/^void Reservoir::store(int t)$/;"	f	class:Reservoir	signature:(int t)
+store	../src/simulator.cpp	/^                    m_csntc->store(t);   $/;"	p	file:	signature:(t)
+store	../src/simulator.cpp	/^                    readout_layer.store(t);$/;"	p	file:	signature:(t)
+store	../src/simulator.cpp	/^                m_csntc->store(t);  \/\/ Store$/;"	p	file:	signature:(t)
+store	../src/simulator.cpp	/^            m_csntc->store(t);    \/\/ Store$/;"	p	file:	signature:(t)
+store	../src/simulator.cpp	/^            m_csntc->store(t);  \/\/ Store$/;"	p	file:	signature:(t)
+store	../src/simulator.cpp	/^        m_csntc->store(t);    \/\/ Store$/;"	p	file:	signature:(t)
+story	../scripts/plot_arm_video_full.py	/^        story=roll(story.T,-1).T$/;"	v
+story	../scripts/plot_arm_video_full.py	/^    story = zeros([rng_curr.size,2])$/;"	v
+str	../include/utils.h	/^    buf.str(str);$/;"	p	signature:(str)
+str2type	../include/utils.h	/^void str2type(const string &str, T &el)$/;"	f	signature:(const string &str, T &el)
+substream	../include/parametrizable.h	/^        std::stringstream substream(r);$/;"	p	signature:(r)
+t	../include/utils.h	/^inline void print_log_not_ended(T&& t ) { cout << t; }$/;"	l
+t	../src/basalganglia.cpp	/^    m_data(span(m_N*c,m_N*(c+1)-1), t) = m_gpe;$/;"	l
+t	../src/basalganglia.cpp	/^    m_data(span(m_N*c,m_N*(c+1)-1), t) = m_gpi; c++;$/;"	l
+t	../src/basalganglia.cpp	/^    m_data(span(m_N*c,m_N*(c+1)-1), t) = m_sd1; c++; $/;"	l
+t	../src/basalganglia.cpp	/^    m_data(span(m_N*c,m_N*(c+1)-1), t) = m_sd2; c++;$/;"	l
+t	../src/basalganglia.cpp	/^    m_data(span(m_N*c,m_N*(c+1)-1), t) = m_stn; c++;$/;"	l
+t	../src/hand_engine.cpp	/^    static int  t = 0;     \/\/ within-trial timestep count$/;"	l	file:
+table	../src/hand_engine.cpp	/^    CENSNonCollidingTable table;$/;"	l
+target	../src/hand_controller.cpp	/^    static mat target = mat($/;"	l	file:
+target	../src/reservoir.cpp	/^    double target = 1-m_EPSILON\/2.;    \/\/ we will try to reach this rho in the effective matrix$/;"	l
+teach	../scripts/plot_arm_video_full.py	/^teach = (TCH.max() - TCH.min())*((TEACH-.2)\/.6) + TCH.min()$/;"	v
+teaches	../src/simulator.cpp	/^    mat teaches;$/;"	l
+teachs	../scripts/ik_4.py	/^    teachs = {'TEACH_1':0} $/;"	v	class:Arm
+test_bg_competition	../include/utils.h	/^bool test_bg_competition(mat tha, umat rngs );$/;"	p	signature:(mat tha, umat rngs )
+test_bg_competition	../src/utils.cpp	/^bool test_bg_competition(mat tha, umat rngs )$/;"	f	signature:(mat tha, umat rngs )
+test_channel	../src/utils.cpp	/^    bool test_channel = true;$/;"	l
+test_rngs	../src/utils.cpp	/^    uvec test_rngs = zeros<uvec>(n_rngs);$/;"	l
+test_threshold	../src/utils.cpp	/^    double test_threshold = 0.1;$/;"	l
+testtimeline	../src/hand_controller.cpp	/^    static uvec testtimeline = uvec("0 1 2");$/;"	l	file:
+th_inp	../src/csntc.cpp	/^        vec th_inp =$/;"	l
+thalamus_all_data	../src/simulator.cpp	/^        mat thalamus_all_data = $/;"	l
+thalamus_all_data_1	../src/simulator.cpp	/^        mat thalamus_all_data_1 = m_csntc->m_thalamus.m_data;$/;"	l
+thalamus_all_data_2	../src/simulator.cpp	/^        mat thalamus_all_data_2 = m_csntc->m_thalamus.m_data;$/;"	l
+thalamus_all_data_3	../src/simulator.cpp	/^        mat thalamus_all_data_3 = m_csntc->m_thalamus.m_data;$/;"	l
+thalamus_all_data_4	../src/simulator.cpp	/^        mat thalamus_all_data_4 = m_csntc->m_thalamus.m_data;$/;"	l
+timestep_gap	../scripts/plot_arm_video_full.py	/^timestep_gap = timesteps\/3$/;"	v
+timesteps	../scripts/plot_arm_video_full.py	/^timesteps=rout.shape[1]$/;"	v
+tmp	../include/parametrizable.h	/^    T tmp;$/;"	l
+transform	../include/md5.h	/^        void transform(const uint1 block[blocksize]);$/;"	p	class:MD5	access:private	signature:(const uint1 block[blocksize])
+transform	../src/md5.cpp	/^void MD5::transform(const uint1 block[blocksize])$/;"	f	class:MD5	signature:(const uint1 block[blocksize])
+trial	../bin/simulation_loop_model_multiple_shapes/plot_arm.py	/^def trial(teach, rout, LEARN_WINDOW, N_SHAPES, bg="#777777",fg="#000000",shapes=[0], width=3 ) :$/;"	f	access:public
+trial	../scripts/plot_arm.py	/^def trial(teach, rout, LEARN_WINDOW, N_SHAPES, bg="#777777",fg="#000000",shapes=[0], width=3 ) :$/;"	f	access:public
+trial_interval	../src/hand_engine.cpp	/^    static const int trial_interval = 1000;$/;"	l	file:
+trials	../include/hand_controller.h	/^        const int trials = 3;$/;"	m	class:Controller	access:public
+trialstream	../include/hand_controller.h	/^        ofstream trialstream;$/;"	m	class:Controller	access:public
+trng	../scripts/plot_arm_video_full.py	/^trng = vstack([trng1,trng2,trng3])$/;"	v
+trng1	../scripts/plot_arm_video_full.py	/^trng1 = arange((timestep_gap\/2),(timestep_gap-timestep_gap\/4))$/;"	v
+trng2	../scripts/plot_arm_video_full.py	/^trng2 = arange((timestep_gap\/2),(timestep_gap-timestep_gap\/4)) + timestep_gap$/;"	v
+trng3	../scripts/plot_arm_video_full.py	/^trng3 = arange((timestep_gap\/2),(timestep_gap-timestep_gap\/4)) + 2*timestep_gap$/;"	v
+tst	../scripts/plot_arm_video_full.py	/^        tst = tstory[find(logical_and(tstory[:,0]!=0,tstory[:,1]!=0 )),:]$/;"	v
+tstory	../scripts/plot_arm_video_full.py	/^        tstory=roll(tstory.T,-1).T$/;"	v
+tstory	../scripts/plot_arm_video_full.py	/^    tstory = zeros([rng_curr.size,2])$/;"	v
+tt	../src/hand_engine.cpp	/^    static int  tt = 0;    \/\/ trial count   $/;"	l	file:
+ty	../src/simulator.cpp	/^                    vec ty =  m_curr_teach( span::all, t );$/;"	l
+uidx	../include/utils.h	/^uvec uidx(int index);$/;"	p	signature:(int index)
+uidx	../src/utils.cpp	/^uvec uidx(int index)$/;"	f	signature:(int index)
+uint1	../include/md5.h	/^        typedef unsigned char uint1; \/\/  8bit$/;"	t	class:MD5	access:private
+uint4	../include/md5.h	/^        typedef unsigned int uint4;  \/\/ 32bit$/;"	t	class:MD5	access:private
+unique_ptr	../include/parametrizable.h	/^    parameters.push_back( std::unique_ptr<BaseParameter>($/;"	p	signature:(new Parameter<T>(name,value))
+uout	../src/simulator.cpp	/^                uvec uout = uidx(out);$/;"	l
+uout	../src/simulator.cpp	/^            uvec uout = uidx(out);$/;"	l
+update	../include/md5.h	/^        void update(const char *buf, size_type length);$/;"	p	class:MD5	access:public	signature:(const char *buf, size_type length)
+update	../include/md5.h	/^        void update(const unsigned char *buf, size_type length);$/;"	p	class:MD5	access:public	signature:(const unsigned char *buf, size_type length)
+update	../include/parametrizable.h	/^        parameter->update(lines);$/;"	p	signature:(lines)
+update	../include/parametrizable.h	/^        virtual void update( const std::vector<std::string> lines );$/;"	p	class:Parameter	access:public	implementation:virtual	signature:( const std::vector<std::string> lines )
+update	../include/parametrizable.h	/^        virtual void update(const std::vector<std::string> lines ) = 0;$/;"	p	class:BaseParameter	access:public	implementation:pure virtual	signature:(const std::vector<std::string> lines )
+update	../include/parametrizable.h	/^template <typename T> void inline Parameter<T>::update( $/;"	f	class:Parameter	signature:( const std::vector<std::string> lines )
+update	../src/md5.cpp	/^void MD5::update(const char input[], size_type length)$/;"	f	class:MD5	signature:(const char input[], size_type length)
+update	../src/md5.cpp	/^void MD5::update(const unsigned char input[], size_type length)$/;"	f	class:MD5	signature:(const unsigned char input[], size_type length)
+uteach	../src/simulator.cpp	/^        uvec uteach = uidx(teach);$/;"	l
+v	../include/parametrizable.h	/^        stream << v[x] << ",";$/;"	l
+v	../include/parametrizable.h	/^    stream << v[v.size()-1] << "]";$/;"	l
+value	../include/parametrizable.h	/^            buffer >> value;$/;"	l
+value	../include/parametrizable.h	/^        T &value;$/;"	m	class:Parameter	access:private
+w	../src/csntc.cpp	/^        vec &w = m_GPI2THA_w;$/;"	l
+w	../src/hand_controller.cpp	/^            mat &w = W_readout;$/;"	l
+w	../src/reservoir.cpp	/^    mat w = (randn<mat>(m_N,m_N) + m_WEIGHT_MEAN)%$/;"	l
+w	../tests/reservoir/plot.py	/^w = np.loadtxt("weights")$/;"	v
+win	../scripts/sim_manager.py	/^win = Frame(root,width=300, height=300)$/;"	v
+x	../scripts/fun.py	/^x = linspace(0,2*pi,480)$/;"	v
+x	../scripts/fun_4.py	/^x = linspace(0,2*pi,480)$/;"	v
+x	../src/md5.cpp	/^    uint4 a = state[0], b = state[1], c = state[2], d = state[3], x[16];$/;"	l
+x	../src/simulator.cpp	/^                    vec &x = m_csntc->m_cortex.m_output;$/;"	l
+x	../src/simulator.cpp	/^                vec &x = m_csntc->m_cortex.m_output;$/;"	l
+x	../src/simulator.cpp	/^            vec &x = m_csntc->m_cortex.m_output;$/;"	l
+x	../src/utils.cpp	/^    vec x = linspace(0,steps-1,steps);$/;"	l
+x_constraint	../bin/simulation_loop_model_multiple_shapes/ik.py	/^        def x_constraint(q, xy):$/;"	f	function:Arm.inv_kin	access:public
+x_constraint	../scripts/ik.py	/^        def x_constraint(q, xy):$/;"	f	function:Arm.inv_kin	access:public
+x_constraint	../scripts/ik_4.py	/^        def x_constraint(q, xy):$/;"	f	function:Arm.inv_kin	access:public
+x_prev	../src/hand_controller.cpp	/^            vec &x_prev = activity_prev;$/;"	l
+x_prev	../src/simulator.cpp	/^    vec x_prev = zeros<vec>(m_csntc->m_N_CRX);$/;"	l
+xxgap	../scripts/plot_arm_video_full.py	/^xxgap = TCH.max()-TCH.min()$/;"	v
+xy	../scripts/plot_arm_video_full.py	/^        xy = arm.get_xy(q) $/;"	v
+y	../src/hand_controller.cpp	/^            vec &y = readout;$/;"	l
+y	../src/simulator.cpp	/^                    vec &y =  readout_layer.m_output;$/;"	l
+y	../src/utils.cpp	/^    vec y = tanh(amp*(x-th));$/;"	l
+y1	../scripts/fun.py	/^y1 = ($/;"	v
+y1	../scripts/fun.py	/^y1 = fun(x, amp= 0.8, center= 0.5) $/;"	v
+y1	../scripts/fun_4.py	/^y1 = ($/;"	v
+y1	../scripts/fun_4.py	/^y1 = fun(x, amp= 0.8, center= 0.5) $/;"	v
+y2	../scripts/fun.py	/^y2 = fun(x, A=K,  amp= 0.5, center= 0.3 + q*scale[1]) $/;"	v
+y2	../scripts/fun.py	/^y2 = fun(x, A=K,  amp= 0.5, center= 0.3 + q*scale[2]) $/;"	v
+y2	../scripts/fun.py	/^y2 = fun(x, A=K,  amp= 0.5, center= 0.3 + q*scale[3]) $/;"	v
+y2	../scripts/fun.py	/^y2 = fun(x, A=K, amp= 0.5, center= 0.3 + q*scale[0]) $/;"	v
+y2	../scripts/fun_4.py	/^y2 = fun(x, A=K,  amp= 0.0003, center= 0.3 + q*2) $/;"	v
+y2	../scripts/fun_4.py	/^y2 = fun(x, A=K,  amp= 0.0003, center= 0.3 + q*2.5) $/;"	v
+y2	../scripts/fun_4.py	/^y2 = fun(x, A=K,  amp= 0.0003, center= 0.3 + q*3) $/;"	v
+y2	../scripts/fun_4.py	/^y2 = fun(x, A=K, amp= 0.0003, center= 0.3 + q) $/;"	v
+y_constraint	../bin/simulation_loop_model_multiple_shapes/ik.py	/^        def y_constraint(q, xy): $/;"	f	function:Arm.inv_kin	access:public
+y_constraint	../scripts/ik.py	/^        def y_constraint(q, xy): $/;"	f	function:Arm.inv_kin	access:public
+y_constraint	../scripts/ik_4.py	/^        def y_constraint(q, xy): $/;"	f	function:Arm.inv_kin	access:public
+~BasalGanglia	../include/basalganglia.h	/^        virtual ~BasalGanglia(){};$/;"	f	class:BasalGanglia	access:public	implementation:virtual	signature:()
+~CSNTC	../include/csntc.h	/^        virtual ~CSNTC(){};$/;"	f	class:CSNTC	access:public	implementation:virtual	signature:()
+~Controller	../include/hand_controller.h	/^        ~Controller(){}; $/;"	f	class:Controller	access:public	signature:()
+~Layer	../include/layer.h	/^        virtual ~Layer(){};$/;"	f	class:Layer	access:public	implementation:virtual	signature:()
+~Reservoir	../include/reservoir.h	/^       ~Reservoir(){}$/;"	f	class:Reservoir	access:public	signature:()
+~Simulator	../include/simulator.h	/^    ~Simulator(){};$/;"	f	struct:Simulator	access:public	signature:()

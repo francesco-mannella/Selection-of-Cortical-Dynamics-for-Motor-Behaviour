@@ -1,0 +1,40 @@
+#!/bin/bash
+
+# # SPYRAL
+# N=18
+# for((x=0; x<N;x++)); do
+# transpose SPYRAL 
+# done
+# for((x=0; x<N;x++)); do
+#     transpose SPYRAL
+# done
+# for((x=0; x<N;x++)); do
+#     transpose SPYRAL
+# done
+# 
+
+N=10
+
+# SHAPES
+for((x=0; x<N;x++)); do
+transpose MOON 
+done
+for((x=0; x<N;x++)); do
+    transpose SQUARE
+done
+for((x=0; x<N;x++)); do
+    transpose INF
+done
+
+
+# # shapes
+# for((x=0; x<N;x++)); do
+#     transpose MOON_CONT 
+# done
+# for((x=0; x<N;x++)); do
+#     transpose SQUARE_CONT
+# done
+# for((x=0; x<N;x++)); do
+#     transpose INF_CONT
+# done
+# 

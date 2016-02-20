@@ -1,0 +1,17 @@
+2000 ------- SESSIONS
+30 ------- FUN_PERIOD
+0.5 ------- FUN_CENTER
+0.5 ------- FUN_PHASE
+0.5 ------- BG_BIAS_AMP
+0 ------- BG_NOISE
+0.8 ------- FUN_AMP
+0.001 ------- DT
+0.005 ------- TAU
+1e-06 ------- LAMBDA
+1e-05 ------- BETA
+0.4 ------- ETA
+144 ------- LEARN_WINDOW
+0.01 ------- DA_GAP
+TRUE ------- PRINT
+3 ------- INP2BG
+1 ------- INP2M

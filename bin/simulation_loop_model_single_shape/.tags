@@ -1,0 +1,78 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Arm	../simulation_multiple_shapes/ik.py	/^class Arm:$/;"	c	inherits:
+CIRCLE	../simulation_multiple_shapes/ik.py	/^CIRCLE = 3$/;"	v
+COMPLEX	../simulation_multiple_shapes/plot_arm.py	/^COMPLEX = True$/;"	v
+INF	../simulation_multiple_shapes/ik.py	/^INF = 0$/;"	v
+LEARN_WINDOW	../simulation_multiple_shapes/plot_arm.py	/^LEARN_WINDOW = 144$/;"	v
+MOON	../simulation_multiple_shapes/ik.py	/^MOON = 2$/;"	v
+N_CHANNELS	../simulation_multiple_shapes/plot_arm.py	/^N_CHANNELS = 3$/;"	v
+N_CORTICAL	../simulation_multiple_shapes/plot_arm.py	/^N_CORTICAL = 300$/;"	v
+N_JOINTS	../simulation_multiple_shapes/plot_arm.py	/^N_JOINTS = 3$/;"	v
+N_SHAPES	../simulation_multiple_shapes/plot_arm.py	/^N_SHAPES =3$/;"	v
+SCALE	../simulation_multiple_shapes/plot_arm.py	/^SCALE = True$/;"	v
+SPYRAL	../simulation_multiple_shapes/ik.py	/^SPYRAL = 5$/;"	v
+SQUARE	../simulation_multiple_shapes/ik.py	/^SQUARE = 1$/;"	v
+STIME	../simulation_multiple_shapes/offline_render.py	/^STIME=data.shape[1]$/;"	v
+STIME	../simulation_single_shape/offline_render.py	/^STIME=data.shape[1]$/;"	v
+TRIANGLE	../simulation_multiple_shapes/ik.py	/^TRIANGLE = 4$/;"	v
+__init__	../simulation_multiple_shapes/ik.py	/^    def __init__(self, n=3,q=None, q0=None, L=None):$/;"	m	class:Arm	access:public
+args	../simulation_multiple_shapes/plot_arm.py	/^args = parser.parse_args()$/;"	v
+arm	../simulation_multiple_shapes/ik.py	/^arm = Arm(n=n, L=ones(n)*(1\/float(n-n\/2.)))$/;"	v
+arm_plot	../simulation_multiple_shapes/ik.py	/^def arm_plot(title, data, T):  $/;"	f	access:public
+ax	../simulation_multiple_shapes/offline_render.py	/^ax=imshow(data_cortex,interpolation='none',aspect='auto',vmin=0,vmax=1)$/;"	v
+ax	../simulation_single_shape/offline_render.py	/^ax=imshow(data_cortex,interpolation='none',aspect='auto',vmin=0,vmax=1)$/;"	v
+cbaxes	../simulation_multiple_shapes/offline_render.py	/^cbaxes = fig.add_axes([0.92, 0.62, 0.01, 0.28]) $/;"	v
+cbaxes	../simulation_single_shape/offline_render.py	/^cbaxes = fig.add_axes([0.92, 0.62, 0.01, 0.28]) $/;"	v
+curr	../simulation_multiple_shapes/offline_render.py	/^curr = 1$/;"	v
+curr	../simulation_single_shape/offline_render.py	/^curr = 1$/;"	v
+data	../simulation_multiple_shapes/offline_render.py	/^data=loadtxt('out')$/;"	v
+data	../simulation_single_shape/offline_render.py	/^data=loadtxt('out')$/;"	v
+data_bg	../simulation_multiple_shapes/offline_render.py	/^data_bg = data[nc:(nc+6*nb     )               ,:];$/;"	v
+data_bg	../simulation_single_shape/offline_render.py	/^data_bg = data[nc:(nc+6*nb     )               ,:];$/;"	v
+data_bginp	../simulation_multiple_shapes/offline_render.py	/^data_bginp = data[(nc+6*nb+2*nj):              ,:];$/;"	v
+data_bginp	../simulation_single_shape/offline_render.py	/^data_bginp = data[(nc+6*nb+2*nj):              ,:];$/;"	v
+data_cortex	../simulation_multiple_shapes/offline_render.py	/^data_cortex = data[:nc                         ,:];$/;"	v
+data_cortex	../simulation_single_shape/offline_render.py	/^data_cortex = data[:nc                         ,:];$/;"	v
+data_da	../simulation_multiple_shapes/offline_render.py	/^data_da = loadtxt('out_da')$/;"	v
+data_da	../simulation_single_shape/offline_render.py	/^data_da = loadtxt('out_da')$/;"	v
+data_inp	../simulation_multiple_shapes/offline_render.py	/^data_inp = loadtxt('out_inp')$/;"	v
+data_inp	../simulation_single_shape/offline_render.py	/^data_inp = loadtxt('out_inp')$/;"	v
+data_rout	../simulation_multiple_shapes/offline_render.py	/^data_rout  = data[(nc+6*nb+1*nj):(nc+6*nb+2*nj),:];$/;"	v
+data_rout	../simulation_single_shape/offline_render.py	/^data_rout  = data[(nc+6*nb+1*nj):(nc+6*nb+2*nj),:];$/;"	v
+data_teach	../simulation_multiple_shapes/offline_render.py	/^data_teach = data[(nc+6*nb     ):(nc+6*nb+1*nj),:];$/;"	v
+data_teach	../simulation_single_shape/offline_render.py	/^data_teach = data[(nc+6*nb     ):(nc+6*nb+1*nj),:];$/;"	v
+distance_to_default	../simulation_multiple_shapes/ik.py	/^        def distance_to_default(q, *args): $/;"	f	function:Arm.inv_kin	access:public
+fig	../simulation_multiple_shapes/offline_render.py	/^fig = figure("bg",figsize=(7,5))$/;"	v
+fig	../simulation_multiple_shapes/offline_render.py	/^fig = figure("inp",figsize=(7,5))$/;"	v
+fig	../simulation_multiple_shapes/offline_render.py	/^fig = figure("render",figsize=(7,5))$/;"	v
+fig	../simulation_single_shape/offline_render.py	/^fig = figure("bg",figsize=(7,5))$/;"	v
+fig	../simulation_single_shape/offline_render.py	/^fig = figure("inp",figsize=(7,5))$/;"	v
+fig	../simulation_single_shape/offline_render.py	/^fig = figure("render",figsize=(7,5))$/;"	v
+generalization	../simulation_multiple_shapes/plot_arm.py	/^def generalization() :$/;"	f	access:public
+get_joint_positions	../simulation_multiple_shapes/ik.py	/^    def get_joint_positions(self,q):$/;"	m	class:Arm	access:public
+get_xy	../simulation_multiple_shapes/ik.py	/^    def get_xy(self, q=None):$/;"	m	class:Arm	access:public
+graphs	../simulation_multiple_shapes/offline_render.py	/^graphs = 6$/;"	v
+graphs	../simulation_single_shape/offline_render.py	/^graphs = 6$/;"	v
+gs	../simulation_multiple_shapes/offline_render.py	/^gs = gridspec.GridSpec(14, 1)$/;"	v
+gs	../simulation_single_shape/offline_render.py	/^gs = gridspec.GridSpec(14, 1)$/;"	v
+help	../simulation_multiple_shapes/plot_arm.py	/^        help="Print pictures",$/;"	v
+inv_kin	../simulation_multiple_shapes/ik.py	/^    def inv_kin(self, xy):$/;"	m	class:Arm	access:public
+make_series	../simulation_multiple_shapes/ik.py	/^def make_series() :$/;"	f	access:public
+make_shape	../simulation_multiple_shapes/ik.py	/^def make_shape(b=1.0,c=1.0,r=0.2,shape=SQUARE) :$/;"	f	access:public
+n	../simulation_multiple_shapes/ik.py	/^n = 3$/;"	v
+nb	../simulation_multiple_shapes/offline_render.py	/^nb = 3$/;"	v
+nb	../simulation_single_shape/offline_render.py	/^nb = 3$/;"	v
+nc	../simulation_multiple_shapes/offline_render.py	/^nc = 300$/;"	v
+nc	../simulation_single_shape/offline_render.py	/^nc = 300$/;"	v
+nj	../simulation_multiple_shapes/offline_render.py	/^nj = 3$/;"	v
+nj	../simulation_single_shape/offline_render.py	/^nj = 3$/;"	v
+parser	../simulation_multiple_shapes/plot_arm.py	/^parser = argparse.ArgumentParser()$/;"	v
+simpletest	../simulation_multiple_shapes/plot_arm.py	/^def simpletest(shape=0) :$/;"	f	access:public
+trial	../simulation_multiple_shapes/plot_arm.py	/^def trial(teach, rout, LEARN_WINDOW, N_SHAPES, bg="#777777",fg="#000000",shapes=[0], width=3 ) :$/;"	f	access:public
+x_constraint	../simulation_multiple_shapes/ik.py	/^        def x_constraint(q, xy):$/;"	f	function:Arm.inv_kin	access:public
+y_constraint	../simulation_multiple_shapes/ik.py	/^        def y_constraint(q, xy): $/;"	f	function:Arm.inv_kin	access:public

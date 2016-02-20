@@ -1,0 +1,96 @@
+cmake_minimum_required (VERSION 2.6)
+project (CSNTC)
+
+
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -O2")
+set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -std=c++11 -fPIC -O0 -ggdb")
+
+option(WITH_CENSLIB "Including CENSLIB-improved 3D  simulations" ON)
+
+set( CMAKE_MODULE_PATH 
+    ${CMAKE_MODULE_PATH} 
+    "${PROJECT_SOURCE_DIR}/CMakeModules"
+    )
+
+    
+find_package( Boost REQUIRED COMPONENTS regex system filesystem)
+find_package( Armadillo REQUIRED )
+find_package( BLAS REQUIRED )
+find_package( LAPACK REQUIRED )
+
+if(WITH_CENSLIB)
+
+    find_package( Bullet REQUIRED )
+
+    ##### ADD FINDING OF NEEDED BULLET EXTRA LIBS
+
+    _FIND_BULLET_LIBRARY(BULLET_FILE_LOADER_LIBRARY         BulletFileLoader)
+    _FIND_BULLET_LIBRARY(BULLET_WORLD_IMPORTER_LIBRARY      BulletWorldImporter)
+    _FIND_BULLET_LIBRARY(BULLET_XML_WORLD_IMPORTER_LIBRARY  BulletXmlWorldImporter)
+
+    FIND_PACKAGE_HANDLE_STANDARD_ARGS(Bullet_Extras DEFAULT_MSG
+        BULLET_DYNAMICS_LIBRARY BULLET_FILE_LOADER_LIBRARY BULLET_WORLD_IMPORTER_LIBRARY
+        BULLET_XML_WORLD_IMPORTER_LIBRARY BULLET_INCLUDE_DIR)
+
+    if(BULLET_FOUND)
+        _BULLET_APPEND_LIBRARIES(BULLET_LIBRARIES BULLET_FILE_LOADER_LIBRARY)
+        _BULLET_APPEND_LIBRARIES(BULLET_LIBRARIES BULLET_WORLD_IMPORTER_LIBRARY)
+        _BULLET_APPEND_LIBRARIES(BULLET_LIBRARIES BULLET_XML_WORLD_IMPORTER_LIBRARY)
+    endif()
+
+    ##### END ADD FINDING OF NEEDED BULLET EXTRA LIBS
+
+    find_package( Eigen2 REQUIRED )
+    find_package( ImageMagick REQUIRED COMPONENTS Magick++ )
+    find_package( GLUT REQUIRED )
+    find_package( OpenGL REQUIRED )
+    find_package( CENSLIB REQUIRED )
+
+endif()
+
+
+set( INCLUDES 
+    ${PROJECT_SOURCE_DIR}/include
+    ${ARMADILLO_INCLUDES} 
+    ${Boost_INCLUDES}
+    )
+
+
+set( LIBS  
+    ${BLAS_LIBRARIES}
+    ${ARMADILLO_LIBRARIES}
+    ${LAPACK_LIBRARIES}
+    ${Boost_LIBRARIES} 
+    )
+
+
+
+if(WITH_CENSLIB)
+
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16")
+    set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16")
+    
+    set( INCLUDES 
+        ${INCLUDES}
+        ${LIBCENS_INCLUDES}
+        ${BULLET_INCLUDE_DIR} 
+        ${EIGEN2_INCLUDE_DIR}
+        ${ImageMagick_INCLUDE_DIRS}
+        )
+
+    set( LIBS  
+        ${LIBS}
+    ${LIBCENS_LIBRARIES} 
+        ${BULLET_LIBRARIES}
+        ${ImageMagick_LIBRARIES}
+        ${GLUT_LIBRARY}
+        ${GLU_LIBRARY}
+        ${OPENGL_LIBRARY}
+        )
+
+endif()
+
+
+add_subdirectory(src)
+
+ 

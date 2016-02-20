@@ -1,0 +1,17 @@
+0.001 ------- DT
+0.1 ------- TAU
+1000 ------- STIME
+150 ------- N
+0.2 ------- ALPHA
+0.8 ------- BETA
+0 ------- GAMMA
+0 ------- TH
+1 ------- AMP
+TRUE ------- TRUNK
+FALSE ------- NOISE
+0.1 ------- NOISE_STD
+1 ------- G
+0.0001 ------- EPSILON
+1 ------- SPARSENESS
+0 ------- WEIGHT_MEAN
+FALSE ------- LOAD_WEIGHTS

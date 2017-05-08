@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/52165015.svg)](https://zenodo.org/badge/latestdoi/52165015)
 # Selection-of-Cortical-Dynamics-for-Motor-Behaviour
 This code implements the simulations described in the paper:
 ```
